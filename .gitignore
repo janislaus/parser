@@ -1,0 +1,4 @@
+#don't track content of these folders
+
+data/
+parquet/

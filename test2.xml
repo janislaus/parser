@@ -1,0 +1,3518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TED_EXPORT xmlns="http://formex.publications.europa.eu/ted/schema/export/R2.0.9.S01.E01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" VERSION="R2.0.9.S01.E01" xsi:schemaLocation="http://formex.publications.europa.eu/ted/schema/export/R2.0.9.S01.E01 TED_EXPORT.xsd" DOC_ID="000001-2017" EDITION="2017001">
+  <TECHNICAL_SECTION>
+    <RECEPTION_ID>16-477107-001</RECEPTION_ID>
+    <DELETION_DATE>20170213</DELETION_DATE>
+    <FORM_LG_LIST>DA DE EN ES FI FR EL IT NL PT SV CS ET HU LT LV MT PL SK SL GA BG RO HR </FORM_LG_LIST>
+    <COMMENTS>From Convertor</COMMENTS>
+  </TECHNICAL_SECTION>
+  <LINKS_SECTION>
+    <XML_SCHEMA_DEFINITION_LINK xlink:title="TED WEBSITE" xlink:href="http://ted.europa.eu" xlink:type="simple"/>
+    <OFFICIAL_FORMS_LINK xlink:href="http://ted.europa.eu" xlink:type="simple"/>
+    <FORMS_LABELS_LINK xlink:href="http://ted.europa.eu" xlink:type="simple"/>
+    <ORIGINAL_CPV_LINK xlink:href="http://ted.europa.eu" xlink:type="simple"/>
+    <ORIGINAL_NUTS_LINK xlink:href="http://ted.europa.eu" xlink:type="simple"/>
+  </LINKS_SECTION>
+  <CODED_DATA_SECTION>
+    <REF_OJS>
+      <COLL_OJ>S</COLL_OJ>
+      <NO_OJ>1</NO_OJ>
+      <DATE_PUB>20170103</DATE_PUB>
+    </REF_OJS>
+    <NOTICE_DATA>
+      <NO_DOC_OJS>2017/S 001-000001</NO_DOC_OJS>
+      <URI_LIST>
+        <URI_DOC LG="DA">http://ted.europa.eu/udl?uri=TED:NOTICE:000001-2017:TEXT:DA:HTML</URI_DOC>
+        <URI_DOC LG="DE">http://ted.europa.eu/udl?uri=TED:NOTICE:000001-2017:TEXT:DE:HTML</URI_DOC>
+        <URI_DOC LG="EN">http://ted.europa.eu/udl?uri=TED:NOTICE:000001-2017:TEXT:EN:HTML</URI_DOC>
+        <URI_DOC LG="ES">http://ted.europa.eu/udl?uri=TED:NOTICE:000001-2017:TEXT:ES:HTML</URI_DOC>
+        <URI_DOC LG="FI">http://ted.europa.eu/udl?uri=TED:NOTICE:000001-2017:TEXT:FI:HTML</URI_DOC>
+        <URI_DOC LG="FR">http://ted.europa.eu/udl?uri=TED:NOTICE:000001-2017:TEXT:FR:HTML</URI_DOC>
+        <URI_DOC LG="EL">http://ted.europa.eu/udl?uri=TED:NOTICE:000001-2017:TEXT:EL:HTML</URI_DOC>
+        <URI_DOC LG="IT">http://ted.europa.eu/udl?uri=TED:NOTICE:000001-2017:TEXT:IT:HTML</URI_DOC>
+        <URI_DOC LG="NL">http://ted.europa.eu/udl?uri=TED:NOTICE:000001-2017:TEXT:NL:HTML</URI_DOC>
+        <URI_DOC LG="PT">http://ted.europa.eu/udl?uri=TED:NOTICE:000001-2017:TEXT:PT:HTML</URI_DOC>
+        <URI_DOC LG="SV">http://ted.europa.eu/udl?uri=TED:NOTICE:000001-2017:TEXT:SV:HTML</URI_DOC>
+        <URI_DOC LG="CS">http://ted.europa.eu/udl?uri=TED:NOTICE:000001-2017:TEXT:CS:HTML</URI_DOC>
+        <URI_DOC LG="ET">http://ted.europa.eu/udl?uri=TED:NOTICE:000001-2017:TEXT:ET:HTML</URI_DOC>
+        <URI_DOC LG="HU">http://ted.europa.eu/udl?uri=TED:NOTICE:000001-2017:TEXT:HU:HTML</URI_DOC>
+        <URI_DOC LG="LT">http://ted.europa.eu/udl?uri=TED:NOTICE:000001-2017:TEXT:LT:HTML</URI_DOC>
+        <URI_DOC LG="LV">http://ted.europa.eu/udl?uri=TED:NOTICE:000001-2017:TEXT:LV:HTML</URI_DOC>
+        <URI_DOC LG="MT">http://ted.europa.eu/udl?uri=TED:NOTICE:000001-2017:TEXT:MT:HTML</URI_DOC>
+        <URI_DOC LG="PL">http://ted.europa.eu/udl?uri=TED:NOTICE:000001-2017:TEXT:PL:HTML</URI_DOC>
+        <URI_DOC LG="SK">http://ted.europa.eu/udl?uri=TED:NOTICE:000001-2017:TEXT:SK:HTML</URI_DOC>
+        <URI_DOC LG="SL">http://ted.europa.eu/udl?uri=TED:NOTICE:000001-2017:TEXT:SL:HTML</URI_DOC>
+        <URI_DOC LG="GA">http://ted.europa.eu/udl?uri=TED:NOTICE:000001-2017:TEXT:GA:HTML</URI_DOC>
+        <URI_DOC LG="BG">http://ted.europa.eu/udl?uri=TED:NOTICE:000001-2017:TEXT:BG:HTML</URI_DOC>
+        <URI_DOC LG="RO">http://ted.europa.eu/udl?uri=TED:NOTICE:000001-2017:TEXT:RO:HTML</URI_DOC>
+        <URI_DOC LG="HR">http://ted.europa.eu/udl?uri=TED:NOTICE:000001-2017:TEXT:HR:HTML</URI_DOC>
+      </URI_LIST>
+      <LG_ORIG>EN</LG_ORIG>
+      <ISO_COUNTRY VALUE="ES"/>
+      <IA_URL_GENERAL>http://www.fusionforenergy.europa.eu/</IA_URL_GENERAL>
+      <IA_URL_ETENDERING>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</IA_URL_ETENDERING>
+      <ORIGINAL_CPV CODE="92100000">Motion picture and video services</ORIGINAL_CPV>
+      <ORIGINAL_CPV CODE="79960000">Photographic and ancillary services</ORIGINAL_CPV>
+      <ORIGINAL_NUTS CODE="FR">FRANCE</ORIGINAL_NUTS>
+      <CA_CE_NUTS CODE="ES511">Barcelona</CA_CE_NUTS>
+      <VALUES>
+        <VALUE TYPE="ESTIMATED_TOTAL" CURRENCY="EUR">360000.00</VALUE>
+      </VALUES>
+    </NOTICE_DATA>
+    <CODIF_DATA>
+      <DS_DATE_DISPATCH>20161216</DS_DATE_DISPATCH>
+      <DT_DATE_FOR_SUBMISSION>20170213 17:00</DT_DATE_FOR_SUBMISSION>
+      <AA_AUTHORITY_TYPE CODE="5">European Institution/Agency or International Organisation</AA_AUTHORITY_TYPE>
+      <TD_DOCUMENT_TYPE CODE="3">Contract notice</TD_DOCUMENT_TYPE>
+      <NC_CONTRACT_NATURE CODE="4">Services</NC_CONTRACT_NATURE>
+      <PR_PROC CODE="1">Open procedure</PR_PROC>
+      <RP_REGULATION CODE="3">European Institution/Agency or International Organisation</RP_REGULATION>
+      <TY_TYPE_BID CODE="1">Submission for all lots</TY_TYPE_BID>
+      <AC_AWARD_CRIT CODE="2">The most economic tender</AC_AWARD_CRIT>
+      <MA_MAIN_ACTIVITIES CODE="8">Other</MA_MAIN_ACTIVITIES>
+      <HEADING>AGC02</HEADING>
+      <INITIATOR>AG</INITIATOR>
+      <DIRECTIVE VALUE="2014/24/EU"/>
+    </CODIF_DATA>
+  </CODED_DATA_SECTION>
+  <TRANSLATION_SECTION>
+    <ML_TITLES>
+      <ML_TI_DOC LG="DA">
+        <TI_CY>Spanien</TI_CY>
+        <TI_TOWN>Barcelona</TI_TOWN>
+        <TI_TEXT>
+          <P>Udførelse af av- og fototjenesteydelser for Fusion for Energi</P>
+        </TI_TEXT>
+      </ML_TI_DOC>
+      <ML_TI_DOC LG="DE">
+        <TI_CY>Spanien</TI_CY>
+        <TI_TOWN>Barcelona</TI_TOWN>
+        <TI_TEXT>
+          <P>Audiovisuelle und Fotografie-Dienstleistungen für Fusion for Energy</P>
+        </TI_TEXT>
+      </ML_TI_DOC>
+      <ML_TI_DOC LG="EN">
+        <TI_CY>Spain</TI_CY>
+        <TI_TOWN>Barcelona</TI_TOWN>
+        <TI_TEXT>
+          <P>Provision of audiovisual and photographic services to Fusion for Energy</P>
+        </TI_TEXT>
+      </ML_TI_DOC>
+      <ML_TI_DOC LG="ES">
+        <TI_CY>España</TI_CY>
+        <TI_TOWN>Barcelona</TI_TOWN>
+        <TI_TEXT>
+          <P>Prestación de servicios audiovisuales y fotográficos para Fusion for Energy</P>
+        </TI_TEXT>
+      </ML_TI_DOC>
+      <ML_TI_DOC LG="FI">
+        <TI_CY>Espanja</TI_CY>
+        <TI_TOWN>Barcelona</TI_TOWN>
+        <TI_TEXT>
+          <P>Audiovisuaalisten palvelujen ja valokuvauspalvelujen toimittaminen Fusion for Energy -yhteisyritykselle</P>
+        </TI_TEXT>
+      </ML_TI_DOC>
+      <ML_TI_DOC LG="FR">
+        <TI_CY>Espagne</TI_CY>
+        <TI_TOWN>Barcelone</TI_TOWN>
+        <TI_TEXT>
+          <P>Prestation de services audiovisuels et de photographie en faveur de Fusion for Energy</P>
+        </TI_TEXT>
+      </ML_TI_DOC>
+      <ML_TI_DOC LG="EL">
+        <TI_CY>Ισπανία</TI_CY>
+        <TI_TOWN>Βαρκελώνη</TI_TOWN>
+        <TI_TEXT>
+          <P>Παροχή οπτικοακουστικών και φωτογραφικών υπηρεσιών στην κοινή επιχείρηση Fusion for Energy</P>
+        </TI_TEXT>
+      </ML_TI_DOC>
+      <ML_TI_DOC LG="IT">
+        <TI_CY>Spagna</TI_CY>
+        <TI_TOWN>Barcellona</TI_TOWN>
+        <TI_TEXT>
+          <P>Prestazione di servizi fotografici e audiovisivi a favore di «Fusion for Energy»</P>
+        </TI_TEXT>
+      </ML_TI_DOC>
+      <ML_TI_DOC LG="NL">
+        <TI_CY>Spanje</TI_CY>
+        <TI_TOWN>Barcelona</TI_TOWN>
+        <TI_TEXT>
+          <P>Verlening van audiovisuele en fotografische diensten aan Fusion for Energy</P>
+        </TI_TEXT>
+      </ML_TI_DOC>
+      <ML_TI_DOC LG="PT">
+        <TI_CY>Espanha</TI_CY>
+        <TI_TOWN>Barcelona</TI_TOWN>
+        <TI_TEXT>
+          <P>Prestação de serviços fotográficos e audiovisuais a favor da Fusion for Energy</P>
+        </TI_TEXT>
+      </ML_TI_DOC>
+      <ML_TI_DOC LG="SV">
+        <TI_CY>Spanien</TI_CY>
+        <TI_TOWN>Barcelona</TI_TOWN>
+        <TI_TEXT>
+          <P>Tillhandahållande av audiovisuella och fotografiska tjänster till Fusion for Energy</P>
+        </TI_TEXT>
+      </ML_TI_DOC>
+      <ML_TI_DOC LG="CS">
+        <TI_CY>Španělsko</TI_CY>
+        <TI_TOWN>Barcelona</TI_TOWN>
+        <TI_TEXT>
+          <P>Zajištění audiovizuálních a fotografických služeb pro „Fusion for Energy“</P>
+        </TI_TEXT>
+      </ML_TI_DOC>
+      <ML_TI_DOC LG="ET">
+        <TI_CY>Hispaania</TI_CY>
+        <TI_TOWN>Barcelona</TI_TOWN>
+        <TI_TEXT>
+          <P>Ühisettevõttele "Fusion for Energy" audiovisuaalsete ja fotograafiateenuste osutamine</P>
+        </TI_TEXT>
+      </ML_TI_DOC>
+      <ML_TI_DOC LG="HU">
+        <TI_CY>Spanyolország</TI_CY>
+        <TI_TOWN>Barcelona</TI_TOWN>
+        <TI_TEXT>
+          <P>Audiovizuális és fényképészeti szolgáltatások biztosítása a Fusion for Energy számára</P>
+        </TI_TEXT>
+      </ML_TI_DOC>
+      <ML_TI_DOC LG="LT">
+        <TI_CY>Ispanija</TI_CY>
+        <TI_TOWN>Barselona</TI_TOWN>
+        <TI_TEXT>
+          <P>Audiovizualinių ir fotografijos paslaugų teikimas „Fusion for Energy“</P>
+        </TI_TEXT>
+      </ML_TI_DOC>
+      <ML_TI_DOC LG="LV">
+        <TI_CY>Spānija</TI_CY>
+        <TI_TOWN>Barselona</TI_TOWN>
+        <TI_TEXT>
+          <P>Audiovizuālo un fotografēšanas pakalpojumu nodrošināšana "Fusion for Energy"</P>
+        </TI_TEXT>
+      </ML_TI_DOC>
+      <ML_TI_DOC LG="MT">
+        <TI_CY>Spanja</TI_CY>
+        <TI_TOWN>Barċellona</TI_TOWN>
+        <TI_TEXT>
+          <P>Provvista ta' servizzi awdjoviżivi u fotografiċi lil Fużjoni għall-Enerġija</P>
+        </TI_TEXT>
+      </ML_TI_DOC>
+      <ML_TI_DOC LG="PL">
+        <TI_CY>Hiszpania</TI_CY>
+        <TI_TOWN>Barcelona</TI_TOWN>
+        <TI_TEXT>
+          <P>Usługi audiowizualne i fotograficzne na rzecz Fusion for Energy</P>
+        </TI_TEXT>
+      </ML_TI_DOC>
+      <ML_TI_DOC LG="SK">
+        <TI_CY>Španielsko</TI_CY>
+        <TI_TOWN>Barcelona</TI_TOWN>
+        <TI_TEXT>
+          <P>Poskytovanie audiovizuálnych a fotografických služieb pre spoločný podnik Fusion for Energy</P>
+        </TI_TEXT>
+      </ML_TI_DOC>
+      <ML_TI_DOC LG="SL">
+        <TI_CY>Španija</TI_CY>
+        <TI_TOWN>Barcelona</TI_TOWN>
+        <TI_TEXT>
+          <P>Zagotovitev avdiovizualnih in fotografskih storitev za podjetje „Fusion for Energy“</P>
+        </TI_TEXT>
+      </ML_TI_DOC>
+      <ML_TI_DOC LG="GA">
+        <TI_CY>Spáinn, an</TI_CY>
+        <TI_TOWN>Barcelona</TI_TOWN>
+        <TI_TEXT>
+          <P>Seirbhísí closamhairc agus fótagrafacha a chur ar fáil do Fusion for Energy</P>
+        </TI_TEXT>
+      </ML_TI_DOC>
+      <ML_TI_DOC LG="BG">
+        <TI_CY>Иcпaния</TI_CY>
+        <TI_TOWN>Барселона</TI_TOWN>
+        <TI_TEXT>
+          <P>Предоставяне на аудиовизуални и фотографски услуги на „Fusion for Energy“</P>
+        </TI_TEXT>
+      </ML_TI_DOC>
+      <ML_TI_DOC LG="RO">
+        <TI_CY>Spania</TI_CY>
+        <TI_TOWN>Barcelona</TI_TOWN>
+        <TI_TEXT>
+          <P>Prestarea de servicii audiovizuale și fotografice în favoarea Fusion for Energy</P>
+        </TI_TEXT>
+      </ML_TI_DOC>
+      <ML_TI_DOC LG="HR">
+        <TI_CY>Španjolska</TI_CY>
+        <TI_TOWN>Barcelona</TI_TOWN>
+        <TI_TEXT>
+          <P>Pružanje audiovizualnih i fotografskih usluga za Fuziju za energiju</P>
+        </TI_TEXT>
+      </ML_TI_DOC>
+    </ML_TITLES>
+    <ML_AA_NAMES>
+      <AA_NAME LG="DA">Det Europæiske Fællesforetagende for ITER og Fusionsenergiudvikling (»Fusion for Energy«)</AA_NAME>
+      <AA_NAME LG="DE">Europäisches gemeinsames Unternehmen für den ITER und die Entwicklung der Fusionsenergie („Fusion for Energy“)</AA_NAME>
+      <AA_NAME LG="EN">The European Joint Undertaking for ITER and the Development of Fusion Energy (‘Fusion for Energy’)</AA_NAME>
+      <AA_NAME LG="ES">Empresa Común Europea para el ITER y el Desarrollo de la Energía de Fusión (Fusion for Energy)</AA_NAME>
+      <AA_NAME LG="FI">Eurooppalainen yhteisyritys ITERiä ja fuusioenergian kehittämistä varten (Fusion for Energy)</AA_NAME>
+      <AA_NAME LG="FR">Entreprise commune européenne pour ITER et le développement de l'énergie de fusion («Fusion for Energy»)</AA_NAME>
+      <AA_NAME LG="EL">Ευρωπαϊκή κοινή επιχείρηση για τον ITER και την ανάπτυξη της πυρηνικής σύντηξης («Fusion for Energy»)</AA_NAME>
+      <AA_NAME LG="IT">impresa comune europea per il progetto ITER e lo sviluppo dell'energia da fusione («Fusion for Energy»)</AA_NAME>
+      <AA_NAME LG="NL">De Europese Gemeenschappelijke Onderneming voor ITER en de ontwikkeling van fusie-energie („Fusion for Energy”)</AA_NAME>
+      <AA_NAME LG="PT">Empresa Comum Europeia para o ITER e o Desenvolvimento da Energia de Fusão (Fusion for Energy)</AA_NAME>
+      <AA_NAME LG="SV">Europeiskt gemensamt företag för Iter och utveckling av fusionsenergi (”Fusion for Energy”)</AA_NAME>
+      <AA_NAME LG="CS">Společný evropský podnik pro ITER a rozvoj energie z jaderné syntézy („Fusion for Energy“)</AA_NAME>
+      <AA_NAME LG="ET">ITERi ja tuumasünteesienergeetika arendamise Euroopa ühisettevõte (ühisettevõte Fusion for Energy (F4E))</AA_NAME>
+      <AA_NAME LG="HU">Fúziósenergia-fejlesztési és ITER Európai Közös Vállalkozás („Fusion for Energy”)</AA_NAME>
+      <AA_NAME LG="LT">Europos ITER įgyvendinimo ir branduolių sintezės energetikos vystymo bendroji įmonė („Fusion for Energy“)</AA_NAME>
+      <AA_NAME LG="LV">Eiropas Kopuzņēmums ITER un kodolsintēzes enerģētikas attīstības vajadzībām ("Fusion for Energy")</AA_NAME>
+      <AA_NAME LG="MT">L-Intrapriża Konġunta Ewropea għall-ITER u l-Iżvilupp tal-Enerġija tal-Fużjoni ('il-Fużjoni għall-Enerġija')</AA_NAME>
+      <AA_NAME LG="PL">Europejskie Wspólne Przedsięwzięcie na rzecz Realizacji Projektu ITER i Rozwoju Energii Termojądrowej („Fusion for Energy”)</AA_NAME>
+      <AA_NAME LG="SK">Európsky spoločný podnik pre ITER a rozvoj energie jadrovej syntézy („Fusion for Energy“)</AA_NAME>
+      <AA_NAME LG="SL">Evropsko skupno podjetje za ITER in razvoj fuzijske energije („Fusion for Energy“)</AA_NAME>
+      <AA_NAME LG="GA">An Comhfhiontar Eorpach um ITER agus um Fhuinneamh Comhleá a Fhorbairt ('Fusion for Energy')</AA_NAME>
+      <AA_NAME LG="BG">Европейско съвместно предприятие за ITER и развитие на термоядрената енергия („Fusion for Energy“)</AA_NAME>
+      <AA_NAME LG="RO">Întreprinderea comună europeană pentru ITER și pentru dezvoltarea energiei de fuziune („Fusion for Energy”)</AA_NAME>
+      <AA_NAME LG="HR">Europsko zajedničko poduzeće za ITER i razvoj fuzijske energije („Fuzija za energiju”)</AA_NAME>
+    </ML_AA_NAMES>
+  </TRANSLATION_SECTION>
+  <FORM_SECTION>
+    <F02_2014 CATEGORY="TRANSLATION" FORM="F02" LG="DA">
+      <CONTRACTING_BODY>
+        <ADDRESS_CONTRACTING_BODY>
+          <OFFICIALNAME>Det Europæiske Fællesforetagende for ITER og Fusionsenergiudvikling (»Fusion for Energy«)</OFFICIALNAME>
+          <ADDRESS>Carrer Josep Pla, 2, Torres Diagonal Litoral, B3</ADDRESS>
+          <TOWN>Barcelona (Barcelona)</TOWN>
+          <POSTAL_CODE>08019</POSTAL_CODE>
+          <COUNTRY VALUE="ES"/>
+          <PHONE>+34 933201800</PHONE>
+          <E_MAIL>tenders-adm@f4e.europa.eu</E_MAIL>
+          <NUTS CODE="ES511"/>
+          <URL_GENERAL>http://www.fusionforenergy.europa.eu/</URL_GENERAL>
+          <URL_BUYER>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_BUYER>
+        </ADDRESS_CONTRACTING_BODY>
+        <DOCUMENT_FULL/>
+        <URL_DOCUMENT>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_DOCUMENT>
+        <ADDRESS_FURTHER_INFO_IDEM/>
+        <ADDRESS_PARTICIPATION_IDEM/>
+        <URL_TOOL>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_TOOL>
+        <CA_TYPE VALUE="EU_INSTITUTION"/>
+        <CA_ACTIVITY_OTHER>fusionsenergi.</CA_ACTIVITY_OTHER>
+      </CONTRACTING_BODY>
+      <OBJECT_CONTRACT>
+        <TITLE>
+          <P>Udførelse af av- og fototjenesteydelser for Fusion for Energi.</P>
+        </TITLE>
+        <REFERENCE_NUMBER>F4E-AFC-0786.</REFERENCE_NUMBER>
+        <CPV_MAIN>
+          <CPV_CODE CODE="92100000"/>
+        </CPV_MAIN>
+        <TYPE_CONTRACT CTYPE="SERVICES"/>
+        <SHORT_DESCR>
+          <P>Formålet med dette udbud er at indgå en rammetjenesteydelseskontrakt (»kontrakten«) om udførelse af av-og fototjenesteydelser, der skal dokumentere udviklingen i Europas bidrag til ITER-projektet, i form af korte filmklip/videoer og billeder, der eksporteres i forskellige formater.</P>
+          <P>Kontrahenten vil være ansvarlig for videooptagelse, præ- og postproduktion.</P>
+          <P>Der kan ikke finansieres indkøb af udstyr inden for denne kontrakt: Kontrahenten skal råde over det fornødne personale og udstyr til at udføre foto-, video- og lydoptagelser i overensstemmelse med de seneste standarder for branchen.</P>
+        </SHORT_DESCR>
+        <VAL_ESTIMATED_TOTAL CURRENCY="EUR">360000.00</VAL_ESTIMATED_TOTAL>
+        <NO_LOT_DIVISION/>
+        <OBJECT_DESCR ITEM="1">
+          <CPV_ADDITIONAL>
+            <CPV_CODE CODE="79960000"/>
+          </CPV_ADDITIONAL>
+          <NUTS CODE="FR"/>
+          <MAIN_SITE>
+            <P>Kontrahenten vil blive ansvarlig for film- og fotooptagelser på ITER-anlægsområdet i Cadarache (Frankrig) og andre steder, hvor F4E-komponenter fremstilles i Europa.</P>
+          </MAIN_SITE>
+          <SHORT_DESCR>
+            <P>Anslået pr. år:</P>
+            <P>— 4 til 6 korte videoer, der skal dokumentere udviklingen i arbejdet på ITER-anlægsområdet i Cadarache (Frankrig)</P>
+            <P>— 2 til 8 korte videoer, der skal dokumentere udviklingen i produktionen af ITER-komponenter</P>
+            <P>— 1 længere og mere kreativ video, der skal dokumentere et mere dybtgående emne (eksempelvis resultater det seneste år)</P>
+            <P>— 4 til 8 fotooptagelser på ITER-arbejdspladsen i Cadarache (Frankrig).</P>
+            <P>For yderligere oplysninger henvises til udbudsmaterialet</P>
+            <P>— 2 til 8 fotooptagelser, der skal dokumentere udviklingen i forbindelse med produktionen af ITER-komponenter.</P>
+          </SHORT_DESCR>
+          <AC_PROCUREMENT_DOC/>
+          <VAL_OBJECT CURRENCY="EUR">360000.00</VAL_OBJECT>
+          <DURATION TYPE="MONTH">48</DURATION>
+          <RENEWAL/>
+          <RENEWAL_DESCR>
+            <P>12 måneder, der kan forlænges op til 3 gange for yderligere perioder på 12 måneder, med en maksimal løbetid på 48 måneder.</P>
+          </RENEWAL_DESCR>
+          <NO_ACCEPTED_VARIANTS/>
+          <NO_OPTIONS/>
+          <NO_EU_PROGR_RELATED/>
+        </OBJECT_DESCR>
+      </OBJECT_CONTRACT>
+      <LEFTI>
+        <ECONOMIC_CRITERIA_DOC/>
+        <TECHNICAL_CRITERIA_DOC/>
+      </LEFTI>
+      <PROCEDURE>
+        <PT_OPEN/>
+        <FRAMEWORK>
+          <SINGLE_OPERATOR/>
+        </FRAMEWORK>
+        <NO_CONTRACT_COVERED_GPA/>
+        <DATE_RECEIPT_TENDERS>2017-02-13</DATE_RECEIPT_TENDERS>
+        <TIME_RECEIPT_TENDERS>17:00</TIME_RECEIPT_TENDERS>
+        <LANGUAGES>
+          <LANGUAGE VALUE="BG"/>
+          <LANGUAGE VALUE="CS"/>
+          <LANGUAGE VALUE="DA"/>
+          <LANGUAGE VALUE="DE"/>
+          <LANGUAGE VALUE="EL"/>
+          <LANGUAGE VALUE="EN"/>
+          <LANGUAGE VALUE="ES"/>
+          <LANGUAGE VALUE="ET"/>
+          <LANGUAGE VALUE="FI"/>
+          <LANGUAGE VALUE="FR"/>
+          <LANGUAGE VALUE="GA"/>
+          <LANGUAGE VALUE="HR"/>
+          <LANGUAGE VALUE="HU"/>
+          <LANGUAGE VALUE="IT"/>
+          <LANGUAGE VALUE="LT"/>
+          <LANGUAGE VALUE="LV"/>
+          <LANGUAGE VALUE="MT"/>
+          <LANGUAGE VALUE="NL"/>
+          <LANGUAGE VALUE="PL"/>
+          <LANGUAGE VALUE="PT"/>
+          <LANGUAGE VALUE="RO"/>
+          <LANGUAGE VALUE="SK"/>
+          <LANGUAGE VALUE="SL"/>
+          <LANGUAGE VALUE="SV"/>
+        </LANGUAGES>
+        <DURATION_TENDER_VALID TYPE="MONTH">9</DURATION_TENDER_VALID>
+        <OPENING_CONDITION>
+          <DATE_OPENING_TENDERS>2017-02-20</DATE_OPENING_TENDERS>
+          <TIME_OPENING_TENDERS>11:00</TIME_OPENING_TENDERS>
+          <PLACE>
+            <P>Fusion for Energy, C/Josep Pla, 2, Torre B3, 08018 Barcelona (Barcelona), SPANIEN.</P>
+          </PLACE>
+          <INFO_ADD>
+            <P>1 repræsentant pr. tilbudsgiver kan deltage i åbningen af bud.</P>
+          </INFO_ADD>
+        </OPENING_CONDITION>
+      </PROCEDURE>
+      <COMPLEMENTARY_INFO>
+        <RECURRENT_PROCUREMENT/>
+        <ESTIMATED_TIMING>
+          <P>Udbud forventes bekendtgjort hvert 4. år.</P>
+        </ESTIMATED_TIMING>
+        <ADDRESS_REVIEW_BODY>
+          <OFFICIALNAME>Retten</OFFICIALNAME>
+          <ADDRESS>rue du Fort Niedergrünewald</ADDRESS>
+          <TOWN>Luxembourg</TOWN>
+          <POSTAL_CODE>2925</POSTAL_CODE>
+          <COUNTRY VALUE="LU"/>
+          <PHONE>+352 430301</PHONE>
+          <E_MAIL>generalcourt.registry@curia.europa.eu</E_MAIL>
+          <URL>http://curia.europa.eu</URL>
+        </ADDRESS_REVIEW_BODY>
+        <DATE_DISPATCH_NOTICE>2016-12-16</DATE_DISPATCH_NOTICE>
+      </COMPLEMENTARY_INFO>
+    </F02_2014>
+    <F02_2014 CATEGORY="TRANSLATION" FORM="F02" LG="DE">
+      <CONTRACTING_BODY>
+        <ADDRESS_CONTRACTING_BODY>
+          <OFFICIALNAME>Europäisches gemeinsames Unternehmen für den ITER und die Entwicklung der Fusionsenergie („Fusion for Energy“)</OFFICIALNAME>
+          <ADDRESS>Carrer Josep Pla, 2, Torres Diagonal Litoral, B3</ADDRESS>
+          <TOWN>Barcelona (Barcelona)</TOWN>
+          <POSTAL_CODE>08019</POSTAL_CODE>
+          <COUNTRY VALUE="ES"/>
+          <PHONE>+34 933201800</PHONE>
+          <E_MAIL>tenders-adm@f4e.europa.eu</E_MAIL>
+          <NUTS CODE="ES511"/>
+          <URL_GENERAL>http://www.fusionforenergy.europa.eu/</URL_GENERAL>
+          <URL_BUYER>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_BUYER>
+        </ADDRESS_CONTRACTING_BODY>
+        <DOCUMENT_FULL/>
+        <URL_DOCUMENT>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_DOCUMENT>
+        <ADDRESS_FURTHER_INFO_IDEM/>
+        <ADDRESS_PARTICIPATION_IDEM/>
+        <URL_TOOL>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_TOOL>
+        <CA_TYPE VALUE="EU_INSTITUTION"/>
+        <CA_ACTIVITY_OTHER>Fusionsenergie.</CA_ACTIVITY_OTHER>
+      </CONTRACTING_BODY>
+      <OBJECT_CONTRACT>
+        <TITLE>
+          <P>Audiovisuelle und Fotografie-Dienstleistungen für Fusion for Energy.</P>
+        </TITLE>
+        <REFERENCE_NUMBER>F4E-AFC-0786.</REFERENCE_NUMBER>
+        <CPV_MAIN>
+          <CPV_CODE CODE="92100000"/>
+        </CPV_MAIN>
+        <TYPE_CONTRACT CTYPE="SERVICES"/>
+        <SHORT_DESCR>
+          <P>Ziel dieser Ausschreibung ist der Abschluss eines Dienstleistungsrahmenvertrags („Rahmenvertrag“ oder „Vertrag“) über die Erbringung von audiovisuellen und Fotografie-Dienstleistungen zwecks Berichterstattung über den Fortschritt des europäischen Beitrags zum ITER-Projekt durch kurze Filmclips/Videos und Bilder, die in verschiedene Formate exportiert werden sollen.</P>
+          <P>Der Auftragnehmer ist für die Aufnahme der Videos und die Vor- und Nachbereitung zuständig.</P>
+          <P>Der Kauf von Ausrüstung wird im Rahmen dieses Auftrags nicht finanziert: Von dem Auftragnehmer wird verlangt, dass er über die für die Durchführung der Foto-, Video- und Audioaufnahmen im Einklang mit den neuesten Branchenstandards erforderlichen Ressourcen und über die entsprechende Ausrüstung verfügt.</P>
+        </SHORT_DESCR>
+        <VAL_ESTIMATED_TOTAL CURRENCY="EUR">360000.00</VAL_ESTIMATED_TOTAL>
+        <NO_LOT_DIVISION/>
+        <OBJECT_DESCR ITEM="1">
+          <CPV_ADDITIONAL>
+            <CPV_CODE CODE="79960000"/>
+          </CPV_ADDITIONAL>
+          <NUTS CODE="FR"/>
+          <MAIN_SITE>
+            <P>Der Auftragnehmer ist für die Filmaufnahmen und den Dreh am ITER-Standort in Cadarache (Frankreich) und an weiteren Standorten in Europa, an denen F4E-Komponenten hergestellt werden, zuständig.</P>
+          </MAIN_SITE>
+          <SHORT_DESCR>
+            <P>Schätzung pro Jahr:</P>
+            <P>— 4 bis 6 Kurzvideos zur Berichterstattung über den Fortschritt der Arbeiten am ITER-Standort in Cadarache (Frankreich),</P>
+            <P>— 2 bis 8 Kurzvideos zur Berichterstattung über den Fortschritt bei der Herstellung der ITER-Komponenten,</P>
+            <P>— 1 längeres und kreativeres Video zur Berichterstattung über ein ausführlicheres Thema (z. B. über die im vergangenen Jahr erzielten Ergebnisse),</P>
+            <P>— 4 bis 8 Fotosessions auf der Baustelle des ITER in Cadarache (Frankreich).</P>
+            <P>Weitere Einzelheiten sind den Ausschreibungsunterlagen zu entnehmen,</P>
+            <P>— 2 bis 8 Fotosessions zur Berichterstattung über den Fortschritt bei der Herstellung der ITER-Komponenten.</P>
+          </SHORT_DESCR>
+          <AC_PROCUREMENT_DOC/>
+          <VAL_OBJECT CURRENCY="EUR">360000.00</VAL_OBJECT>
+          <DURATION TYPE="MONTH">48</DURATION>
+          <RENEWAL/>
+          <RENEWAL_DESCR>
+            <P>12 Monate, bis zu 3-mal um jeweils 12 Monate bis zu einer maximalen Gesamtdauer von 48 Monaten verlängerbar.</P>
+          </RENEWAL_DESCR>
+          <NO_ACCEPTED_VARIANTS/>
+          <NO_OPTIONS/>
+          <NO_EU_PROGR_RELATED/>
+        </OBJECT_DESCR>
+      </OBJECT_CONTRACT>
+      <LEFTI>
+        <ECONOMIC_CRITERIA_DOC/>
+        <TECHNICAL_CRITERIA_DOC/>
+      </LEFTI>
+      <PROCEDURE>
+        <PT_OPEN/>
+        <FRAMEWORK>
+          <SINGLE_OPERATOR/>
+        </FRAMEWORK>
+        <NO_CONTRACT_COVERED_GPA/>
+        <DATE_RECEIPT_TENDERS>2017-02-13</DATE_RECEIPT_TENDERS>
+        <TIME_RECEIPT_TENDERS>17:00</TIME_RECEIPT_TENDERS>
+        <LANGUAGES>
+          <LANGUAGE VALUE="BG"/>
+          <LANGUAGE VALUE="CS"/>
+          <LANGUAGE VALUE="DA"/>
+          <LANGUAGE VALUE="DE"/>
+          <LANGUAGE VALUE="EL"/>
+          <LANGUAGE VALUE="EN"/>
+          <LANGUAGE VALUE="ES"/>
+          <LANGUAGE VALUE="ET"/>
+          <LANGUAGE VALUE="FI"/>
+          <LANGUAGE VALUE="FR"/>
+          <LANGUAGE VALUE="GA"/>
+          <LANGUAGE VALUE="HR"/>
+          <LANGUAGE VALUE="HU"/>
+          <LANGUAGE VALUE="IT"/>
+          <LANGUAGE VALUE="LT"/>
+          <LANGUAGE VALUE="LV"/>
+          <LANGUAGE VALUE="MT"/>
+          <LANGUAGE VALUE="NL"/>
+          <LANGUAGE VALUE="PL"/>
+          <LANGUAGE VALUE="PT"/>
+          <LANGUAGE VALUE="RO"/>
+          <LANGUAGE VALUE="SK"/>
+          <LANGUAGE VALUE="SL"/>
+          <LANGUAGE VALUE="SV"/>
+        </LANGUAGES>
+        <DURATION_TENDER_VALID TYPE="MONTH">9</DURATION_TENDER_VALID>
+        <OPENING_CONDITION>
+          <DATE_OPENING_TENDERS>2017-02-20</DATE_OPENING_TENDERS>
+          <TIME_OPENING_TENDERS>11:00</TIME_OPENING_TENDERS>
+          <PLACE>
+            <P>Räumlichkeiten von Fusion for Energy, C/Josep Pla, 2, Torre B3, 08018 Barcelona (Barcelona), SPANIEN.</P>
+          </PLACE>
+          <INFO_ADD>
+            <P>1 Vertreter je Bieter darf an der öffentlichen Sitzung zur Öffnung der Angebote teilnehmen.</P>
+          </INFO_ADD>
+        </OPENING_CONDITION>
+      </PROCEDURE>
+      <COMPLEMENTARY_INFO>
+        <RECURRENT_PROCUREMENT/>
+        <ESTIMATED_TIMING>
+          <P>Die Ausschreibung wird voraussichtlich alle 4 Jahre veröffentlicht.</P>
+        </ESTIMATED_TIMING>
+        <ADDRESS_REVIEW_BODY>
+          <OFFICIALNAME>Gericht der Europäischen Union</OFFICIALNAME>
+          <ADDRESS>rue du Fort Niedergrünewald</ADDRESS>
+          <TOWN>Luxembourg</TOWN>
+          <POSTAL_CODE>2925</POSTAL_CODE>
+          <COUNTRY VALUE="LU"/>
+          <PHONE>+352 430301</PHONE>
+          <E_MAIL>generalcourt.registry@curia.europa.eu</E_MAIL>
+          <URL>http://curia.europa.eu</URL>
+        </ADDRESS_REVIEW_BODY>
+        <DATE_DISPATCH_NOTICE>2016-12-16</DATE_DISPATCH_NOTICE>
+      </COMPLEMENTARY_INFO>
+    </F02_2014>
+    <F02_2014 CATEGORY="ORIGINAL" FORM="F02" LG="EN">
+      <CONTRACTING_BODY>
+        <ADDRESS_CONTRACTING_BODY>
+          <OFFICIALNAME>The European Joint Undertaking for ITER and the Development of Fusion Energy (‘Fusion for Energy’)</OFFICIALNAME>
+          <ADDRESS>Carrer Josep Pla, 2, Torres Diagonal Litoral, B3</ADDRESS>
+          <TOWN>Barcelona (Barcelona)</TOWN>
+          <POSTAL_CODE>08019</POSTAL_CODE>
+          <COUNTRY VALUE="ES"/>
+          <PHONE>+34 933201800</PHONE>
+          <E_MAIL>tenders-adm@f4e.europa.eu</E_MAIL>
+          <NUTS CODE="ES511"/>
+          <URL_GENERAL>http://www.fusionforenergy.europa.eu/</URL_GENERAL>
+          <URL_BUYER>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_BUYER>
+        </ADDRESS_CONTRACTING_BODY>
+        <DOCUMENT_FULL/>
+        <URL_DOCUMENT>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_DOCUMENT>
+        <ADDRESS_FURTHER_INFO_IDEM/>
+        <ADDRESS_PARTICIPATION_IDEM/>
+        <URL_TOOL>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_TOOL>
+        <CA_TYPE VALUE="EU_INSTITUTION"/>
+        <CA_ACTIVITY_OTHER>Fusion energy.</CA_ACTIVITY_OTHER>
+      </CONTRACTING_BODY>
+      <OBJECT_CONTRACT>
+        <TITLE>
+          <P>Provision of audiovisual and photographic services to Fusion for Energy.</P>
+        </TITLE>
+        <REFERENCE_NUMBER>F4E-AFC-0786.</REFERENCE_NUMBER>
+        <CPV_MAIN>
+          <CPV_CODE CODE="92100000"/>
+        </CPV_MAIN>
+        <TYPE_CONTRACT CTYPE="SERVICES"/>
+        <SHORT_DESCR>
+          <P>The objective of this call for tenders is to conclude a framework service contract (‘FWC’ or ‘contract’) to deliver audiovisual and photographic services that will report on the progress of Europe's contribution to ITER project, through short film clips/videos and pictures exported in various formats.</P>
+          <P>The contractor will be responsible for the video recording, pre- and post-production.</P>
+          <P>No purchase of equipment shall be financed under this contract: the contractor shall have the resources and equipment to execute the photo, video and audio recording in line with the latest industry standards.</P>
+        </SHORT_DESCR>
+        <VAL_ESTIMATED_TOTAL CURRENCY="EUR">360000.00</VAL_ESTIMATED_TOTAL>
+        <NO_LOT_DIVISION/>
+        <OBJECT_DESCR ITEM="1">
+          <CPV_ADDITIONAL>
+            <CPV_CODE CODE="79960000"/>
+          </CPV_ADDITIONAL>
+          <NUTS CODE="FR"/>
+          <MAIN_SITE>
+            <P>The contractor will be responsible for the filming and shooting at the ITER site in Cadarache (France) and in other locations where F4E components are manufactured within Europe.</P>
+          </MAIN_SITE>
+          <SHORT_DESCR>
+            <P>Estimated per year:</P>
+            <P>— 4 to 6 short videos to report the progress of the work on the ITER site in Cadarache (France),</P>
+            <P>— 2 to 8 short videos to report progress on the production of the ITER components,</P>
+            <P>— 1 longer and more creative video to report on a more in-depth topic (such as the achievement of the past year),</P>
+            <P>— 4 to 8 photo sessions on the ITER worksite in Cadarache (France).</P>
+            <P>For more details please consult the tender specifications,</P>
+            <P>— 2 to 8 photo sessions to report on the progress of ITER components' production.</P>
+          </SHORT_DESCR>
+          <AC_PROCUREMENT_DOC/>
+          <VAL_OBJECT CURRENCY="EUR">360000.00</VAL_OBJECT>
+          <DURATION TYPE="MONTH">48</DURATION>
+          <RENEWAL/>
+          <RENEWAL_DESCR>
+            <P>12 months, renewable up to 3 times for further periods of 12 months, with a total maximum duration of 48 months.</P>
+          </RENEWAL_DESCR>
+          <NO_ACCEPTED_VARIANTS/>
+          <NO_OPTIONS/>
+          <NO_EU_PROGR_RELATED/>
+        </OBJECT_DESCR>
+      </OBJECT_CONTRACT>
+      <LEFTI>
+        <ECONOMIC_CRITERIA_DOC/>
+        <TECHNICAL_CRITERIA_DOC/>
+      </LEFTI>
+      <PROCEDURE>
+        <PT_OPEN/>
+        <FRAMEWORK>
+          <SINGLE_OPERATOR/>
+        </FRAMEWORK>
+        <NO_CONTRACT_COVERED_GPA/>
+        <DATE_RECEIPT_TENDERS>2017-02-13</DATE_RECEIPT_TENDERS>
+        <TIME_RECEIPT_TENDERS>17:00</TIME_RECEIPT_TENDERS>
+        <LANGUAGES>
+          <LANGUAGE VALUE="BG"/>
+          <LANGUAGE VALUE="CS"/>
+          <LANGUAGE VALUE="DA"/>
+          <LANGUAGE VALUE="DE"/>
+          <LANGUAGE VALUE="EL"/>
+          <LANGUAGE VALUE="EN"/>
+          <LANGUAGE VALUE="ES"/>
+          <LANGUAGE VALUE="ET"/>
+          <LANGUAGE VALUE="FI"/>
+          <LANGUAGE VALUE="FR"/>
+          <LANGUAGE VALUE="GA"/>
+          <LANGUAGE VALUE="HR"/>
+          <LANGUAGE VALUE="HU"/>
+          <LANGUAGE VALUE="IT"/>
+          <LANGUAGE VALUE="LT"/>
+          <LANGUAGE VALUE="LV"/>
+          <LANGUAGE VALUE="MT"/>
+          <LANGUAGE VALUE="NL"/>
+          <LANGUAGE VALUE="PL"/>
+          <LANGUAGE VALUE="PT"/>
+          <LANGUAGE VALUE="RO"/>
+          <LANGUAGE VALUE="SK"/>
+          <LANGUAGE VALUE="SL"/>
+          <LANGUAGE VALUE="SV"/>
+        </LANGUAGES>
+        <DURATION_TENDER_VALID TYPE="MONTH">9</DURATION_TENDER_VALID>
+        <OPENING_CONDITION>
+          <DATE_OPENING_TENDERS>2017-02-20</DATE_OPENING_TENDERS>
+          <TIME_OPENING_TENDERS>11:00</TIME_OPENING_TENDERS>
+          <PLACE>
+            <P>Fusion for Energy's premises, C/Josep Pla, 2, Torre B3, 08018 Barcelona (Barcelona), SPAIN.</P>
+          </PLACE>
+          <INFO_ADD>
+            <P>1 representative per tenderer can attend the public opening.</P>
+          </INFO_ADD>
+        </OPENING_CONDITION>
+      </PROCEDURE>
+      <COMPLEMENTARY_INFO>
+        <RECURRENT_PROCUREMENT/>
+        <ESTIMATED_TIMING>
+          <P>Call for tenders is likely to be published every 4 years.</P>
+        </ESTIMATED_TIMING>
+        <ADDRESS_REVIEW_BODY>
+          <OFFICIALNAME>General Court</OFFICIALNAME>
+          <ADDRESS>rue du Fort Niedergrünewald</ADDRESS>
+          <TOWN>Luxembourg</TOWN>
+          <POSTAL_CODE>2925</POSTAL_CODE>
+          <COUNTRY VALUE="LU"/>
+          <PHONE>+352 430301</PHONE>
+          <E_MAIL>generalcourt.registry@curia.europa.eu</E_MAIL>
+          <URL>http://curia.europa.eu</URL>
+        </ADDRESS_REVIEW_BODY>
+        <DATE_DISPATCH_NOTICE>2016-12-16</DATE_DISPATCH_NOTICE>
+      </COMPLEMENTARY_INFO>
+    </F02_2014>
+    <F02_2014 CATEGORY="TRANSLATION" FORM="F02" LG="ES">
+      <CONTRACTING_BODY>
+        <ADDRESS_CONTRACTING_BODY>
+          <OFFICIALNAME>Empresa Común Europea para el ITER y el Desarrollo de la Energía de Fusión (Fusion for Energy)</OFFICIALNAME>
+          <ADDRESS>Carrer Josep Pla, 2, Torres Diagonal Litoral, B3</ADDRESS>
+          <TOWN>Barcelona (Barcelona)</TOWN>
+          <POSTAL_CODE>08019</POSTAL_CODE>
+          <COUNTRY VALUE="ES"/>
+          <PHONE>+34 933201800</PHONE>
+          <E_MAIL>tenders-adm@f4e.europa.eu</E_MAIL>
+          <NUTS CODE="ES511"/>
+          <URL_GENERAL>http://www.fusionforenergy.europa.eu/</URL_GENERAL>
+          <URL_BUYER>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_BUYER>
+        </ADDRESS_CONTRACTING_BODY>
+        <DOCUMENT_FULL/>
+        <URL_DOCUMENT>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_DOCUMENT>
+        <ADDRESS_FURTHER_INFO_IDEM/>
+        <ADDRESS_PARTICIPATION_IDEM/>
+        <URL_TOOL>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_TOOL>
+        <CA_TYPE VALUE="EU_INSTITUTION"/>
+        <CA_ACTIVITY_OTHER>energía de fusión.</CA_ACTIVITY_OTHER>
+      </CONTRACTING_BODY>
+      <OBJECT_CONTRACT>
+        <TITLE>
+          <P>Prestación de servicios audiovisuales y fotográficos para Fusion for Energy.</P>
+        </TITLE>
+        <REFERENCE_NUMBER>F4E-AFC-0786.</REFERENCE_NUMBER>
+        <CPV_MAIN>
+          <CPV_CODE CODE="92100000"/>
+        </CPV_MAIN>
+        <TYPE_CONTRACT CTYPE="SERVICES"/>
+        <SHORT_DESCR>
+          <P>El objetivo de la presente convocatoria de licitación consiste en celebrar un contrato marco de servicios (en lo sucesivo «contrato marco» o «contrato») a fin de prestar servicios audiovisuales y fotográficos que informarán sobre los progresos de la contribución europea al proyecto ITER, mediante breves vídeos o fragmentos de películas e imágenes exportadas en diversos formatos.</P>
+          <P>El contratista será responsable de la grabación de vídeo y de la producción previa y posterior.</P>
+          <P>No se financiará la adquisición de equipos en el marco de este contrato: el contratista deberá contar con los recursos y los equipos necesarios para llevar a cabo la grabación de vídeo, audio y fotografía de conformidad con las normas industriales más recientes.</P>
+        </SHORT_DESCR>
+        <VAL_ESTIMATED_TOTAL CURRENCY="EUR">360000.00</VAL_ESTIMATED_TOTAL>
+        <NO_LOT_DIVISION/>
+        <OBJECT_DESCR ITEM="1">
+          <CPV_ADDITIONAL>
+            <CPV_CODE CODE="79960000"/>
+          </CPV_ADDITIONAL>
+          <NUTS CODE="FR"/>
+          <MAIN_SITE>
+            <P>El contratista será el responsable del rodaje y de la grabación en la sede del ITER en Cadarache (Francia) y en otros lugares donde se fabrican componentes de F4E en Europa.</P>
+          </MAIN_SITE>
+          <SHORT_DESCR>
+            <P>Estimación anual:</P>
+            <P>— de 4 a 6 vídeos breves para informar sobre el progreso del trabajo en la sede del ITER en Cadarache (Francia),</P>
+            <P>— de 2 a 8 vídeos breves para informar sobre el progreso en la producción de los componentes del ITER,</P>
+            <P>— 1 vídeo más largo y creativo para informar sobre un tema con mayor profundidad (como los logros del año anterior),</P>
+            <P>— de 4 a 8 sesiones fotográficas en el lugar de trabajo del ITER en Cadarache (Francia).</P>
+            <P>Para más información, véase el pliego de condiciones,</P>
+            <P>— de 2 a 8 sesiones fotográficas para informar sobre el progreso de producción de los componentes del ITER.</P>
+          </SHORT_DESCR>
+          <AC_PROCUREMENT_DOC/>
+          <VAL_OBJECT CURRENCY="EUR">360000.00</VAL_OBJECT>
+          <DURATION TYPE="MONTH">48</DURATION>
+          <RENEWAL/>
+          <RENEWAL_DESCR>
+            <P>12 meses, renovable hasta 3 veces por períodos adicionales de 12 meses, con una duración total máxima de 48 meses.</P>
+          </RENEWAL_DESCR>
+          <NO_ACCEPTED_VARIANTS/>
+          <NO_OPTIONS/>
+          <NO_EU_PROGR_RELATED/>
+        </OBJECT_DESCR>
+      </OBJECT_CONTRACT>
+      <LEFTI>
+        <ECONOMIC_CRITERIA_DOC/>
+        <TECHNICAL_CRITERIA_DOC/>
+      </LEFTI>
+      <PROCEDURE>
+        <PT_OPEN/>
+        <FRAMEWORK>
+          <SINGLE_OPERATOR/>
+        </FRAMEWORK>
+        <NO_CONTRACT_COVERED_GPA/>
+        <DATE_RECEIPT_TENDERS>2017-02-13</DATE_RECEIPT_TENDERS>
+        <TIME_RECEIPT_TENDERS>17:00</TIME_RECEIPT_TENDERS>
+        <LANGUAGES>
+          <LANGUAGE VALUE="BG"/>
+          <LANGUAGE VALUE="CS"/>
+          <LANGUAGE VALUE="DA"/>
+          <LANGUAGE VALUE="DE"/>
+          <LANGUAGE VALUE="EL"/>
+          <LANGUAGE VALUE="EN"/>
+          <LANGUAGE VALUE="ES"/>
+          <LANGUAGE VALUE="ET"/>
+          <LANGUAGE VALUE="FI"/>
+          <LANGUAGE VALUE="FR"/>
+          <LANGUAGE VALUE="GA"/>
+          <LANGUAGE VALUE="HR"/>
+          <LANGUAGE VALUE="HU"/>
+          <LANGUAGE VALUE="IT"/>
+          <LANGUAGE VALUE="LT"/>
+          <LANGUAGE VALUE="LV"/>
+          <LANGUAGE VALUE="MT"/>
+          <LANGUAGE VALUE="NL"/>
+          <LANGUAGE VALUE="PL"/>
+          <LANGUAGE VALUE="PT"/>
+          <LANGUAGE VALUE="RO"/>
+          <LANGUAGE VALUE="SK"/>
+          <LANGUAGE VALUE="SL"/>
+          <LANGUAGE VALUE="SV"/>
+        </LANGUAGES>
+        <DURATION_TENDER_VALID TYPE="MONTH">9</DURATION_TENDER_VALID>
+        <OPENING_CONDITION>
+          <DATE_OPENING_TENDERS>2017-02-20</DATE_OPENING_TENDERS>
+          <TIME_OPENING_TENDERS>11:00</TIME_OPENING_TENDERS>
+          <PLACE>
+            <P>En las instalaciones de Fusion for Energy, C/Josep Pla, 2, Torre B3, 08018 Barcelona (Barcelona), ESPAÑA.</P>
+          </PLACE>
+          <INFO_ADD>
+            <P>1 representante por licitador podrá asistir a la apertura pública.</P>
+          </INFO_ADD>
+        </OPENING_CONDITION>
+      </PROCEDURE>
+      <COMPLEMENTARY_INFO>
+        <RECURRENT_PROCUREMENT/>
+        <ESTIMATED_TIMING>
+          <P>La convocatoria de licitación puede publicarse cada 4 años.</P>
+        </ESTIMATED_TIMING>
+        <ADDRESS_REVIEW_BODY>
+          <OFFICIALNAME>Tribunal General</OFFICIALNAME>
+          <ADDRESS>rue du Fort Niedergrünewald</ADDRESS>
+          <TOWN>Luxembourg</TOWN>
+          <POSTAL_CODE>2925</POSTAL_CODE>
+          <COUNTRY VALUE="LU"/>
+          <PHONE>+352 430301</PHONE>
+          <E_MAIL>generalcourt.registry@curia.europa.eu</E_MAIL>
+          <URL>http://curia.europa.eu</URL>
+        </ADDRESS_REVIEW_BODY>
+        <DATE_DISPATCH_NOTICE>2016-12-16</DATE_DISPATCH_NOTICE>
+      </COMPLEMENTARY_INFO>
+    </F02_2014>
+    <F02_2014 CATEGORY="TRANSLATION" FORM="F02" LG="FI">
+      <CONTRACTING_BODY>
+        <ADDRESS_CONTRACTING_BODY>
+          <OFFICIALNAME>Eurooppalainen yhteisyritys ITERiä ja fuusioenergian kehittämistä varten (Fusion for Energy)</OFFICIALNAME>
+          <ADDRESS>Carrer Josep Pla, 2, Torres Diagonal Litoral, B3</ADDRESS>
+          <TOWN>Barcelona (Barcelona)</TOWN>
+          <POSTAL_CODE>08019</POSTAL_CODE>
+          <COUNTRY VALUE="ES"/>
+          <PHONE>+34 933201800</PHONE>
+          <E_MAIL>tenders-adm@f4e.europa.eu</E_MAIL>
+          <NUTS CODE="ES511"/>
+          <URL_GENERAL>http://www.fusionforenergy.europa.eu/</URL_GENERAL>
+          <URL_BUYER>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_BUYER>
+        </ADDRESS_CONTRACTING_BODY>
+        <DOCUMENT_FULL/>
+        <URL_DOCUMENT>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_DOCUMENT>
+        <ADDRESS_FURTHER_INFO_IDEM/>
+        <ADDRESS_PARTICIPATION_IDEM/>
+        <URL_TOOL>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_TOOL>
+        <CA_TYPE VALUE="EU_INSTITUTION"/>
+        <CA_ACTIVITY_OTHER>fuusioenergia.</CA_ACTIVITY_OTHER>
+      </CONTRACTING_BODY>
+      <OBJECT_CONTRACT>
+        <TITLE>
+          <P>Audiovisuaalisten palvelujen ja valokuvauspalvelujen toimittaminen Fusion for Energy -yhteisyritykselle</P>
+        </TITLE>
+        <REFERENCE_NUMBER>F4E-AFC-0786.</REFERENCE_NUMBER>
+        <CPV_MAIN>
+          <CPV_CODE CODE="92100000"/>
+        </CPV_MAIN>
+        <TYPE_CONTRACT CTYPE="SERVICES"/>
+        <SHORT_DESCR>
+          <P>Tämän tarjouspyynnön tavoitteena on palveluja koskevan puitesopimuksen (framework contract – FWC tai ’sopimus’) tekeminen audiovisuaalisten palvelujen ja valokuvauspalvelujen toimittamiseksi. Palvelujen avulla raportoidaan Euroopan ITER-hankkeeseen osallistumisen edistymisestä lyhyillä videoleikkeillä/videoilla ja kuvilla, joiden vienti tehdään useissa eri muodoissa.</P>
+          <P>Sopimusosapuoli vastaa videoiden tallentamisesta sekä esi- ja jälkituotannosta.</P>
+          <P>Tämän sopimuksen yhteydessä ei rahoiteta laitehankintoja. Sopimusosapuolella on oltava tarvittavat resurssit ja laitteet valokuva-, video- ja äänitallenteiden toteuttamiseksi teollisuuden uusimpien standardien mukaisesti.</P>
+        </SHORT_DESCR>
+        <VAL_ESTIMATED_TOTAL CURRENCY="EUR">360000.00</VAL_ESTIMATED_TOTAL>
+        <NO_LOT_DIVISION/>
+        <OBJECT_DESCR ITEM="1">
+          <CPV_ADDITIONAL>
+            <CPV_CODE CODE="79960000"/>
+          </CPV_ADDITIONAL>
+          <NUTS CODE="FR"/>
+          <MAIN_SITE>
+            <P>sopimusosapuoli vastaa videoiden ja valokuvien kuvaamisesta ITERin toimipaikassa Cadarachessa (Ranska) sekä muissa Euroopassa sijaitsevissa kohteissa, joissa Fusion for Energy -yhteisyritykseen (F4E) liittyviä osia valmistetaan.</P>
+          </MAIN_SITE>
+          <SHORT_DESCR>
+            <P>Arvioidut vuotuiset määrät:</P>
+            <P>— 4–6 lyhyttä videota, joilla raportoidaan ITERin toimipaikalla Cadarachessa (Ranska) suoritettavan työn edistymisestä,</P>
+            <P>— 2–8 lyhyttä videota, joilla raportoidaan ITERin osien tuotannon edistymisestä,</P>
+            <P>— 1 pitempi ja luovemmin toteutettu video, jolla raportoidaan syvällisemmästä aiheesta (kuten edellisen vuoden saavutukset),</P>
+            <P>— 4–8 valokuvaussessiota ITERin työmaalla Cadarachessa (Ranska).</P>
+            <P>Katso lisätiedot tarjouseritelmistä,</P>
+            <P>— 2–8 valokuvaussessiota, joilla raportoidaan ITERin osien tuotannon edistymisestä.</P>
+          </SHORT_DESCR>
+          <AC_PROCUREMENT_DOC/>
+          <VAL_OBJECT CURRENCY="EUR">360000.00</VAL_OBJECT>
+          <DURATION TYPE="MONTH">48</DURATION>
+          <RENEWAL/>
+          <RENEWAL_DESCR>
+            <P>Sopimuksen kesto on 12 kuukautta, ja sopimus voidaan uusia enintään 3 kertaa 12 kuukaudeksi kerrallaan. Sopimuksen kokonaiskesto on enintään 48 kuukautta.</P>
+          </RENEWAL_DESCR>
+          <NO_ACCEPTED_VARIANTS/>
+          <NO_OPTIONS/>
+          <NO_EU_PROGR_RELATED/>
+        </OBJECT_DESCR>
+      </OBJECT_CONTRACT>
+      <LEFTI>
+        <ECONOMIC_CRITERIA_DOC/>
+        <TECHNICAL_CRITERIA_DOC/>
+      </LEFTI>
+      <PROCEDURE>
+        <PT_OPEN/>
+        <FRAMEWORK>
+          <SINGLE_OPERATOR/>
+        </FRAMEWORK>
+        <NO_CONTRACT_COVERED_GPA/>
+        <DATE_RECEIPT_TENDERS>2017-02-13</DATE_RECEIPT_TENDERS>
+        <TIME_RECEIPT_TENDERS>17:00</TIME_RECEIPT_TENDERS>
+        <LANGUAGES>
+          <LANGUAGE VALUE="BG"/>
+          <LANGUAGE VALUE="CS"/>
+          <LANGUAGE VALUE="DA"/>
+          <LANGUAGE VALUE="DE"/>
+          <LANGUAGE VALUE="EL"/>
+          <LANGUAGE VALUE="EN"/>
+          <LANGUAGE VALUE="ES"/>
+          <LANGUAGE VALUE="ET"/>
+          <LANGUAGE VALUE="FI"/>
+          <LANGUAGE VALUE="FR"/>
+          <LANGUAGE VALUE="GA"/>
+          <LANGUAGE VALUE="HR"/>
+          <LANGUAGE VALUE="HU"/>
+          <LANGUAGE VALUE="IT"/>
+          <LANGUAGE VALUE="LT"/>
+          <LANGUAGE VALUE="LV"/>
+          <LANGUAGE VALUE="MT"/>
+          <LANGUAGE VALUE="NL"/>
+          <LANGUAGE VALUE="PL"/>
+          <LANGUAGE VALUE="PT"/>
+          <LANGUAGE VALUE="RO"/>
+          <LANGUAGE VALUE="SK"/>
+          <LANGUAGE VALUE="SL"/>
+          <LANGUAGE VALUE="SV"/>
+        </LANGUAGES>
+        <DURATION_TENDER_VALID TYPE="MONTH">9</DURATION_TENDER_VALID>
+        <OPENING_CONDITION>
+          <DATE_OPENING_TENDERS>2017-02-20</DATE_OPENING_TENDERS>
+          <TIME_OPENING_TENDERS>11:00</TIME_OPENING_TENDERS>
+          <PLACE>
+            <P>Fusion for Energy -yhteisyrityksen toimitilat osoitteessa C/Josep Pla, 2, Torre B3, 08018 Barcelona (Barcelona), ESPANJA.</P>
+          </PLACE>
+          <INFO_ADD>
+            <P>julkiseen avaustilaisuuteen voi osallistua 1 edustaja kultakin tarjoajalta.</P>
+          </INFO_ADD>
+        </OPENING_CONDITION>
+      </PROCEDURE>
+      <COMPLEMENTARY_INFO>
+        <RECURRENT_PROCUREMENT/>
+        <ESTIMATED_TIMING>
+          <P>tarjouspyyntö julkaistaan todennäköisesti joka neljäs vuosi.</P>
+        </ESTIMATED_TIMING>
+        <ADDRESS_REVIEW_BODY>
+          <OFFICIALNAME>Unionin yleinen tuomioistuin</OFFICIALNAME>
+          <ADDRESS>rue du Fort Niedergrünewald</ADDRESS>
+          <TOWN>Luxembourg</TOWN>
+          <POSTAL_CODE>2925</POSTAL_CODE>
+          <COUNTRY VALUE="LU"/>
+          <PHONE>+352 430301</PHONE>
+          <E_MAIL>generalcourt.registry@curia.europa.eu</E_MAIL>
+          <URL>http://curia.europa.eu</URL>
+        </ADDRESS_REVIEW_BODY>
+        <DATE_DISPATCH_NOTICE>2016-12-16</DATE_DISPATCH_NOTICE>
+      </COMPLEMENTARY_INFO>
+    </F02_2014>
+    <F02_2014 CATEGORY="TRANSLATION" FORM="F02" LG="FR">
+      <CONTRACTING_BODY>
+        <ADDRESS_CONTRACTING_BODY>
+          <OFFICIALNAME>Entreprise commune européenne pour ITER et le développement de l'énergie de fusion («Fusion for Energy»)</OFFICIALNAME>
+          <ADDRESS>Carrer Josep Pla, 2, Torres Diagonal Litoral, B3</ADDRESS>
+          <TOWN>Barcelona (Barcelona)</TOWN>
+          <POSTAL_CODE>08019</POSTAL_CODE>
+          <COUNTRY VALUE="ES"/>
+          <PHONE>+34 933201800</PHONE>
+          <E_MAIL>tenders-adm@f4e.europa.eu</E_MAIL>
+          <NUTS CODE="ES511"/>
+          <URL_GENERAL>http://www.fusionforenergy.europa.eu/</URL_GENERAL>
+          <URL_BUYER>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_BUYER>
+        </ADDRESS_CONTRACTING_BODY>
+        <DOCUMENT_FULL/>
+        <URL_DOCUMENT>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_DOCUMENT>
+        <ADDRESS_FURTHER_INFO_IDEM/>
+        <ADDRESS_PARTICIPATION_IDEM/>
+        <URL_TOOL>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_TOOL>
+        <CA_TYPE VALUE="EU_INSTITUTION"/>
+        <CA_ACTIVITY_OTHER>énergie de fusion.</CA_ACTIVITY_OTHER>
+      </CONTRACTING_BODY>
+      <OBJECT_CONTRACT>
+        <TITLE>
+          <P>Prestation de services audiovisuels et de photographie en faveur de Fusion for Energy.</P>
+        </TITLE>
+        <REFERENCE_NUMBER>F4E-AFC-0786.</REFERENCE_NUMBER>
+        <CPV_MAIN>
+          <CPV_CODE CODE="92100000"/>
+        </CPV_MAIN>
+        <TYPE_CONTRACT CTYPE="SERVICES"/>
+        <SHORT_DESCR>
+          <P>L'objectif du présent appel d'offres est de conclure un contrat-cadre de services (contrat-cadre ou contrat) en vue de la prestation de services audiovisuels et de photographie qui feront état de l'évolution de la contribution européenne au projet ITER, à travers de courtes séquences filmées/vidéos et des images exportées sous divers formats.</P>
+          <P>Le contractant sera chargé de l'enregistrement vidéo ainsi que de la préproduction et de la postproduction.</P>
+          <P>Aucun achat de matériel ne sera financé dans le cadre du présent marché: le contractant devra disposer des ressources et du matériel nécessaires à la réalisation des photos, des vidéos et des enregistrements audio en respectant les normes les plus récentes du secteur.</P>
+        </SHORT_DESCR>
+        <VAL_ESTIMATED_TOTAL CURRENCY="EUR">360000.00</VAL_ESTIMATED_TOTAL>
+        <NO_LOT_DIVISION/>
+        <OBJECT_DESCR ITEM="1">
+          <CPV_ADDITIONAL>
+            <CPV_CODE CODE="79960000"/>
+          </CPV_ADDITIONAL>
+          <NUTS CODE="FR"/>
+          <MAIN_SITE>
+            <P>le contractant sera chargé du tournage et des prises de vue sur le site d'ITER à Cadarache (France) et dans d'autres lieux de fabrication des composants de F4E en Europe.</P>
+          </MAIN_SITE>
+          <SHORT_DESCR>
+            <P>Volume annuel estimé:</P>
+            <P>— 4 à 6 courtes vidéos faisant état de l'avancement des travaux sur le site d'ITER à Cadarache (France),</P>
+            <P>— 2 à 8 courtes vidéos faisant état de l'avancement de la production des composants d'ITER,</P>
+            <P>— 1 vidéo plus longue et plus créative traitant un sujet de manière plus approfondie (telle que l'avancée obtenue l'année passée),</P>
+            <P>— 4 à 8 séances photos sur le chantier du projet ITER à Cadarache (France).</P>
+            <P>Pour de plus amples informations, voir cahier des charges,</P>
+            <P>— 2 à 8 séances photos faisant état de l'avancement de la production des composants d'ITER.</P>
+          </SHORT_DESCR>
+          <AC_PROCUREMENT_DOC/>
+          <VAL_OBJECT CURRENCY="EUR">360000.00</VAL_OBJECT>
+          <DURATION TYPE="MONTH">48</DURATION>
+          <RENEWAL/>
+          <RENEWAL_DESCR>
+            <P>12 mois plus 3 reconductions de 12 mois chacune au maximum, soit une durée totale maximale de 48 mois.</P>
+          </RENEWAL_DESCR>
+          <NO_ACCEPTED_VARIANTS/>
+          <NO_OPTIONS/>
+          <NO_EU_PROGR_RELATED/>
+        </OBJECT_DESCR>
+      </OBJECT_CONTRACT>
+      <LEFTI>
+        <ECONOMIC_CRITERIA_DOC/>
+        <TECHNICAL_CRITERIA_DOC/>
+      </LEFTI>
+      <PROCEDURE>
+        <PT_OPEN/>
+        <FRAMEWORK>
+          <SINGLE_OPERATOR/>
+        </FRAMEWORK>
+        <NO_CONTRACT_COVERED_GPA/>
+        <DATE_RECEIPT_TENDERS>2017-02-13</DATE_RECEIPT_TENDERS>
+        <TIME_RECEIPT_TENDERS>17:00</TIME_RECEIPT_TENDERS>
+        <LANGUAGES>
+          <LANGUAGE VALUE="BG"/>
+          <LANGUAGE VALUE="CS"/>
+          <LANGUAGE VALUE="DA"/>
+          <LANGUAGE VALUE="DE"/>
+          <LANGUAGE VALUE="EL"/>
+          <LANGUAGE VALUE="EN"/>
+          <LANGUAGE VALUE="ES"/>
+          <LANGUAGE VALUE="ET"/>
+          <LANGUAGE VALUE="FI"/>
+          <LANGUAGE VALUE="FR"/>
+          <LANGUAGE VALUE="GA"/>
+          <LANGUAGE VALUE="HR"/>
+          <LANGUAGE VALUE="HU"/>
+          <LANGUAGE VALUE="IT"/>
+          <LANGUAGE VALUE="LT"/>
+          <LANGUAGE VALUE="LV"/>
+          <LANGUAGE VALUE="MT"/>
+          <LANGUAGE VALUE="NL"/>
+          <LANGUAGE VALUE="PL"/>
+          <LANGUAGE VALUE="PT"/>
+          <LANGUAGE VALUE="RO"/>
+          <LANGUAGE VALUE="SK"/>
+          <LANGUAGE VALUE="SL"/>
+          <LANGUAGE VALUE="SV"/>
+        </LANGUAGES>
+        <DURATION_TENDER_VALID TYPE="MONTH">9</DURATION_TENDER_VALID>
+        <OPENING_CONDITION>
+          <DATE_OPENING_TENDERS>2017-02-20</DATE_OPENING_TENDERS>
+          <TIME_OPENING_TENDERS>11:00</TIME_OPENING_TENDERS>
+          <PLACE>
+            <P>locaux de Fusion for Energy: C/Josep Pla, 2, Torre B3, 08018 Barcelona (Barcelona), ESPAGNE.</P>
+          </PLACE>
+          <INFO_ADD>
+            <P>1 représentant par soumissionnaire pourra assister à l'ouverture publique des offres.</P>
+          </INFO_ADD>
+        </OPENING_CONDITION>
+      </PROCEDURE>
+      <COMPLEMENTARY_INFO>
+        <RECURRENT_PROCUREMENT/>
+        <ESTIMATED_TIMING>
+          <P>Un appel d'offres est susceptible d'être publié tous les 4 ans.</P>
+        </ESTIMATED_TIMING>
+        <ADDRESS_REVIEW_BODY>
+          <OFFICIALNAME>Tribunal</OFFICIALNAME>
+          <ADDRESS>rue du Fort Niedergrünewald</ADDRESS>
+          <TOWN>Luxembourg</TOWN>
+          <POSTAL_CODE>2925</POSTAL_CODE>
+          <COUNTRY VALUE="LU"/>
+          <PHONE>+352 430301</PHONE>
+          <E_MAIL>generalcourt.registry@curia.europa.eu</E_MAIL>
+          <URL>http://curia.europa.eu</URL>
+        </ADDRESS_REVIEW_BODY>
+        <DATE_DISPATCH_NOTICE>2016-12-16</DATE_DISPATCH_NOTICE>
+      </COMPLEMENTARY_INFO>
+    </F02_2014>
+    <F02_2014 CATEGORY="TRANSLATION" FORM="F02" LG="EL">
+      <CONTRACTING_BODY>
+        <ADDRESS_CONTRACTING_BODY>
+          <OFFICIALNAME>Ευρωπαϊκή κοινή επιχείρηση για τον ITER και την ανάπτυξη της πυρηνικής σύντηξης («Fusion for Energy»)</OFFICIALNAME>
+          <ADDRESS>Carrer Josep Pla, 2, Torres Diagonal Litoral, B3</ADDRESS>
+          <TOWN>Barcelona (Barcelona)</TOWN>
+          <POSTAL_CODE>08019</POSTAL_CODE>
+          <COUNTRY VALUE="ES"/>
+          <PHONE>+34 933201800</PHONE>
+          <E_MAIL>tenders-adm@f4e.europa.eu</E_MAIL>
+          <NUTS CODE="ES511"/>
+          <URL_GENERAL>http://www.fusionforenergy.europa.eu/</URL_GENERAL>
+          <URL_BUYER>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_BUYER>
+        </ADDRESS_CONTRACTING_BODY>
+        <DOCUMENT_FULL/>
+        <URL_DOCUMENT>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_DOCUMENT>
+        <ADDRESS_FURTHER_INFO_IDEM/>
+        <ADDRESS_PARTICIPATION_IDEM/>
+        <URL_TOOL>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_TOOL>
+        <CA_TYPE VALUE="EU_INSTITUTION"/>
+        <CA_ACTIVITY_OTHER>Ενέργεια σύντηξης.</CA_ACTIVITY_OTHER>
+      </CONTRACTING_BODY>
+      <OBJECT_CONTRACT>
+        <TITLE>
+          <P>Παροχή οπτικοακουστικών και φωτογραφικών υπηρεσιών στην κοινή επιχείρηση Fusion for Energy.</P>
+        </TITLE>
+        <REFERENCE_NUMBER>F4E-AFC-0786.</REFERENCE_NUMBER>
+        <CPV_MAIN>
+          <CPV_CODE CODE="92100000"/>
+        </CPV_MAIN>
+        <TYPE_CONTRACT CTYPE="SERVICES"/>
+        <SHORT_DESCR>
+          <P>Ο στόχος της παρούσας πρόσκλησης υποβολής προσφορών είναι η σύναψη μιας σύμβασης-πλαίσιο υπηρεσιών («σύμβαση-πλαίσιο» ή «σύμβαση») για την παροχή οπτικοακουστικών και φωτογραφικών υπηρεσιών οι οποίες θα αναφέρουν την πρόοδο της συμβολής της Ευρώπης στο σχέδιο ITER, μέσω σύντομων κλιπ ταινιών/βίντεο και εικόνων που εξάγονται σε διάφορες μορφές.</P>
+          <P>Ο ανάδοχος θα είναι υπεύθυνος για την εγγραφή, προπαραγωγή και μεταπαραγωγή των βίντεο.</P>
+          <P>Δεν θα χρηματοδοτηθεί καμία αγορά εξοπλισμού στο πλαίσιο της προκηρυσσόμενης σύμβασης: ο ανάδοχος θα πρέπει να διαθέτει τους πόρους και τον εξοπλισμό για την εκτέλεση της εγγραφής φωτογραφιών, βίντεο και ήχου σύμφωνα με τα πιο σύγχρονα πρότυπα του κλάδου.</P>
+        </SHORT_DESCR>
+        <VAL_ESTIMATED_TOTAL CURRENCY="EUR">360000.00</VAL_ESTIMATED_TOTAL>
+        <NO_LOT_DIVISION/>
+        <OBJECT_DESCR ITEM="1">
+          <CPV_ADDITIONAL>
+            <CPV_CODE CODE="79960000"/>
+          </CPV_ADDITIONAL>
+          <NUTS CODE="FR"/>
+          <MAIN_SITE>
+            <P>Ο ανάδοχος θα είναι υπεύθυνος για την κινηματογράφηση και τη βιντεοσκόπηση στις εγκαταστάσεις του ITER στο Cadarache (Γαλλία) και σε άλλες τοποθεσίες όπου κατασκευάζονται τα εξαρτήματα της κοινής επιχείρησης F4E εντός της Ευρώπης.</P>
+          </MAIN_SITE>
+          <SHORT_DESCR>
+            <P>Εκτιμώμενος αριθμός ανά έτος:</P>
+            <P>— 4 έως 6 σύντομα βίντεο για την αναφορά της προόδου των εργασιών στις εγκαταστάσεις του ITER στο Cadarache (Γαλλία),</P>
+            <P>— 2 έως 8 σύντομα βίντεο για την αναφορά της προόδου σχετικά με την παραγωγή των εξαρτημάτων του ITER,</P>
+            <P>— 1 εκτενέστερο και πιο δημιουργικό βίντεο για την αναφορά ενός πιο διεξοδικού θέματος (όπως των επιτευγμάτων του προηγούμενου έτους),</P>
+            <P>— 4 έως 8 φωτογραφίσεις στο εργοτάξιο του ITER στο Cadarache (Γαλλία).</P>
+            <P>Για περισσότερες λεπτομέρειες, ανατρέξτε στη συγγραφή υποχρεώσεων,</P>
+            <P>— 2 έως 8 φωτογραφίσεις για την αναφορά της προόδου σχετικά με την παραγωγή εξαρτημάτων του ITER.</P>
+          </SHORT_DESCR>
+          <AC_PROCUREMENT_DOC/>
+          <VAL_OBJECT CURRENCY="EUR">360000.00</VAL_OBJECT>
+          <DURATION TYPE="MONTH">48</DURATION>
+          <RENEWAL/>
+          <RENEWAL_DESCR>
+            <P>12 μήνες με δυνατότητα ανανέωσης έως και 3 φορές για επιπλέον περιόδους διάρκειας 12 μηνών, με μέγιστη συνολική διάρκεια 48 μηνών.</P>
+          </RENEWAL_DESCR>
+          <NO_ACCEPTED_VARIANTS/>
+          <NO_OPTIONS/>
+          <NO_EU_PROGR_RELATED/>
+        </OBJECT_DESCR>
+      </OBJECT_CONTRACT>
+      <LEFTI>
+        <ECONOMIC_CRITERIA_DOC/>
+        <TECHNICAL_CRITERIA_DOC/>
+      </LEFTI>
+      <PROCEDURE>
+        <PT_OPEN/>
+        <FRAMEWORK>
+          <SINGLE_OPERATOR/>
+        </FRAMEWORK>
+        <NO_CONTRACT_COVERED_GPA/>
+        <DATE_RECEIPT_TENDERS>2017-02-13</DATE_RECEIPT_TENDERS>
+        <TIME_RECEIPT_TENDERS>17:00</TIME_RECEIPT_TENDERS>
+        <LANGUAGES>
+          <LANGUAGE VALUE="BG"/>
+          <LANGUAGE VALUE="CS"/>
+          <LANGUAGE VALUE="DA"/>
+          <LANGUAGE VALUE="DE"/>
+          <LANGUAGE VALUE="EL"/>
+          <LANGUAGE VALUE="EN"/>
+          <LANGUAGE VALUE="ES"/>
+          <LANGUAGE VALUE="ET"/>
+          <LANGUAGE VALUE="FI"/>
+          <LANGUAGE VALUE="FR"/>
+          <LANGUAGE VALUE="GA"/>
+          <LANGUAGE VALUE="HR"/>
+          <LANGUAGE VALUE="HU"/>
+          <LANGUAGE VALUE="IT"/>
+          <LANGUAGE VALUE="LT"/>
+          <LANGUAGE VALUE="LV"/>
+          <LANGUAGE VALUE="MT"/>
+          <LANGUAGE VALUE="NL"/>
+          <LANGUAGE VALUE="PL"/>
+          <LANGUAGE VALUE="PT"/>
+          <LANGUAGE VALUE="RO"/>
+          <LANGUAGE VALUE="SK"/>
+          <LANGUAGE VALUE="SL"/>
+          <LANGUAGE VALUE="SV"/>
+        </LANGUAGES>
+        <DURATION_TENDER_VALID TYPE="MONTH">9</DURATION_TENDER_VALID>
+        <OPENING_CONDITION>
+          <DATE_OPENING_TENDERS>2017-02-20</DATE_OPENING_TENDERS>
+          <TIME_OPENING_TENDERS>11:00</TIME_OPENING_TENDERS>
+          <PLACE>
+            <P>Εγκαταστάσεις της κοινής επιχείρησης Fusion for Energy, C/Josep Pla, 2, Torre B3, 08018 Barcelona (Barcelona), ΙΣΠΑΝΙΑ.</P>
+          </PLACE>
+          <INFO_ADD>
+            <P>1 εκπρόσωπος ανά υποψήφιο δύναται να παραστεί στη δημόσια συνεδρίαση αποσφράγισης των προσφορών.</P>
+          </INFO_ADD>
+        </OPENING_CONDITION>
+      </PROCEDURE>
+      <COMPLEMENTARY_INFO>
+        <RECURRENT_PROCUREMENT/>
+        <ESTIMATED_TIMING>
+          <P>Προσκλήσεις υποβολής προσφορών ενδέχεται να δημοσιεύονται κάθε 4 έτη.</P>
+        </ESTIMATED_TIMING>
+        <ADDRESS_REVIEW_BODY>
+          <OFFICIALNAME>Γενικό Δικαστήριο</OFFICIALNAME>
+          <ADDRESS>rue du Fort Niedergrünewald</ADDRESS>
+          <TOWN>Luxembourg</TOWN>
+          <POSTAL_CODE>2925</POSTAL_CODE>
+          <COUNTRY VALUE="LU"/>
+          <PHONE>+352 430301</PHONE>
+          <E_MAIL>generalcourt.registry@curia.europa.eu</E_MAIL>
+          <URL>http://curia.europa.eu</URL>
+        </ADDRESS_REVIEW_BODY>
+        <DATE_DISPATCH_NOTICE>2016-12-16</DATE_DISPATCH_NOTICE>
+      </COMPLEMENTARY_INFO>
+    </F02_2014>
+    <F02_2014 CATEGORY="TRANSLATION" FORM="F02" LG="IT">
+      <CONTRACTING_BODY>
+        <ADDRESS_CONTRACTING_BODY>
+          <OFFICIALNAME>impresa comune europea per il progetto ITER e lo sviluppo dell'energia da fusione («Fusion for Energy»)</OFFICIALNAME>
+          <ADDRESS>Carrer Josep Pla, 2, Torres Diagonal Litoral, B3</ADDRESS>
+          <TOWN>Barcelona (Barcelona)</TOWN>
+          <POSTAL_CODE>08019</POSTAL_CODE>
+          <COUNTRY VALUE="ES"/>
+          <PHONE>+34 933201800</PHONE>
+          <E_MAIL>tenders-adm@f4e.europa.eu</E_MAIL>
+          <NUTS CODE="ES511"/>
+          <URL_GENERAL>http://www.fusionforenergy.europa.eu/</URL_GENERAL>
+          <URL_BUYER>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_BUYER>
+        </ADDRESS_CONTRACTING_BODY>
+        <DOCUMENT_FULL/>
+        <URL_DOCUMENT>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_DOCUMENT>
+        <ADDRESS_FURTHER_INFO_IDEM/>
+        <ADDRESS_PARTICIPATION_IDEM/>
+        <URL_TOOL>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_TOOL>
+        <CA_TYPE VALUE="EU_INSTITUTION"/>
+        <CA_ACTIVITY_OTHER>energia da fusione.</CA_ACTIVITY_OTHER>
+      </CONTRACTING_BODY>
+      <OBJECT_CONTRACT>
+        <TITLE>
+          <P>Prestazione di servizi fotografici e audiovisivi a favore di «Fusion for Energy».</P>
+        </TITLE>
+        <REFERENCE_NUMBER>F4E-AFC-0786.</REFERENCE_NUMBER>
+        <CPV_MAIN>
+          <CPV_CODE CODE="92100000"/>
+        </CPV_MAIN>
+        <TYPE_CONTRACT CTYPE="SERVICES"/>
+        <SHORT_DESCR>
+          <P>L'obiettivo del presente bando di gara è concludere un contratto quadro di servizi («contratto quadro» o «contratto») per la prestazione di servizi fotografici e audiovisivi che presenterà i progressi del contributo dell'Europa al progetto ITER, con brevi filmati/video e immagini esportati in diversi formati.</P>
+          <P>Il contraente sarà responsabile della registrazione video, della pre-produzione e della post-produzione.</P>
+          <P>Nessun acquisto di attrezzature sarà finanziato nell'ambito del presente contratto: il contraente dovrà disporre delle risorse e attrezzature per eseguire la registrazione di foto, video e audio in linea con i più recenti standard del settore.</P>
+        </SHORT_DESCR>
+        <VAL_ESTIMATED_TOTAL CURRENCY="EUR">360000.00</VAL_ESTIMATED_TOTAL>
+        <NO_LOT_DIVISION/>
+        <OBJECT_DESCR ITEM="1">
+          <CPV_ADDITIONAL>
+            <CPV_CODE CODE="79960000"/>
+          </CPV_ADDITIONAL>
+          <NUTS CODE="FR"/>
+          <MAIN_SITE>
+            <P>il contraente sarà responsabile delle riprese e delle fotografie presso il sito di ITER a Cadarache (Francia) e in altri luoghi in cui le componenti di «Fusion for Energy» sono fabbricate in Europa.</P>
+          </MAIN_SITE>
+          <SHORT_DESCR>
+            <P>Stima annuale:</P>
+            <P>— 4–6 brevi video per presentare i progressi del lavoro sul sito di ITER a Cadarache (Francia),</P>
+            <P>— 2–8 brevi video per presentare i progressi in materia di produzione delle componenti ITER,</P>
+            <P>— 1 video più lungo e più creativo per presentare un tema più approfondito (come le realizzazioni dell'anno passato),</P>
+            <P>— 4–8 sessioni fotografiche sul luogo di lavoro di ITER a Cadarache (Francia).</P>
+            <P>Per ulteriori dettagli consultare il capitolato d'oneri,</P>
+            <P>— 2–8 sessioni fotografiche per presentare i progressi della produzione delle componenti ITER.</P>
+          </SHORT_DESCR>
+          <AC_PROCUREMENT_DOC/>
+          <VAL_OBJECT CURRENCY="EUR">360000.00</VAL_OBJECT>
+          <DURATION TYPE="MONTH">48</DURATION>
+          <RENEWAL/>
+          <RENEWAL_DESCR>
+            <P>12 mesi, rinnovabile fino a 3 volte per ulteriori periodi di 12 mesi, per una durata massima complessiva di 48 mesi.</P>
+          </RENEWAL_DESCR>
+          <NO_ACCEPTED_VARIANTS/>
+          <NO_OPTIONS/>
+          <NO_EU_PROGR_RELATED/>
+        </OBJECT_DESCR>
+      </OBJECT_CONTRACT>
+      <LEFTI>
+        <ECONOMIC_CRITERIA_DOC/>
+        <TECHNICAL_CRITERIA_DOC/>
+      </LEFTI>
+      <PROCEDURE>
+        <PT_OPEN/>
+        <FRAMEWORK>
+          <SINGLE_OPERATOR/>
+        </FRAMEWORK>
+        <NO_CONTRACT_COVERED_GPA/>
+        <DATE_RECEIPT_TENDERS>2017-02-13</DATE_RECEIPT_TENDERS>
+        <TIME_RECEIPT_TENDERS>17:00</TIME_RECEIPT_TENDERS>
+        <LANGUAGES>
+          <LANGUAGE VALUE="BG"/>
+          <LANGUAGE VALUE="CS"/>
+          <LANGUAGE VALUE="DA"/>
+          <LANGUAGE VALUE="DE"/>
+          <LANGUAGE VALUE="EL"/>
+          <LANGUAGE VALUE="EN"/>
+          <LANGUAGE VALUE="ES"/>
+          <LANGUAGE VALUE="ET"/>
+          <LANGUAGE VALUE="FI"/>
+          <LANGUAGE VALUE="FR"/>
+          <LANGUAGE VALUE="GA"/>
+          <LANGUAGE VALUE="HR"/>
+          <LANGUAGE VALUE="HU"/>
+          <LANGUAGE VALUE="IT"/>
+          <LANGUAGE VALUE="LT"/>
+          <LANGUAGE VALUE="LV"/>
+          <LANGUAGE VALUE="MT"/>
+          <LANGUAGE VALUE="NL"/>
+          <LANGUAGE VALUE="PL"/>
+          <LANGUAGE VALUE="PT"/>
+          <LANGUAGE VALUE="RO"/>
+          <LANGUAGE VALUE="SK"/>
+          <LANGUAGE VALUE="SL"/>
+          <LANGUAGE VALUE="SV"/>
+        </LANGUAGES>
+        <DURATION_TENDER_VALID TYPE="MONTH">9</DURATION_TENDER_VALID>
+        <OPENING_CONDITION>
+          <DATE_OPENING_TENDERS>2017-02-20</DATE_OPENING_TENDERS>
+          <TIME_OPENING_TENDERS>11:00</TIME_OPENING_TENDERS>
+          <PLACE>
+            <P>locali di «Fusion for Energy», C/Josep Pla, 2, Torre B3, 08018 Barcelona (Barcelona), SPAGNA.</P>
+          </PLACE>
+          <INFO_ADD>
+            <P>potrà assistere all'apertura 1 rappresentante per ogni offerente.</P>
+          </INFO_ADD>
+        </OPENING_CONDITION>
+      </PROCEDURE>
+      <COMPLEMENTARY_INFO>
+        <RECURRENT_PROCUREMENT/>
+        <ESTIMATED_TIMING>
+          <P>Bando di gara con probabile pubblicazione quadriennale.</P>
+        </ESTIMATED_TIMING>
+        <ADDRESS_REVIEW_BODY>
+          <OFFICIALNAME>Tribunale</OFFICIALNAME>
+          <ADDRESS>rue du Fort Niedergrünewald</ADDRESS>
+          <TOWN>Luxembourg</TOWN>
+          <POSTAL_CODE>2925</POSTAL_CODE>
+          <COUNTRY VALUE="LU"/>
+          <PHONE>+352 430301</PHONE>
+          <E_MAIL>generalcourt.registry@curia.europa.eu</E_MAIL>
+          <URL>http://curia.europa.eu</URL>
+        </ADDRESS_REVIEW_BODY>
+        <DATE_DISPATCH_NOTICE>2016-12-16</DATE_DISPATCH_NOTICE>
+      </COMPLEMENTARY_INFO>
+    </F02_2014>
+    <F02_2014 CATEGORY="TRANSLATION" FORM="F02" LG="NL">
+      <CONTRACTING_BODY>
+        <ADDRESS_CONTRACTING_BODY>
+          <OFFICIALNAME>De Europese Gemeenschappelijke Onderneming voor ITER en de ontwikkeling van fusie-energie („Fusion for Energy”)</OFFICIALNAME>
+          <ADDRESS>Carrer Josep Pla, 2, Torres Diagonal Litoral, B3</ADDRESS>
+          <TOWN>Barcelona (Barcelona)</TOWN>
+          <POSTAL_CODE>08019</POSTAL_CODE>
+          <COUNTRY VALUE="ES"/>
+          <PHONE>+34 933201800</PHONE>
+          <E_MAIL>tenders-adm@f4e.europa.eu</E_MAIL>
+          <NUTS CODE="ES511"/>
+          <URL_GENERAL>http://www.fusionforenergy.europa.eu/</URL_GENERAL>
+          <URL_BUYER>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_BUYER>
+        </ADDRESS_CONTRACTING_BODY>
+        <DOCUMENT_FULL/>
+        <URL_DOCUMENT>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_DOCUMENT>
+        <ADDRESS_FURTHER_INFO_IDEM/>
+        <ADDRESS_PARTICIPATION_IDEM/>
+        <URL_TOOL>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_TOOL>
+        <CA_TYPE VALUE="EU_INSTITUTION"/>
+        <CA_ACTIVITY_OTHER>fusie-energie.</CA_ACTIVITY_OTHER>
+      </CONTRACTING_BODY>
+      <OBJECT_CONTRACT>
+        <TITLE>
+          <P>Verlening van audiovisuele en fotografische diensten aan Fusion for Energy.</P>
+        </TITLE>
+        <REFERENCE_NUMBER>F4E-AFC-0786.</REFERENCE_NUMBER>
+        <CPV_MAIN>
+          <CPV_CODE CODE="92100000"/>
+        </CPV_MAIN>
+        <TYPE_CONTRACT CTYPE="SERVICES"/>
+        <SHORT_DESCR>
+          <P>Het doel van onderhavige oproep tot inschrijving is het sluiten van een raamovereenkomst voor diensten („raamovereenkomst” of „overeenkomst”) voor de verlening van audiovisuele en fotografische diensten die, via korte filmfragmenten/video's en afbeeldingen die in verschillende formaten worden uitgevoerd, verslag uitbrengen van de evolutie van de bijdrage van Europa aan het ITER-project.</P>
+          <P>De contractant is verantwoordelijk voor de video-opname, de pre- en postproductie.</P>
+          <P>In het kader van deze opdracht zal geen aankoop van uitrusting gefinancierd worden: de contractant moet beschikken over de middelen en uitrusting voor het nemen van foto's en het opnemen van video's en audio volgens de meest recente industrienormen.</P>
+        </SHORT_DESCR>
+        <VAL_ESTIMATED_TOTAL CURRENCY="EUR">360000.00</VAL_ESTIMATED_TOTAL>
+        <NO_LOT_DIVISION/>
+        <OBJECT_DESCR ITEM="1">
+          <CPV_ADDITIONAL>
+            <CPV_CODE CODE="79960000"/>
+          </CPV_ADDITIONAL>
+          <NUTS CODE="FR"/>
+          <MAIN_SITE>
+            <P>De contractant is verantwoordelijk voor het filmen en de opnames in de ITER-site in Cadarache (Frankrijk) en op andere locaties in Europa waar F4E-onderdelen worden vervaardigd.</P>
+          </MAIN_SITE>
+          <SHORT_DESCR>
+            <P>Raming per jaar:</P>
+            <P>–– 4 tot 6 korte video's om verslag uit te brengen van de voortgang van de werkzaamheden op de ITER-site in Cadarache (Frankrijk),</P>
+            <P>–– 2 tot 8 korte video's om verslag uit te brengen van de voortgang bij de productie van ITER-onderdelen,</P>
+            <P>–– 1 langere en creatievere video om verslag uit te brengen van een diepgaander onderwerp (zoals de prestaties van het voorbije jaar),</P>
+            <P>–– 4 tot 8 fotosessies in de ITER-werkplaats in Cadarache (Frankrijk).</P>
+            <P>Raadpleeg de aanbestedingsstukken voor meer informatie,</P>
+            <P>–– 2 tot 8 fotosessies om verslag uit te brengen van de voortgang van de productie van ITER-onderdelen.</P>
+          </SHORT_DESCR>
+          <AC_PROCUREMENT_DOC/>
+          <VAL_OBJECT CURRENCY="EUR">360000.00</VAL_OBJECT>
+          <DURATION TYPE="MONTH">48</DURATION>
+          <RENEWAL/>
+          <RENEWAL_DESCR>
+            <P>12 maanden, maximaal driemaal verlengbaar voor bijkomende perioden van 12 maanden, met een totale maximale looptijd van 48 maanden.</P>
+          </RENEWAL_DESCR>
+          <NO_ACCEPTED_VARIANTS/>
+          <NO_OPTIONS/>
+          <NO_EU_PROGR_RELATED/>
+        </OBJECT_DESCR>
+      </OBJECT_CONTRACT>
+      <LEFTI>
+        <ECONOMIC_CRITERIA_DOC/>
+        <TECHNICAL_CRITERIA_DOC/>
+      </LEFTI>
+      <PROCEDURE>
+        <PT_OPEN/>
+        <FRAMEWORK>
+          <SINGLE_OPERATOR/>
+        </FRAMEWORK>
+        <NO_CONTRACT_COVERED_GPA/>
+        <DATE_RECEIPT_TENDERS>2017-02-13</DATE_RECEIPT_TENDERS>
+        <TIME_RECEIPT_TENDERS>17:00</TIME_RECEIPT_TENDERS>
+        <LANGUAGES>
+          <LANGUAGE VALUE="BG"/>
+          <LANGUAGE VALUE="CS"/>
+          <LANGUAGE VALUE="DA"/>
+          <LANGUAGE VALUE="DE"/>
+          <LANGUAGE VALUE="EL"/>
+          <LANGUAGE VALUE="EN"/>
+          <LANGUAGE VALUE="ES"/>
+          <LANGUAGE VALUE="ET"/>
+          <LANGUAGE VALUE="FI"/>
+          <LANGUAGE VALUE="FR"/>
+          <LANGUAGE VALUE="GA"/>
+          <LANGUAGE VALUE="HR"/>
+          <LANGUAGE VALUE="HU"/>
+          <LANGUAGE VALUE="IT"/>
+          <LANGUAGE VALUE="LT"/>
+          <LANGUAGE VALUE="LV"/>
+          <LANGUAGE VALUE="MT"/>
+          <LANGUAGE VALUE="NL"/>
+          <LANGUAGE VALUE="PL"/>
+          <LANGUAGE VALUE="PT"/>
+          <LANGUAGE VALUE="RO"/>
+          <LANGUAGE VALUE="SK"/>
+          <LANGUAGE VALUE="SL"/>
+          <LANGUAGE VALUE="SV"/>
+        </LANGUAGES>
+        <DURATION_TENDER_VALID TYPE="MONTH">9</DURATION_TENDER_VALID>
+        <OPENING_CONDITION>
+          <DATE_OPENING_TENDERS>2017-02-20</DATE_OPENING_TENDERS>
+          <TIME_OPENING_TENDERS>11:00</TIME_OPENING_TENDERS>
+          <PLACE>
+            <P>de kantoren van Fusion for Energy, C/Josep Pla, 2, Torre B3, 08018 Barcelona (Barcelona), SPANJE.</P>
+          </PLACE>
+          <INFO_ADD>
+            <P>per inschrijver mag 1 vertegenwoordiger de opening bijwonen.</P>
+          </INFO_ADD>
+        </OPENING_CONDITION>
+      </PROCEDURE>
+      <COMPLEMENTARY_INFO>
+        <RECURRENT_PROCUREMENT/>
+        <ESTIMATED_TIMING>
+          <P>De oproep tot inschrijving wordt waarschijnlijk om de 4 jaar bekendgemaakt.</P>
+        </ESTIMATED_TIMING>
+        <ADDRESS_REVIEW_BODY>
+          <OFFICIALNAME>Gerecht</OFFICIALNAME>
+          <ADDRESS>rue du Fort Niedergrünewald</ADDRESS>
+          <TOWN>Luxembourg</TOWN>
+          <POSTAL_CODE>2925</POSTAL_CODE>
+          <COUNTRY VALUE="LU"/>
+          <PHONE>+352 430301</PHONE>
+          <E_MAIL>generalcourt.registry@curia.europa.eu</E_MAIL>
+          <URL>http://curia.europa.eu</URL>
+        </ADDRESS_REVIEW_BODY>
+        <DATE_DISPATCH_NOTICE>2016-12-16</DATE_DISPATCH_NOTICE>
+      </COMPLEMENTARY_INFO>
+    </F02_2014>
+    <F02_2014 CATEGORY="TRANSLATION" FORM="F02" LG="PT">
+      <CONTRACTING_BODY>
+        <ADDRESS_CONTRACTING_BODY>
+          <OFFICIALNAME>Empresa Comum Europeia para o ITER e o Desenvolvimento da Energia de Fusão (Fusion for Energy)</OFFICIALNAME>
+          <ADDRESS>Carrer Josep Pla, 2, Torres Diagonal Litoral, B3</ADDRESS>
+          <TOWN>Barcelona (Barcelona)</TOWN>
+          <POSTAL_CODE>08019</POSTAL_CODE>
+          <COUNTRY VALUE="ES"/>
+          <PHONE>+34 933201800</PHONE>
+          <E_MAIL>tenders-adm@f4e.europa.eu</E_MAIL>
+          <NUTS CODE="ES511"/>
+          <URL_GENERAL>http://www.fusionforenergy.europa.eu/</URL_GENERAL>
+          <URL_BUYER>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_BUYER>
+        </ADDRESS_CONTRACTING_BODY>
+        <DOCUMENT_FULL/>
+        <URL_DOCUMENT>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_DOCUMENT>
+        <ADDRESS_FURTHER_INFO_IDEM/>
+        <ADDRESS_PARTICIPATION_IDEM/>
+        <URL_TOOL>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_TOOL>
+        <CA_TYPE VALUE="EU_INSTITUTION"/>
+        <CA_ACTIVITY_OTHER>energia de fusão.</CA_ACTIVITY_OTHER>
+      </CONTRACTING_BODY>
+      <OBJECT_CONTRACT>
+        <TITLE>
+          <P>Prestação de serviços fotográficos e audiovisuais a favor da Fusion for Energy.</P>
+        </TITLE>
+        <REFERENCE_NUMBER>F4E-AFC-0786.</REFERENCE_NUMBER>
+        <CPV_MAIN>
+          <CPV_CODE CODE="92100000"/>
+        </CPV_MAIN>
+        <TYPE_CONTRACT CTYPE="SERVICES"/>
+        <SHORT_DESCR>
+          <P>O objetivo do presente concurso consiste em celebrar um contrato-quadro de serviços («contrato-quadro» ou «contrato») para a prestação de serviços fotográficos e audiovisuais que informarão sobre o progresso da contribuição da Europa para o projeto ITER, através de vídeos/clipes de filmes curtos e fotografias exportados em vários formatos.</P>
+          <P>O contratante será responsável pela gravação de vídeo, pré e pós-produção.</P>
+          <P>Não será financiada qualquer compra de equipamento no âmbito do presente contrato: o contratante deve dispor dos recursos e equipamentos necessários para executar as fotografias, vídeos e gravações de áudio de acordo com as normas mais recentes do setor.</P>
+        </SHORT_DESCR>
+        <VAL_ESTIMATED_TOTAL CURRENCY="EUR">360000.00</VAL_ESTIMATED_TOTAL>
+        <NO_LOT_DIVISION/>
+        <OBJECT_DESCR ITEM="1">
+          <CPV_ADDITIONAL>
+            <CPV_CODE CODE="79960000"/>
+          </CPV_ADDITIONAL>
+          <NUTS CODE="FR"/>
+          <MAIN_SITE>
+            <P>O contratante será responsável por filmar e fotografar nas instalações do ITER em Cadarache (França) e noutros locais da Europa onde os componentes da F4E são fabricados.</P>
+          </MAIN_SITE>
+          <SHORT_DESCR>
+            <P>Estimativa por ano:</P>
+            <P>— 4 a 6 vídeos curtos para relatar o progresso do trabalho nas instalações do ITER em Cadarache (França),</P>
+            <P>— 2 a 8 vídeos curtos para relatar o progresso da produção dos componentes do ITER,</P>
+            <P>— 1 vídeo mais longo e mais criativo para relatar um tópico mais aprofundado (tal como os sucessos do último ano),</P>
+            <P>— 4 a 8 sessões fotográficas no local de trabalho do ITER em Cadarache (França).</P>
+            <P>Para mais informações, consultar o caderno de encargos,</P>
+            <P>— 2 a 8 sessões fotográficas para relatar o progresso da produção dos componentes do ITER.</P>
+          </SHORT_DESCR>
+          <AC_PROCUREMENT_DOC/>
+          <VAL_OBJECT CURRENCY="EUR">360000.00</VAL_OBJECT>
+          <DURATION TYPE="MONTH">48</DURATION>
+          <RENEWAL/>
+          <RENEWAL_DESCR>
+            <P>12 meses, renovável até 3 vezes por períodos adicionais de 12 meses, com uma duração máxima total de 48 meses.</P>
+          </RENEWAL_DESCR>
+          <NO_ACCEPTED_VARIANTS/>
+          <NO_OPTIONS/>
+          <NO_EU_PROGR_RELATED/>
+        </OBJECT_DESCR>
+      </OBJECT_CONTRACT>
+      <LEFTI>
+        <ECONOMIC_CRITERIA_DOC/>
+        <TECHNICAL_CRITERIA_DOC/>
+      </LEFTI>
+      <PROCEDURE>
+        <PT_OPEN/>
+        <FRAMEWORK>
+          <SINGLE_OPERATOR/>
+        </FRAMEWORK>
+        <NO_CONTRACT_COVERED_GPA/>
+        <DATE_RECEIPT_TENDERS>2017-02-13</DATE_RECEIPT_TENDERS>
+        <TIME_RECEIPT_TENDERS>17:00</TIME_RECEIPT_TENDERS>
+        <LANGUAGES>
+          <LANGUAGE VALUE="BG"/>
+          <LANGUAGE VALUE="CS"/>
+          <LANGUAGE VALUE="DA"/>
+          <LANGUAGE VALUE="DE"/>
+          <LANGUAGE VALUE="EL"/>
+          <LANGUAGE VALUE="EN"/>
+          <LANGUAGE VALUE="ES"/>
+          <LANGUAGE VALUE="ET"/>
+          <LANGUAGE VALUE="FI"/>
+          <LANGUAGE VALUE="FR"/>
+          <LANGUAGE VALUE="GA"/>
+          <LANGUAGE VALUE="HR"/>
+          <LANGUAGE VALUE="HU"/>
+          <LANGUAGE VALUE="IT"/>
+          <LANGUAGE VALUE="LT"/>
+          <LANGUAGE VALUE="LV"/>
+          <LANGUAGE VALUE="MT"/>
+          <LANGUAGE VALUE="NL"/>
+          <LANGUAGE VALUE="PL"/>
+          <LANGUAGE VALUE="PT"/>
+          <LANGUAGE VALUE="RO"/>
+          <LANGUAGE VALUE="SK"/>
+          <LANGUAGE VALUE="SL"/>
+          <LANGUAGE VALUE="SV"/>
+        </LANGUAGES>
+        <DURATION_TENDER_VALID TYPE="MONTH">9</DURATION_TENDER_VALID>
+        <OPENING_CONDITION>
+          <DATE_OPENING_TENDERS>2017-02-20</DATE_OPENING_TENDERS>
+          <TIME_OPENING_TENDERS>11:00</TIME_OPENING_TENDERS>
+          <PLACE>
+            <P>Instalações da Fusion for Energy, C/Josep Pla, 2, Torre B3, 08018 Barcelona (Barcelona), ESPANHA.</P>
+          </PLACE>
+          <INFO_ADD>
+            <P>1 representante por proponente poderá assistir à abertura pública.</P>
+          </INFO_ADD>
+        </OPENING_CONDITION>
+      </PROCEDURE>
+      <COMPLEMENTARY_INFO>
+        <RECURRENT_PROCUREMENT/>
+        <ESTIMATED_TIMING>
+          <P>É provável que o concurso seja publicado a cada 4 anos.</P>
+        </ESTIMATED_TIMING>
+        <ADDRESS_REVIEW_BODY>
+          <OFFICIALNAME>Tribunal Geral</OFFICIALNAME>
+          <ADDRESS>rue du Fort Niedergrünewald</ADDRESS>
+          <TOWN>Luxembourg</TOWN>
+          <POSTAL_CODE>2925</POSTAL_CODE>
+          <COUNTRY VALUE="LU"/>
+          <PHONE>+352 430301</PHONE>
+          <E_MAIL>generalcourt.registry@curia.europa.eu</E_MAIL>
+          <URL>http://curia.europa.eu</URL>
+        </ADDRESS_REVIEW_BODY>
+        <DATE_DISPATCH_NOTICE>2016-12-16</DATE_DISPATCH_NOTICE>
+      </COMPLEMENTARY_INFO>
+    </F02_2014>
+    <F02_2014 CATEGORY="TRANSLATION" FORM="F02" LG="SV">
+      <CONTRACTING_BODY>
+        <ADDRESS_CONTRACTING_BODY>
+          <OFFICIALNAME>Europeiskt gemensamt företag för Iter och utveckling av fusionsenergi (”Fusion for Energy”)</OFFICIALNAME>
+          <ADDRESS>Carrer Josep Pla, 2, Torres Diagonal Litoral, B3</ADDRESS>
+          <TOWN>Barcelona (Barcelona)</TOWN>
+          <POSTAL_CODE>08019</POSTAL_CODE>
+          <COUNTRY VALUE="ES"/>
+          <PHONE>+34 933201800</PHONE>
+          <E_MAIL>tenders-adm@f4e.europa.eu</E_MAIL>
+          <NUTS CODE="ES511"/>
+          <URL_GENERAL>http://www.fusionforenergy.europa.eu/</URL_GENERAL>
+          <URL_BUYER>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_BUYER>
+        </ADDRESS_CONTRACTING_BODY>
+        <DOCUMENT_FULL/>
+        <URL_DOCUMENT>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_DOCUMENT>
+        <ADDRESS_FURTHER_INFO_IDEM/>
+        <ADDRESS_PARTICIPATION_IDEM/>
+        <URL_TOOL>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_TOOL>
+        <CA_TYPE VALUE="EU_INSTITUTION"/>
+        <CA_ACTIVITY_OTHER>fusionsenergi.</CA_ACTIVITY_OTHER>
+      </CONTRACTING_BODY>
+      <OBJECT_CONTRACT>
+        <TITLE>
+          <P>Tillhandahållande av audiovisuella och fotografiska tjänster till Fusion for Energy</P>
+        </TITLE>
+        <REFERENCE_NUMBER>F4E-AFC-0786.</REFERENCE_NUMBER>
+        <CPV_MAIN>
+          <CPV_CODE CODE="92100000"/>
+        </CPV_MAIN>
+        <TYPE_CONTRACT CTYPE="SERVICES"/>
+        <SHORT_DESCR>
+          <P>Syftet med denna anbudsinfordran är att sluta ett ramavtal för tjänster (ramavtal [framework contract – FWC] eller kontrakt) avseende tillhandahållande av audiovisuella och fotografiska tjänster genom vilka framstegen i Europas bidrag till Iter-projektet kommer att rapporteras genom korta filmklipp/videor och bilder som exporteras i olika format.</P>
+          <P>Uppdragstagaren kommer att ansvara för videoinspelning samt för- och efterproduktion.</P>
+          <P>Inga inköp av utrustning kommer att finansieras inom ramen för detta kontrakt: Uppdragstagaren ska ha resurser och utrustning för att utföra fotograferingen samt video- och audioinspelningen i linje med de senaste industristandarderna.</P>
+        </SHORT_DESCR>
+        <VAL_ESTIMATED_TOTAL CURRENCY="EUR">360000.00</VAL_ESTIMATED_TOTAL>
+        <NO_LOT_DIVISION/>
+        <OBJECT_DESCR ITEM="1">
+          <CPV_ADDITIONAL>
+            <CPV_CODE CODE="79960000"/>
+          </CPV_ADDITIONAL>
+          <NUTS CODE="FR"/>
+          <MAIN_SITE>
+            <P>Uppdragstagaren kommer att ansvara för filmning och fotografering vid Iters anläggning i Cadarache (Frankrike) och på andra platser där komponenter för Fusion for Energy (F4E) tillverkas inom EU.</P>
+          </MAIN_SITE>
+          <SHORT_DESCR>
+            <P>Beräknat per år, enligt följande:</P>
+            <P>— 4 till 6 korta videor för att rapportera om framstegen i arbetet vid Iters anläggning i Cadarache (Frankrike).</P>
+            <P>— 2 till 8 korta videor för att rapportera om framstegen i produktionen av Iter-komponenter.</P>
+            <P>— 1 längre och mer kreativ video för att rapportera om ett mer djupgående ämne (såsom resultatet från det senaste året).</P>
+            <P>— 4 till 8 fototillfällen vid arbetsplatsen för Iter i Cadarache (Frankrike).</P>
+            <P>För ytterligare information, se förfrågningsunderlaget.</P>
+            <P>— 2 till 8 fototillfällen för att rapportera om framstegen i produktionen av Iter-komponenter.</P>
+          </SHORT_DESCR>
+          <AC_PROCUREMENT_DOC/>
+          <VAL_OBJECT CURRENCY="EUR">360000.00</VAL_OBJECT>
+          <DURATION TYPE="MONTH">48</DURATION>
+          <RENEWAL/>
+          <RENEWAL_DESCR>
+            <P>12 månader, med möjlighet till förlängning upp till 3 gånger med ytterligare perioder om 12 månader, med en total längsta löptid på 48 månader.</P>
+          </RENEWAL_DESCR>
+          <NO_ACCEPTED_VARIANTS/>
+          <NO_OPTIONS/>
+          <NO_EU_PROGR_RELATED/>
+        </OBJECT_DESCR>
+      </OBJECT_CONTRACT>
+      <LEFTI>
+        <ECONOMIC_CRITERIA_DOC/>
+        <TECHNICAL_CRITERIA_DOC/>
+      </LEFTI>
+      <PROCEDURE>
+        <PT_OPEN/>
+        <FRAMEWORK>
+          <SINGLE_OPERATOR/>
+        </FRAMEWORK>
+        <NO_CONTRACT_COVERED_GPA/>
+        <DATE_RECEIPT_TENDERS>2017-02-13</DATE_RECEIPT_TENDERS>
+        <TIME_RECEIPT_TENDERS>17:00</TIME_RECEIPT_TENDERS>
+        <LANGUAGES>
+          <LANGUAGE VALUE="BG"/>
+          <LANGUAGE VALUE="CS"/>
+          <LANGUAGE VALUE="DA"/>
+          <LANGUAGE VALUE="DE"/>
+          <LANGUAGE VALUE="EL"/>
+          <LANGUAGE VALUE="EN"/>
+          <LANGUAGE VALUE="ES"/>
+          <LANGUAGE VALUE="ET"/>
+          <LANGUAGE VALUE="FI"/>
+          <LANGUAGE VALUE="FR"/>
+          <LANGUAGE VALUE="GA"/>
+          <LANGUAGE VALUE="HR"/>
+          <LANGUAGE VALUE="HU"/>
+          <LANGUAGE VALUE="IT"/>
+          <LANGUAGE VALUE="LT"/>
+          <LANGUAGE VALUE="LV"/>
+          <LANGUAGE VALUE="MT"/>
+          <LANGUAGE VALUE="NL"/>
+          <LANGUAGE VALUE="PL"/>
+          <LANGUAGE VALUE="PT"/>
+          <LANGUAGE VALUE="RO"/>
+          <LANGUAGE VALUE="SK"/>
+          <LANGUAGE VALUE="SL"/>
+          <LANGUAGE VALUE="SV"/>
+        </LANGUAGES>
+        <DURATION_TENDER_VALID TYPE="MONTH">9</DURATION_TENDER_VALID>
+        <OPENING_CONDITION>
+          <DATE_OPENING_TENDERS>2017-02-20</DATE_OPENING_TENDERS>
+          <TIME_OPENING_TENDERS>11:00</TIME_OPENING_TENDERS>
+          <PLACE>
+            <P>Fusion for Energys lokaler, C/Josep Pla, 2, Torre B3, 08018 Barcelona (Barcelona), SPANIEN.</P>
+          </PLACE>
+          <INFO_ADD>
+            <P>1 företrädare per anbudsgivare får närvara vid den offentliga öppningen.</P>
+          </INFO_ADD>
+        </OPENING_CONDITION>
+      </PROCEDURE>
+      <COMPLEMENTARY_INFO>
+        <RECURRENT_PROCUREMENT/>
+        <ESTIMATED_TIMING>
+          <P>En anbudsinfordran kommer sannolikt att publiceras vart 4:e år.</P>
+        </ESTIMATED_TIMING>
+        <ADDRESS_REVIEW_BODY>
+          <OFFICIALNAME>Tribunalen</OFFICIALNAME>
+          <ADDRESS>rue du Fort Niedergrünewald</ADDRESS>
+          <TOWN>Luxembourg</TOWN>
+          <POSTAL_CODE>2925</POSTAL_CODE>
+          <COUNTRY VALUE="LU"/>
+          <PHONE>+352 430301</PHONE>
+          <E_MAIL>generalcourt.registry@curia.europa.eu</E_MAIL>
+          <URL>http://curia.europa.eu</URL>
+        </ADDRESS_REVIEW_BODY>
+        <DATE_DISPATCH_NOTICE>2016-12-16</DATE_DISPATCH_NOTICE>
+      </COMPLEMENTARY_INFO>
+    </F02_2014>
+    <F02_2014 CATEGORY="TRANSLATION" FORM="F02" LG="CS">
+      <CONTRACTING_BODY>
+        <ADDRESS_CONTRACTING_BODY>
+          <OFFICIALNAME>Společný evropský podnik pro ITER a rozvoj energie z jaderné syntézy („Fusion for Energy“)</OFFICIALNAME>
+          <ADDRESS>Carrer Josep Pla, 2, Torres Diagonal Litoral, B3</ADDRESS>
+          <TOWN>Barcelona (Barcelona)</TOWN>
+          <POSTAL_CODE>08019</POSTAL_CODE>
+          <COUNTRY VALUE="ES"/>
+          <PHONE>+34 933201800</PHONE>
+          <E_MAIL>tenders-adm@f4e.europa.eu</E_MAIL>
+          <NUTS CODE="ES511"/>
+          <URL_GENERAL>http://www.fusionforenergy.europa.eu/</URL_GENERAL>
+          <URL_BUYER>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_BUYER>
+        </ADDRESS_CONTRACTING_BODY>
+        <DOCUMENT_FULL/>
+        <URL_DOCUMENT>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_DOCUMENT>
+        <ADDRESS_FURTHER_INFO_IDEM/>
+        <ADDRESS_PARTICIPATION_IDEM/>
+        <URL_TOOL>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_TOOL>
+        <CA_TYPE VALUE="EU_INSTITUTION"/>
+        <CA_ACTIVITY_OTHER>Energie z jaderné syntézy.</CA_ACTIVITY_OTHER>
+      </CONTRACTING_BODY>
+      <OBJECT_CONTRACT>
+        <TITLE>
+          <P>Zajištění audiovizuálních a fotografických služeb pro „Fusion for Energy“.</P>
+        </TITLE>
+        <REFERENCE_NUMBER>F4E-AFC-0786.</REFERENCE_NUMBER>
+        <CPV_MAIN>
+          <CPV_CODE CODE="92100000"/>
+        </CPV_MAIN>
+        <TYPE_CONTRACT CTYPE="SERVICES"/>
+        <SHORT_DESCR>
+          <P>Cílem této výzvy k podání nabídek je uzavřít rámcovou smlouvu („rámcová smlouva“ nebo „smlouva“) o poskytování audiovizuálních a fotografických služeb, jejichž výsledky budou popisovat pokrok dosažený v rámci přispěvku Evropy k projektu ITER formou krátkých klipů/videí a obrázků exportovaných do různých formátů.</P>
+          <P>Zhotovitel bude zodpovídat za videozáznam a služby týkající se předběžného a následného zpracování záznamu.</P>
+          <P>V rámci této zakázky nebude financován nákup vybavení: zhotovitel musí mít zdroje a vybavení k pořízení fotografických, video a audio záznamů v souladu s nejnovějšími oborovými standardy.</P>
+        </SHORT_DESCR>
+        <VAL_ESTIMATED_TOTAL CURRENCY="EUR">360000.00</VAL_ESTIMATED_TOTAL>
+        <NO_LOT_DIVISION/>
+        <OBJECT_DESCR ITEM="1">
+          <CPV_ADDITIONAL>
+            <CPV_CODE CODE="79960000"/>
+          </CPV_ADDITIONAL>
+          <NUTS CODE="FR"/>
+          <MAIN_SITE>
+            <P>Zhotovitel bude odpovídat za filmování a fotografování v areálu ITER v Cadarache (Francie) a na dalších místech v Evropě, v nichž se vyrábějí komponenty pro F4E.</P>
+          </MAIN_SITE>
+          <SHORT_DESCR>
+            <P>Odhad na rok:</P>
+            <P>— 4 až 6 krátkých videí popisujících pokrok při práci na pracovišti ITER v Cadarache (Francie),</P>
+            <P>— 2 až 8 krátkých videí popisujících pokrok při výrobě komponentů pro ITER,</P>
+            <P>— 1 delší a tvořivěji pojaté video na užší téma (např. výsledky dosažené v uplynulém roce),</P>
+            <P>— 4 až 8 fotografických seriálů o pracovišti ITER v Cadarache (Francii).</P>
+            <P>Pro další podrobnosti viz zadávací specifikace,</P>
+            <P>— 2 až 8 fotografických seriálů popisujících pokrok při výrobě komponentů ITER.</P>
+          </SHORT_DESCR>
+          <AC_PROCUREMENT_DOC/>
+          <VAL_OBJECT CURRENCY="EUR">360000.00</VAL_OBJECT>
+          <DURATION TYPE="MONTH">48</DURATION>
+          <RENEWAL/>
+          <RENEWAL_DESCR>
+            <P>12 měsíců s možností až 3 prodloužení o další období 12 měsíců, s celkovou dobou trvání 48 měsíců.</P>
+          </RENEWAL_DESCR>
+          <NO_ACCEPTED_VARIANTS/>
+          <NO_OPTIONS/>
+          <NO_EU_PROGR_RELATED/>
+        </OBJECT_DESCR>
+      </OBJECT_CONTRACT>
+      <LEFTI>
+        <ECONOMIC_CRITERIA_DOC/>
+        <TECHNICAL_CRITERIA_DOC/>
+      </LEFTI>
+      <PROCEDURE>
+        <PT_OPEN/>
+        <FRAMEWORK>
+          <SINGLE_OPERATOR/>
+        </FRAMEWORK>
+        <NO_CONTRACT_COVERED_GPA/>
+        <DATE_RECEIPT_TENDERS>2017-02-13</DATE_RECEIPT_TENDERS>
+        <TIME_RECEIPT_TENDERS>17:00</TIME_RECEIPT_TENDERS>
+        <LANGUAGES>
+          <LANGUAGE VALUE="BG"/>
+          <LANGUAGE VALUE="CS"/>
+          <LANGUAGE VALUE="DA"/>
+          <LANGUAGE VALUE="DE"/>
+          <LANGUAGE VALUE="EL"/>
+          <LANGUAGE VALUE="EN"/>
+          <LANGUAGE VALUE="ES"/>
+          <LANGUAGE VALUE="ET"/>
+          <LANGUAGE VALUE="FI"/>
+          <LANGUAGE VALUE="FR"/>
+          <LANGUAGE VALUE="GA"/>
+          <LANGUAGE VALUE="HR"/>
+          <LANGUAGE VALUE="HU"/>
+          <LANGUAGE VALUE="IT"/>
+          <LANGUAGE VALUE="LT"/>
+          <LANGUAGE VALUE="LV"/>
+          <LANGUAGE VALUE="MT"/>
+          <LANGUAGE VALUE="NL"/>
+          <LANGUAGE VALUE="PL"/>
+          <LANGUAGE VALUE="PT"/>
+          <LANGUAGE VALUE="RO"/>
+          <LANGUAGE VALUE="SK"/>
+          <LANGUAGE VALUE="SL"/>
+          <LANGUAGE VALUE="SV"/>
+        </LANGUAGES>
+        <DURATION_TENDER_VALID TYPE="MONTH">9</DURATION_TENDER_VALID>
+        <OPENING_CONDITION>
+          <DATE_OPENING_TENDERS>2017-02-20</DATE_OPENING_TENDERS>
+          <TIME_OPENING_TENDERS>11:00</TIME_OPENING_TENDERS>
+          <PLACE>
+            <P>Fusion for Energy's premises, C/Josep Pla, 2, Torre B3, 08018 Barcelona (Barcelona), ŠPANĚLSKO.</P>
+          </PLACE>
+          <INFO_ADD>
+            <P>otevírání nabídek se může zúčastnit 1 zástupce každého uchazeče.</P>
+          </INFO_ADD>
+        </OPENING_CONDITION>
+      </PROCEDURE>
+      <COMPLEMENTARY_INFO>
+        <RECURRENT_PROCUREMENT/>
+        <ESTIMATED_TIMING>
+          <P>Výzva k podání nabídek bude zřejmě vypisována každé 4 roky.</P>
+        </ESTIMATED_TIMING>
+        <ADDRESS_REVIEW_BODY>
+          <OFFICIALNAME>Tribunál</OFFICIALNAME>
+          <ADDRESS>rue du Fort Niedergrünewald</ADDRESS>
+          <TOWN>Luxembourg</TOWN>
+          <POSTAL_CODE>2925</POSTAL_CODE>
+          <COUNTRY VALUE="LU"/>
+          <PHONE>+352 430301</PHONE>
+          <E_MAIL>generalcourt.registry@curia.europa.eu</E_MAIL>
+          <URL>http://curia.europa.eu</URL>
+        </ADDRESS_REVIEW_BODY>
+        <DATE_DISPATCH_NOTICE>2016-12-16</DATE_DISPATCH_NOTICE>
+      </COMPLEMENTARY_INFO>
+    </F02_2014>
+    <F02_2014 CATEGORY="TRANSLATION" FORM="F02" LG="ET">
+      <CONTRACTING_BODY>
+        <ADDRESS_CONTRACTING_BODY>
+          <OFFICIALNAME>ITERi ja tuumasünteesienergeetika arendamise Euroopa ühisettevõte (ühisettevõte Fusion for Energy (F4E))</OFFICIALNAME>
+          <ADDRESS>Carrer Josep Pla, 2, Torres Diagonal Litoral, B3</ADDRESS>
+          <TOWN>Barcelona (Barcelona)</TOWN>
+          <POSTAL_CODE>08019</POSTAL_CODE>
+          <COUNTRY VALUE="ES"/>
+          <PHONE>+34 933201800</PHONE>
+          <E_MAIL>tenders-adm@f4e.europa.eu</E_MAIL>
+          <NUTS CODE="ES511"/>
+          <URL_GENERAL>http://www.fusionforenergy.europa.eu/</URL_GENERAL>
+          <URL_BUYER>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_BUYER>
+        </ADDRESS_CONTRACTING_BODY>
+        <DOCUMENT_FULL/>
+        <URL_DOCUMENT>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_DOCUMENT>
+        <ADDRESS_FURTHER_INFO_IDEM/>
+        <ADDRESS_PARTICIPATION_IDEM/>
+        <URL_TOOL>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_TOOL>
+        <CA_TYPE VALUE="EU_INSTITUTION"/>
+        <CA_ACTIVITY_OTHER>tuumasünteesienergeetika.</CA_ACTIVITY_OTHER>
+      </CONTRACTING_BODY>
+      <OBJECT_CONTRACT>
+        <TITLE>
+          <P>Ühisettevõttele "Fusion for Energy" audiovisuaalsete ja fotograafiateenuste osutamine</P>
+        </TITLE>
+        <REFERENCE_NUMBER>F4E-AFC-0786.</REFERENCE_NUMBER>
+        <CPV_MAIN>
+          <CPV_CODE CODE="92100000"/>
+        </CPV_MAIN>
+        <TYPE_CONTRACT CTYPE="SERVICES"/>
+        <SHORT_DESCR>
+          <P>Selle pakkumiskutse eesmärk on sõlmida teenuste raamleping (edaspidi "raamleping" või "leping") audiovisuaalsete ja fotograafiateenuste osutamiseks, millega kajastatakse erinevates formaatides edastatud lühikeste filmilõikude/videote ja piltide kaudu Euroopa panuse edusamme ITERi projektis.</P>
+          <P>Töövõtja vastutab videosalvestuste ning eel- ja järeltöötluse eest.</P>
+          <P>Selle lepingu raames ei rahastata seadmete ostmist. Töövõtja peab tagama ressursid ja seadmed uusimate standardite kohaste fotode, videote ning audiosalvestuste tegemiseks.</P>
+        </SHORT_DESCR>
+        <VAL_ESTIMATED_TOTAL CURRENCY="EUR">360000.00</VAL_ESTIMATED_TOTAL>
+        <NO_LOT_DIVISION/>
+        <OBJECT_DESCR ITEM="1">
+          <CPV_ADDITIONAL>
+            <CPV_CODE CODE="79960000"/>
+          </CPV_ADDITIONAL>
+          <NUTS CODE="FR"/>
+          <MAIN_SITE>
+            <P>töövõtja vastutab Prantsusmaal Cadarache'is asuvas ITERi tegevuspaigas ning teistes asupaikades, kus Euroopa piires ühisettevõtte "Fusion for Energy" komponente toodetakse, filmimise ja fotode tegemise eest.</P>
+          </MAIN_SITE>
+          <SHORT_DESCR>
+            <P>Hinnanguline maht aasta kohta:</P>
+            <P>— 4–6 lühivideot, millega kajastatakse Prantsusmaal Cadarache'is asuva ITERi tegevuspaiga töö edusamme;</P>
+            <P>— 2–8 lühivideot, millega kajastatakse ITERi komponentide tootmise edusamme;</P>
+            <P>— 1 pikem ja loovam video, millega kajastatakse põhjalikumat teemat (nt viimase aasta saavutusi);</P>
+            <P>— 4–8 pildistamist Prantsusmaal Cadarache'is asuvas ITERi tegevuspaigas.</P>
+            <P>Vt täpsemat teavet pakkumise iseloomustusest;</P>
+            <P>— 2–8 pildistamist, millega kajastatakse ITERi komponentide tootmise edusamme.</P>
+          </SHORT_DESCR>
+          <AC_PROCUREMENT_DOC/>
+          <VAL_OBJECT CURRENCY="EUR">360000.00</VAL_OBJECT>
+          <DURATION TYPE="MONTH">48</DURATION>
+          <RENEWAL/>
+          <RENEWAL_DESCR>
+            <P>12 kuud, mida saab pikendada kuni 3 korda 12 kuu kaupa, kogukestusega kokku maksimaalselt 48 kuud.</P>
+          </RENEWAL_DESCR>
+          <NO_ACCEPTED_VARIANTS/>
+          <NO_OPTIONS/>
+          <NO_EU_PROGR_RELATED/>
+        </OBJECT_DESCR>
+      </OBJECT_CONTRACT>
+      <LEFTI>
+        <ECONOMIC_CRITERIA_DOC/>
+        <TECHNICAL_CRITERIA_DOC/>
+      </LEFTI>
+      <PROCEDURE>
+        <PT_OPEN/>
+        <FRAMEWORK>
+          <SINGLE_OPERATOR/>
+        </FRAMEWORK>
+        <NO_CONTRACT_COVERED_GPA/>
+        <DATE_RECEIPT_TENDERS>2017-02-13</DATE_RECEIPT_TENDERS>
+        <TIME_RECEIPT_TENDERS>17:00</TIME_RECEIPT_TENDERS>
+        <LANGUAGES>
+          <LANGUAGE VALUE="BG"/>
+          <LANGUAGE VALUE="CS"/>
+          <LANGUAGE VALUE="DA"/>
+          <LANGUAGE VALUE="DE"/>
+          <LANGUAGE VALUE="EL"/>
+          <LANGUAGE VALUE="EN"/>
+          <LANGUAGE VALUE="ES"/>
+          <LANGUAGE VALUE="ET"/>
+          <LANGUAGE VALUE="FI"/>
+          <LANGUAGE VALUE="FR"/>
+          <LANGUAGE VALUE="GA"/>
+          <LANGUAGE VALUE="HR"/>
+          <LANGUAGE VALUE="HU"/>
+          <LANGUAGE VALUE="IT"/>
+          <LANGUAGE VALUE="LT"/>
+          <LANGUAGE VALUE="LV"/>
+          <LANGUAGE VALUE="MT"/>
+          <LANGUAGE VALUE="NL"/>
+          <LANGUAGE VALUE="PL"/>
+          <LANGUAGE VALUE="PT"/>
+          <LANGUAGE VALUE="RO"/>
+          <LANGUAGE VALUE="SK"/>
+          <LANGUAGE VALUE="SL"/>
+          <LANGUAGE VALUE="SV"/>
+        </LANGUAGES>
+        <DURATION_TENDER_VALID TYPE="MONTH">9</DURATION_TENDER_VALID>
+        <OPENING_CONDITION>
+          <DATE_OPENING_TENDERS>2017-02-20</DATE_OPENING_TENDERS>
+          <TIME_OPENING_TENDERS>11:00</TIME_OPENING_TENDERS>
+          <PLACE>
+            <P>ühisettevõtte "Fusion for Energy" ruumid, C/Josep Pla, 2, Torre B3, 08018 Barcelona (Barcelona), HISPAANIA.</P>
+          </PLACE>
+          <INFO_ADD>
+            <P>avalikul pakkumiste avamisel võib osaleda iga pakkuja 1 esindaja.</P>
+          </INFO_ADD>
+        </OPENING_CONDITION>
+      </PROCEDURE>
+      <COMPLEMENTARY_INFO>
+        <RECURRENT_PROCUREMENT/>
+        <ESTIMATED_TIMING>
+          <P>pakkumiskutse avaldatakse tõenäoliselt iga 4 aasta tagant.</P>
+        </ESTIMATED_TIMING>
+        <ADDRESS_REVIEW_BODY>
+          <OFFICIALNAME>Üldkohus</OFFICIALNAME>
+          <ADDRESS>rue du Fort Niedergrünewald</ADDRESS>
+          <TOWN>Luxembourg</TOWN>
+          <POSTAL_CODE>2925</POSTAL_CODE>
+          <COUNTRY VALUE="LU"/>
+          <PHONE>+352 430301</PHONE>
+          <E_MAIL>generalcourt.registry@curia.europa.eu</E_MAIL>
+          <URL>http://curia.europa.eu</URL>
+        </ADDRESS_REVIEW_BODY>
+        <DATE_DISPATCH_NOTICE>2016-12-16</DATE_DISPATCH_NOTICE>
+      </COMPLEMENTARY_INFO>
+    </F02_2014>
+    <F02_2014 CATEGORY="TRANSLATION" FORM="F02" LG="HU">
+      <CONTRACTING_BODY>
+        <ADDRESS_CONTRACTING_BODY>
+          <OFFICIALNAME>Fúziósenergia-fejlesztési és ITER Európai Közös Vállalkozás („Fusion for Energy”)</OFFICIALNAME>
+          <ADDRESS>Carrer Josep Pla, 2, Torres Diagonal Litoral, B3</ADDRESS>
+          <TOWN>Barcelona (Barcelona)</TOWN>
+          <POSTAL_CODE>08019</POSTAL_CODE>
+          <COUNTRY VALUE="ES"/>
+          <PHONE>+34 933201800</PHONE>
+          <E_MAIL>tenders-adm@f4e.europa.eu</E_MAIL>
+          <NUTS CODE="ES511"/>
+          <URL_GENERAL>http://www.fusionforenergy.europa.eu/</URL_GENERAL>
+          <URL_BUYER>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_BUYER>
+        </ADDRESS_CONTRACTING_BODY>
+        <DOCUMENT_FULL/>
+        <URL_DOCUMENT>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_DOCUMENT>
+        <ADDRESS_FURTHER_INFO_IDEM/>
+        <ADDRESS_PARTICIPATION_IDEM/>
+        <URL_TOOL>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_TOOL>
+        <CA_TYPE VALUE="EU_INSTITUTION"/>
+        <CA_ACTIVITY_OTHER>Fúziós energia.</CA_ACTIVITY_OTHER>
+      </CONTRACTING_BODY>
+      <OBJECT_CONTRACT>
+        <TITLE>
+          <P>Audiovizuális és fényképészeti szolgáltatások biztosítása a Fusion for Energy számára.</P>
+        </TITLE>
+        <REFERENCE_NUMBER>F4E-AFC-0786.</REFERENCE_NUMBER>
+        <CPV_MAIN>
+          <CPV_CODE CODE="92100000"/>
+        </CPV_MAIN>
+        <TYPE_CONTRACT CTYPE="SERVICES"/>
+        <SHORT_DESCR>
+          <P>Az ajánlati felhívás célja olyan audiovizuális és fényképészeti szolgáltatásokra irányuló keretszerződés (a továbbiakban: keretszerződés, illetve szerződés) megkötése, amelyek különböző formátumokba exportált rövid filmbejátszásokon/videókon és képeken keresztül bemutatják az Európa által az ITER-projekthez biztosított hozzájárulás előrehaladását.</P>
+          <P>A nyertes ajánlattevő feladata a videók elkészítése, valamint az előkészítő és utómunkálatok elvégzése.</P>
+          <P>A szerződés keretében nem kerül sor felszerelések beszerzésének finanszírozására: a nyertes ajánlattevőnek rendelkeznie kell a fényképeknek, videóknak és hanganyagoknak a legújabb vonatkozó szabványokkal összhangban történő elkészítéséhez szükséges erőforrásokkal és felszerelésekkel.</P>
+        </SHORT_DESCR>
+        <VAL_ESTIMATED_TOTAL CURRENCY="EUR">360000.00</VAL_ESTIMATED_TOTAL>
+        <NO_LOT_DIVISION/>
+        <OBJECT_DESCR ITEM="1">
+          <CPV_ADDITIONAL>
+            <CPV_CODE CODE="79960000"/>
+          </CPV_ADDITIONAL>
+          <NUTS CODE="FR"/>
+          <MAIN_SITE>
+            <P>A nyertes ajánlattevő feladata az ITER cadarache-i telephelyén (Franciaország), valamint egyéb olyan európai helyszíneken történő filmezés és forgatás, ahol F4E komponenseket gyártanak.</P>
+          </MAIN_SITE>
+          <SHORT_DESCR>
+            <P>Éves becsült számok:</P>
+            <P>— 4–6 rövid videó az ITER cadarache-i telephelyén (Franciaország) végzett munkálatok előrehaladásának bemutatására,</P>
+            <P>— 2–8 rövid videó az ITER komponensek gyártására irányuló munkálatok előrehaladásának bemutatására,</P>
+            <P>— 1 hosszabb és kreatívabb jellegű videó egy mélyrehatóbb téma bemutatásához (például az elmúlt évben elért eredmények),</P>
+            <P>— 4–8 fotósorozat az ITER cadarache-i telephelyéről (Franciaország).</P>
+            <P>A részletek a pályázati dokumentációban találhatók,</P>
+            <P>— 2–8 fotósorozat az ITER komponensek gyártására irányuló munkálatok előrehaladásának bemutatására.</P>
+          </SHORT_DESCR>
+          <AC_PROCUREMENT_DOC/>
+          <VAL_OBJECT CURRENCY="EUR">360000.00</VAL_OBJECT>
+          <DURATION TYPE="MONTH">48</DURATION>
+          <RENEWAL/>
+          <RENEWAL_DESCR>
+            <P>12 hónap, amely legfeljebb 3 alkalommal, egyenként további 12 hónapra meghosszabbítható, így maximális időtartama 48 hónap lehet.</P>
+          </RENEWAL_DESCR>
+          <NO_ACCEPTED_VARIANTS/>
+          <NO_OPTIONS/>
+          <NO_EU_PROGR_RELATED/>
+        </OBJECT_DESCR>
+      </OBJECT_CONTRACT>
+      <LEFTI>
+        <ECONOMIC_CRITERIA_DOC/>
+        <TECHNICAL_CRITERIA_DOC/>
+      </LEFTI>
+      <PROCEDURE>
+        <PT_OPEN/>
+        <FRAMEWORK>
+          <SINGLE_OPERATOR/>
+        </FRAMEWORK>
+        <NO_CONTRACT_COVERED_GPA/>
+        <DATE_RECEIPT_TENDERS>2017-02-13</DATE_RECEIPT_TENDERS>
+        <TIME_RECEIPT_TENDERS>17:00</TIME_RECEIPT_TENDERS>
+        <LANGUAGES>
+          <LANGUAGE VALUE="BG"/>
+          <LANGUAGE VALUE="CS"/>
+          <LANGUAGE VALUE="DA"/>
+          <LANGUAGE VALUE="DE"/>
+          <LANGUAGE VALUE="EL"/>
+          <LANGUAGE VALUE="EN"/>
+          <LANGUAGE VALUE="ES"/>
+          <LANGUAGE VALUE="ET"/>
+          <LANGUAGE VALUE="FI"/>
+          <LANGUAGE VALUE="FR"/>
+          <LANGUAGE VALUE="GA"/>
+          <LANGUAGE VALUE="HR"/>
+          <LANGUAGE VALUE="HU"/>
+          <LANGUAGE VALUE="IT"/>
+          <LANGUAGE VALUE="LT"/>
+          <LANGUAGE VALUE="LV"/>
+          <LANGUAGE VALUE="MT"/>
+          <LANGUAGE VALUE="NL"/>
+          <LANGUAGE VALUE="PL"/>
+          <LANGUAGE VALUE="PT"/>
+          <LANGUAGE VALUE="RO"/>
+          <LANGUAGE VALUE="SK"/>
+          <LANGUAGE VALUE="SL"/>
+          <LANGUAGE VALUE="SV"/>
+        </LANGUAGES>
+        <DURATION_TENDER_VALID TYPE="MONTH">9</DURATION_TENDER_VALID>
+        <OPENING_CONDITION>
+          <DATE_OPENING_TENDERS>2017-02-20</DATE_OPENING_TENDERS>
+          <TIME_OPENING_TENDERS>11:00</TIME_OPENING_TENDERS>
+          <PLACE>
+            <P>A Fusion for Energy telephelye, C/Josep Pla, 2, Torre B3, 08018 Barcelona (Barcelona), SPANYOLORSZÁG.</P>
+          </PLACE>
+          <INFO_ADD>
+            <P>Ajánlattevőnként 1 képviselő lehet jelen a nyilvános pályázatbontáson.</P>
+          </INFO_ADD>
+        </OPENING_CONDITION>
+      </PROCEDURE>
+      <COMPLEMENTARY_INFO>
+        <RECURRENT_PROCUREMENT/>
+        <ESTIMATED_TIMING>
+          <P>Ajánlati felhívás közzétételére valószínűleg 4 évente kerül sor.</P>
+        </ESTIMATED_TIMING>
+        <ADDRESS_REVIEW_BODY>
+          <OFFICIALNAME>Törvényszék</OFFICIALNAME>
+          <ADDRESS>rue du Fort Niedergrünewald</ADDRESS>
+          <TOWN>Luxembourg</TOWN>
+          <POSTAL_CODE>2925</POSTAL_CODE>
+          <COUNTRY VALUE="LU"/>
+          <PHONE>+352 430301</PHONE>
+          <E_MAIL>generalcourt.registry@curia.europa.eu</E_MAIL>
+          <URL>http://curia.europa.eu</URL>
+        </ADDRESS_REVIEW_BODY>
+        <DATE_DISPATCH_NOTICE>2016-12-16</DATE_DISPATCH_NOTICE>
+      </COMPLEMENTARY_INFO>
+    </F02_2014>
+    <F02_2014 CATEGORY="TRANSLATION" FORM="F02" LG="LT">
+      <CONTRACTING_BODY>
+        <ADDRESS_CONTRACTING_BODY>
+          <OFFICIALNAME>Europos ITER įgyvendinimo ir branduolių sintezės energetikos vystymo bendroji įmonė („Fusion for Energy“)</OFFICIALNAME>
+          <ADDRESS>Carrer Josep Pla, 2, Torres Diagonal Litoral, B3</ADDRESS>
+          <TOWN>Barcelona (Barcelona)</TOWN>
+          <POSTAL_CODE>08019</POSTAL_CODE>
+          <COUNTRY VALUE="ES"/>
+          <PHONE>+34 933201800</PHONE>
+          <E_MAIL>tenders-adm@f4e.europa.eu</E_MAIL>
+          <NUTS CODE="ES511"/>
+          <URL_GENERAL>http://www.fusionforenergy.europa.eu/</URL_GENERAL>
+          <URL_BUYER>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_BUYER>
+        </ADDRESS_CONTRACTING_BODY>
+        <DOCUMENT_FULL/>
+        <URL_DOCUMENT>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_DOCUMENT>
+        <ADDRESS_FURTHER_INFO_IDEM/>
+        <ADDRESS_PARTICIPATION_IDEM/>
+        <URL_TOOL>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_TOOL>
+        <CA_TYPE VALUE="EU_INSTITUTION"/>
+        <CA_ACTIVITY_OTHER>sintezės energija.</CA_ACTIVITY_OTHER>
+      </CONTRACTING_BODY>
+      <OBJECT_CONTRACT>
+        <TITLE>
+          <P>Audiovizualinių ir fotografijos paslaugų teikimas „Fusion for Energy“.</P>
+        </TITLE>
+        <REFERENCE_NUMBER>F4E-AFC-0786.</REFERENCE_NUMBER>
+        <CPV_MAIN>
+          <CPV_CODE CODE="92100000"/>
+        </CPV_MAIN>
+        <TYPE_CONTRACT CTYPE="SERVICES"/>
+        <SHORT_DESCR>
+          <P>Šio kvietimo pateikti pasiūlymus tikslas yra sudaryti preliminariąją paslaugų pirkimo sutartį („FWC“ arba „sutartis“) dėl audiovizualinių ir fotografijos paslaugų teikimo siekiant informuoti apie Europos indėlio į ITER projektą pažangą kuriant trumpametražius vaizdo įrašus / vaizdo klipus ir darant nuotraukas, kurie (-ios) eksportuojami įvairiais formatais.</P>
+          <P>Rangovas bus atsakingas už vaizdo įrašymą, išankstinę produkciją ir postprodukciją.</P>
+          <P>Pagal šią sutartį nebus finansuojamas įrangos pirkimas: rangovas turi turėti išteklių ir įrangą nuotraukoms daryti ir vaizdo bei garso įrašams kurti vadovaujantis naujausiais pramonės standartais.</P>
+        </SHORT_DESCR>
+        <VAL_ESTIMATED_TOTAL CURRENCY="EUR">360000.00</VAL_ESTIMATED_TOTAL>
+        <NO_LOT_DIVISION/>
+        <OBJECT_DESCR ITEM="1">
+          <CPV_ADDITIONAL>
+            <CPV_CODE CODE="79960000"/>
+          </CPV_ADDITIONAL>
+          <NUTS CODE="FR"/>
+          <MAIN_SITE>
+            <P>Rangovas bus atsakingas už filmavimą ir fotografavimą ITER darbų vykdymo vietoje Cadarache (Prancūzijoje) ir kitose vietovėse, kur yra gaminami F4E komponentai visoje Europoje.</P>
+          </MAIN_SITE>
+          <SHORT_DESCR>
+            <P>Per metus numatyta:</P>
+            <P>— 4–6 trumpi vaizdo įrašai siekiant informuoti apie darbų eigą ITER darbų vykdymo vietoje Cadarache (Prancūzijoje),</P>
+            <P>— 2–8 trumpi vaizdo įrašai siekiant informuoti apie ITER komponentų gamybos pažangą,</P>
+            <P>— 1 ilgesnis ir kūrybiškesnis vaizdo įrašas siekiant pateikti detalesnės informacijos tam tikra tema (pvz., pastarųjų metų pasiekimai),</P>
+            <P>— 4–8 nuotraukų sesijos ITER darbų vykdymo vietoje Cadarache (Prancūzijoje).</P>
+            <P>Daugiau informacijos galite rasti pirkimo specifikacijose,</P>
+            <P>— 2–8 nuotraukų sesijos siekiant informuoti apie ITER komponentų gamybos pažangą.</P>
+          </SHORT_DESCR>
+          <AC_PROCUREMENT_DOC/>
+          <VAL_OBJECT CURRENCY="EUR">360000.00</VAL_OBJECT>
+          <DURATION TYPE="MONTH">48</DURATION>
+          <RENEWAL/>
+          <RENEWAL_DESCR>
+            <P>12 mėnesių, atnaujinama iki 3 kartų tolesniems 12 mėnesių laikotarpiams, todėl bendra ilgiausia sutarties trukmė yra 48 mėnesiai.</P>
+          </RENEWAL_DESCR>
+          <NO_ACCEPTED_VARIANTS/>
+          <NO_OPTIONS/>
+          <NO_EU_PROGR_RELATED/>
+        </OBJECT_DESCR>
+      </OBJECT_CONTRACT>
+      <LEFTI>
+        <ECONOMIC_CRITERIA_DOC/>
+        <TECHNICAL_CRITERIA_DOC/>
+      </LEFTI>
+      <PROCEDURE>
+        <PT_OPEN/>
+        <FRAMEWORK>
+          <SINGLE_OPERATOR/>
+        </FRAMEWORK>
+        <NO_CONTRACT_COVERED_GPA/>
+        <DATE_RECEIPT_TENDERS>2017-02-13</DATE_RECEIPT_TENDERS>
+        <TIME_RECEIPT_TENDERS>17:00</TIME_RECEIPT_TENDERS>
+        <LANGUAGES>
+          <LANGUAGE VALUE="BG"/>
+          <LANGUAGE VALUE="CS"/>
+          <LANGUAGE VALUE="DA"/>
+          <LANGUAGE VALUE="DE"/>
+          <LANGUAGE VALUE="EL"/>
+          <LANGUAGE VALUE="EN"/>
+          <LANGUAGE VALUE="ES"/>
+          <LANGUAGE VALUE="ET"/>
+          <LANGUAGE VALUE="FI"/>
+          <LANGUAGE VALUE="FR"/>
+          <LANGUAGE VALUE="GA"/>
+          <LANGUAGE VALUE="HR"/>
+          <LANGUAGE VALUE="HU"/>
+          <LANGUAGE VALUE="IT"/>
+          <LANGUAGE VALUE="LT"/>
+          <LANGUAGE VALUE="LV"/>
+          <LANGUAGE VALUE="MT"/>
+          <LANGUAGE VALUE="NL"/>
+          <LANGUAGE VALUE="PL"/>
+          <LANGUAGE VALUE="PT"/>
+          <LANGUAGE VALUE="RO"/>
+          <LANGUAGE VALUE="SK"/>
+          <LANGUAGE VALUE="SL"/>
+          <LANGUAGE VALUE="SV"/>
+        </LANGUAGES>
+        <DURATION_TENDER_VALID TYPE="MONTH">9</DURATION_TENDER_VALID>
+        <OPENING_CONDITION>
+          <DATE_OPENING_TENDERS>2017-02-20</DATE_OPENING_TENDERS>
+          <TIME_OPENING_TENDERS>11:00</TIME_OPENING_TENDERS>
+          <PLACE>
+            <P>„Fusion for Energy“ patalpos, C/Josep Pla, 2, Torre B3, 08018 Barcelona (Barcelona), ISPANIJA.</P>
+          </PLACE>
+          <INFO_ADD>
+            <P>1 konkurso dalyvio atstovas gali dalyvauti viešoje vokų atplėšimo procedūroje.</P>
+          </INFO_ADD>
+        </OPENING_CONDITION>
+      </PROCEDURE>
+      <COMPLEMENTARY_INFO>
+        <RECURRENT_PROCUREMENT/>
+        <ESTIMATED_TIMING>
+          <P>Kvietimas dalyvauti konkurse greičiausiai bus publikuojami kas 4 metus.</P>
+        </ESTIMATED_TIMING>
+        <ADDRESS_REVIEW_BODY>
+          <OFFICIALNAME>Bendrasis Teismas</OFFICIALNAME>
+          <ADDRESS>rue du Fort Niedergrünewald</ADDRESS>
+          <TOWN>Luxembourg</TOWN>
+          <POSTAL_CODE>2925</POSTAL_CODE>
+          <COUNTRY VALUE="LU"/>
+          <PHONE>+352 430301</PHONE>
+          <E_MAIL>generalcourt.registry@curia.europa.eu</E_MAIL>
+          <URL>http://curia.europa.eu</URL>
+        </ADDRESS_REVIEW_BODY>
+        <DATE_DISPATCH_NOTICE>2016-12-16</DATE_DISPATCH_NOTICE>
+      </COMPLEMENTARY_INFO>
+    </F02_2014>
+    <F02_2014 CATEGORY="TRANSLATION" FORM="F02" LG="LV">
+      <CONTRACTING_BODY>
+        <ADDRESS_CONTRACTING_BODY>
+          <OFFICIALNAME>Eiropas Kopuzņēmums ITER un kodolsintēzes enerģētikas attīstības vajadzībām ("Fusion for Energy")</OFFICIALNAME>
+          <ADDRESS>Carrer Josep Pla, 2, Torres Diagonal Litoral, B3</ADDRESS>
+          <TOWN>Barcelona (Barcelona)</TOWN>
+          <POSTAL_CODE>08019</POSTAL_CODE>
+          <COUNTRY VALUE="ES"/>
+          <PHONE>+34 933201800</PHONE>
+          <E_MAIL>tenders-adm@f4e.europa.eu</E_MAIL>
+          <NUTS CODE="ES511"/>
+          <URL_GENERAL>http://www.fusionforenergy.europa.eu/</URL_GENERAL>
+          <URL_BUYER>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_BUYER>
+        </ADDRESS_CONTRACTING_BODY>
+        <DOCUMENT_FULL/>
+        <URL_DOCUMENT>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_DOCUMENT>
+        <ADDRESS_FURTHER_INFO_IDEM/>
+        <ADDRESS_PARTICIPATION_IDEM/>
+        <URL_TOOL>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_TOOL>
+        <CA_TYPE VALUE="EU_INSTITUTION"/>
+        <CA_ACTIVITY_OTHER>kodolsintēzes enerģētika.</CA_ACTIVITY_OTHER>
+      </CONTRACTING_BODY>
+      <OBJECT_CONTRACT>
+        <TITLE>
+          <P>Audiovizuālo un fotografēšanas pakalpojumu nodrošināšana "Fusion for Energy".</P>
+        </TITLE>
+        <REFERENCE_NUMBER>F4E-AFC-0786.</REFERENCE_NUMBER>
+        <CPV_MAIN>
+          <CPV_CODE CODE="92100000"/>
+        </CPV_MAIN>
+        <TYPE_CONTRACT CTYPE="SERVICES"/>
+        <SHORT_DESCR>
+          <P>Šā uzaicinājuma uz konkursu mērķis ir noslēgt pakalpojumu pamatnolīgumu ("pamatnolīgums" vai "līgums") par audiovizuālo un fotografēšanas pakalpojumu nodrošināšanu, to ietvaros ziņojot par Eiropas līdzdalības progresu starptautiskā eksperimentālā kodoltermiskā reaktora (ITER) projektā ar tādu īsfilmu klipu / video un attēlu starpniecību, kas eksportēti dažādos formātos.</P>
+          <P>Darbuzņēmējs būs atbildīgs par video ierakstīšanu, iepriekšēju sagatavošanu un pēcapstrādi.</P>
+          <P>Šā līguma ietvaros netiks finansēts aprīkojuma iepirkums: darbuzņēmējam jābūt resursiem un aprīkojumam, lai veiktu foto uzņemšanu, video un audio ierakstīšanu saskaņā ar jaunākajiem nozares standartiem.</P>
+        </SHORT_DESCR>
+        <VAL_ESTIMATED_TOTAL CURRENCY="EUR">360000.00</VAL_ESTIMATED_TOTAL>
+        <NO_LOT_DIVISION/>
+        <OBJECT_DESCR ITEM="1">
+          <CPV_ADDITIONAL>
+            <CPV_CODE CODE="79960000"/>
+          </CPV_ADDITIONAL>
+          <NUTS CODE="FR"/>
+          <MAIN_SITE>
+            <P>darbuzņēmējs būs atbildīgs par filmēšanu un uzņemšanu ITER objektā Kadarašā (Francijā) un citās vietās, kur Eiropā ražo "Fusion for Energy" komponentus.</P>
+          </MAIN_SITE>
+          <SHORT_DESCR>
+            <P>Paredzamais apjoms gadā:</P>
+            <P>— 4–6 īsi video, kas paredzēti, lai ziņotu par darba progresu ITER objektā Kadarašā (Francijā),</P>
+            <P>— 2–8 īsi video, kas paredzēti, lai ziņotu par ITER komponentu ražošanas progresu,</P>
+            <P>— 1 garāks un radošāks video, kas paredzēts, lai ziņotu par konkrētāku tematu (piemēram, sasniegumi iepriekšējā gadā),</P>
+            <P>— 4–8 fotosesijas ITER objektā Kadarašā (Francijā).</P>
+            <P>Plašāku informāciju lūdzam skatīt konkursa specifikācijās,</P>
+            <P>— 2–8 fotosesijas, kas paredzētas, lai ziņotu par ITER komponentu ražošanas progresu.</P>
+          </SHORT_DESCR>
+          <AC_PROCUREMENT_DOC/>
+          <VAL_OBJECT CURRENCY="EUR">360000.00</VAL_OBJECT>
+          <DURATION TYPE="MONTH">48</DURATION>
+          <RENEWAL/>
+          <RENEWAL_DESCR>
+            <P>12 mēneši, atjaunojams ne vairāk kā 3 reizes uz papildu 12 mēnešiem; maksimālais kopējais darbības laiks – 48 mēneši.</P>
+          </RENEWAL_DESCR>
+          <NO_ACCEPTED_VARIANTS/>
+          <NO_OPTIONS/>
+          <NO_EU_PROGR_RELATED/>
+        </OBJECT_DESCR>
+      </OBJECT_CONTRACT>
+      <LEFTI>
+        <ECONOMIC_CRITERIA_DOC/>
+        <TECHNICAL_CRITERIA_DOC/>
+      </LEFTI>
+      <PROCEDURE>
+        <PT_OPEN/>
+        <FRAMEWORK>
+          <SINGLE_OPERATOR/>
+        </FRAMEWORK>
+        <NO_CONTRACT_COVERED_GPA/>
+        <DATE_RECEIPT_TENDERS>2017-02-13</DATE_RECEIPT_TENDERS>
+        <TIME_RECEIPT_TENDERS>17:00</TIME_RECEIPT_TENDERS>
+        <LANGUAGES>
+          <LANGUAGE VALUE="BG"/>
+          <LANGUAGE VALUE="CS"/>
+          <LANGUAGE VALUE="DA"/>
+          <LANGUAGE VALUE="DE"/>
+          <LANGUAGE VALUE="EL"/>
+          <LANGUAGE VALUE="EN"/>
+          <LANGUAGE VALUE="ES"/>
+          <LANGUAGE VALUE="ET"/>
+          <LANGUAGE VALUE="FI"/>
+          <LANGUAGE VALUE="FR"/>
+          <LANGUAGE VALUE="GA"/>
+          <LANGUAGE VALUE="HR"/>
+          <LANGUAGE VALUE="HU"/>
+          <LANGUAGE VALUE="IT"/>
+          <LANGUAGE VALUE="LT"/>
+          <LANGUAGE VALUE="LV"/>
+          <LANGUAGE VALUE="MT"/>
+          <LANGUAGE VALUE="NL"/>
+          <LANGUAGE VALUE="PL"/>
+          <LANGUAGE VALUE="PT"/>
+          <LANGUAGE VALUE="RO"/>
+          <LANGUAGE VALUE="SK"/>
+          <LANGUAGE VALUE="SL"/>
+          <LANGUAGE VALUE="SV"/>
+        </LANGUAGES>
+        <DURATION_TENDER_VALID TYPE="MONTH">9</DURATION_TENDER_VALID>
+        <OPENING_CONDITION>
+          <DATE_OPENING_TENDERS>2017-02-20</DATE_OPENING_TENDERS>
+          <TIME_OPENING_TENDERS>11:00</TIME_OPENING_TENDERS>
+          <PLACE>
+            <P>"Fusion for Energy" telpas, C/Josep Pla, 2, Torre B3, 08018 Barcelona (Barcelona), SPĀNIJA.</P>
+          </PLACE>
+          <INFO_ADD>
+            <P>publiskajā atvēršanā var piedalīties 1 katra pretendenta pārstāvis.</P>
+          </INFO_ADD>
+        </OPENING_CONDITION>
+      </PROCEDURE>
+      <COMPLEMENTARY_INFO>
+        <RECURRENT_PROCUREMENT/>
+        <ESTIMATED_TIMING>
+          <P>visticamāk, uzaicinājumu uz konkursu publicēs ik pēc 4 gadiem.</P>
+        </ESTIMATED_TIMING>
+        <ADDRESS_REVIEW_BODY>
+          <OFFICIALNAME>Vispārējā tiesa</OFFICIALNAME>
+          <ADDRESS>rue du Fort Niedergrünewald</ADDRESS>
+          <TOWN>Luxembourg</TOWN>
+          <POSTAL_CODE>2925</POSTAL_CODE>
+          <COUNTRY VALUE="LU"/>
+          <PHONE>+352 430301</PHONE>
+          <E_MAIL>generalcourt.registry@curia.europa.eu</E_MAIL>
+          <URL>http://curia.europa.eu</URL>
+        </ADDRESS_REVIEW_BODY>
+        <DATE_DISPATCH_NOTICE>2016-12-16</DATE_DISPATCH_NOTICE>
+      </COMPLEMENTARY_INFO>
+    </F02_2014>
+    <F02_2014 CATEGORY="TRANSLATION" FORM="F02" LG="MT">
+      <CONTRACTING_BODY>
+        <ADDRESS_CONTRACTING_BODY>
+          <OFFICIALNAME>L-Intrapriża Konġunta Ewropea għall-ITER u l-Iżvilupp tal-Enerġija tal-Fużjoni ('il-Fużjoni għall-Enerġija')</OFFICIALNAME>
+          <ADDRESS>Carrer Josep Pla, 2, Torres Diagonal Litoral, B3</ADDRESS>
+          <TOWN>Barċellona (Barċellona)</TOWN>
+          <POSTAL_CODE>08019</POSTAL_CODE>
+          <COUNTRY VALUE="ES"/>
+          <PHONE>+34 933201800</PHONE>
+          <E_MAIL>tenders-adm@f4e.europa.eu</E_MAIL>
+          <NUTS CODE="ES511"/>
+          <URL_GENERAL>http://www.fusionforenergy.europa.eu/</URL_GENERAL>
+          <URL_BUYER>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_BUYER>
+        </ADDRESS_CONTRACTING_BODY>
+        <DOCUMENT_FULL/>
+        <URL_DOCUMENT>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_DOCUMENT>
+        <ADDRESS_FURTHER_INFO_IDEM/>
+        <ADDRESS_PARTICIPATION_IDEM/>
+        <URL_TOOL>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_TOOL>
+        <CA_TYPE VALUE="EU_INSTITUTION"/>
+        <CA_ACTIVITY_OTHER>Fużjoni għall-enerġija.</CA_ACTIVITY_OTHER>
+      </CONTRACTING_BODY>
+      <OBJECT_CONTRACT>
+        <TITLE>
+          <P>Provvista ta' servizzi awdjoviżivi u fotografiċi lil Fużjoni għall-Enerġija.</P>
+        </TITLE>
+        <REFERENCE_NUMBER>F4E-AFC-0786.</REFERENCE_NUMBER>
+        <CPV_MAIN>
+          <CPV_CODE CODE="92100000"/>
+        </CPV_MAIN>
+        <TYPE_CONTRACT CTYPE="SERVICES"/>
+        <SHORT_DESCR>
+          <P>L-objettiv ta' din is-sejħa għall-offerti hu li tikkonkludi qafas ta' kuntratt ta' servizz ('QTK' jew 'kuntratt') biex jikkunsinna servizzi awdjoviżivi u fotografiċi li se jirrappurtaw fuq il-progress tal-kontribuzzjoni tal-Ewropa għall-proġett tal-ITER, permezz ta' filmati/vidjows qosra u stampi esportati f'diversi għamliet.</P>
+          <P>Il-kuntrattur se jkun responsabbli għall-irrekordjar tal-vidjow, qabel u wara il-produzzjoni.</P>
+          <P>L-ebda xiri ta' tagħmir mhu se jkun iffinanzjat taħt dan il-kuntratt: il-kuntrattur se jkollu r-riżorsi u t-tagħmir sabiex iwettaq ir-ritratt, l-irrekordjar bil-vidjow u bl-awdjo bi qbil mal-aħħar standards tal-industrija.</P>
+        </SHORT_DESCR>
+        <VAL_ESTIMATED_TOTAL CURRENCY="EUR">360000.00</VAL_ESTIMATED_TOTAL>
+        <NO_LOT_DIVISION/>
+        <OBJECT_DESCR ITEM="1">
+          <CPV_ADDITIONAL>
+            <CPV_CODE CODE="79960000"/>
+          </CPV_ADDITIONAL>
+          <NUTS CODE="FR"/>
+          <MAIN_SITE>
+            <P>Il-kuntrattur se jkun responsabbli għall-iffilmjar u l-ġbid fis-sit tal-ITER f'Cadarache (Franza) u f'postijiet oħrajn fejn il-komponenti tal-F4E huma mmanufatturati ġewwa l-Ewropa.</P>
+          </MAIN_SITE>
+          <SHORT_DESCR>
+            <P>Stmati fis-sena:</P>
+            <P>— 4 sa 6 vidjows qosra biex jirrappurtaw il-progress fuq ix-xogħol fuq is-sit tal-ITER f'Cadarache (Franza),</P>
+            <P>— 2 sa 8 vidjows qosra biex jirrappurtaw il-progress dwar il-produzzjoni tal-komponenti tal-ITER,</P>
+            <P>— vidjow 1 itwal u iżjed kreattiv biex jirrapporta dwar suġġett iżjed fid-dettall (bħall-ksib b'suċċess tal-aħħar sena),</P>
+            <P>— 4 sa 8 sessjonijiet għat-teħid tar-ritratti fuq sis-sit tax-xogħol tal-ITER f'Cadarache (Franza).</P>
+            <P>Għal iktar dettalji jekk jogħġbok ikkonsulta l-ispeċifikazzjonijiet tas-sejħa għall-offerti,</P>
+            <P>— 2 sa 8 sessjonijiet għat-teħid tar-ritratti biex jirrappurtaw dwar il-progress tal-produzzjoni tal-komponenti tal-ITER.</P>
+          </SHORT_DESCR>
+          <AC_PROCUREMENT_DOC/>
+          <VAL_OBJECT CURRENCY="EUR">360000.00</VAL_OBJECT>
+          <DURATION TYPE="MONTH">48</DURATION>
+          <RENEWAL/>
+          <RENEWAL_DESCR>
+            <P>12-il xahar, li jiġġeddu sa 3 darbiet għal perijodi ulterjuri ta' 12-il xahar, b'tul ta' żmien totali ta' mhux iżjed minn 48 xahar.</P>
+          </RENEWAL_DESCR>
+          <NO_ACCEPTED_VARIANTS/>
+          <NO_OPTIONS/>
+          <NO_EU_PROGR_RELATED/>
+        </OBJECT_DESCR>
+      </OBJECT_CONTRACT>
+      <LEFTI>
+        <ECONOMIC_CRITERIA_DOC/>
+        <TECHNICAL_CRITERIA_DOC/>
+      </LEFTI>
+      <PROCEDURE>
+        <PT_OPEN/>
+        <FRAMEWORK>
+          <SINGLE_OPERATOR/>
+        </FRAMEWORK>
+        <NO_CONTRACT_COVERED_GPA/>
+        <DATE_RECEIPT_TENDERS>2017-02-13</DATE_RECEIPT_TENDERS>
+        <TIME_RECEIPT_TENDERS>17:00</TIME_RECEIPT_TENDERS>
+        <LANGUAGES>
+          <LANGUAGE VALUE="BG"/>
+          <LANGUAGE VALUE="CS"/>
+          <LANGUAGE VALUE="DA"/>
+          <LANGUAGE VALUE="DE"/>
+          <LANGUAGE VALUE="EL"/>
+          <LANGUAGE VALUE="EN"/>
+          <LANGUAGE VALUE="ES"/>
+          <LANGUAGE VALUE="ET"/>
+          <LANGUAGE VALUE="FI"/>
+          <LANGUAGE VALUE="FR"/>
+          <LANGUAGE VALUE="GA"/>
+          <LANGUAGE VALUE="HR"/>
+          <LANGUAGE VALUE="HU"/>
+          <LANGUAGE VALUE="IT"/>
+          <LANGUAGE VALUE="LT"/>
+          <LANGUAGE VALUE="LV"/>
+          <LANGUAGE VALUE="MT"/>
+          <LANGUAGE VALUE="NL"/>
+          <LANGUAGE VALUE="PL"/>
+          <LANGUAGE VALUE="PT"/>
+          <LANGUAGE VALUE="RO"/>
+          <LANGUAGE VALUE="SK"/>
+          <LANGUAGE VALUE="SL"/>
+          <LANGUAGE VALUE="SV"/>
+        </LANGUAGES>
+        <DURATION_TENDER_VALID TYPE="MONTH">9</DURATION_TENDER_VALID>
+        <OPENING_CONDITION>
+          <DATE_OPENING_TENDERS>2017-02-20</DATE_OPENING_TENDERS>
+          <TIME_OPENING_TENDERS>11:00</TIME_OPENING_TENDERS>
+          <PLACE>
+            <P>Il-bini ta' Fużjoni għall-Enerġija, C/Josep Pla, 2, Torre B3, 08018 Barcelona (Barcelona), SPANJA.</P>
+          </PLACE>
+          <INFO_ADD>
+            <P>Rappreżentant 1 għal kull min jitfa' l-offerta jista' jattendi għall-ftuħ pubbliku.</P>
+          </INFO_ADD>
+        </OPENING_CONDITION>
+      </PROCEDURE>
+      <COMPLEMENTARY_INFO>
+        <RECURRENT_PROCUREMENT/>
+        <ESTIMATED_TIMING>
+          <P>Is-sejħiet għall-offerti x'aktarx li jkunu ppubblikati kull 4 snin.</P>
+        </ESTIMATED_TIMING>
+        <ADDRESS_REVIEW_BODY>
+          <OFFICIALNAME>Il-Qorti Ġenerali</OFFICIALNAME>
+          <ADDRESS>rue du Fort Niedergrünewald</ADDRESS>
+          <TOWN>Lussemburgu</TOWN>
+          <POSTAL_CODE>2925</POSTAL_CODE>
+          <COUNTRY VALUE="LU"/>
+          <PHONE>+352 430301</PHONE>
+          <E_MAIL>generalcourt.registry@curia.europa.eu</E_MAIL>
+          <URL>http://curia.europa.eu</URL>
+        </ADDRESS_REVIEW_BODY>
+        <DATE_DISPATCH_NOTICE>2016-12-16</DATE_DISPATCH_NOTICE>
+      </COMPLEMENTARY_INFO>
+    </F02_2014>
+    <F02_2014 CATEGORY="TRANSLATION" FORM="F02" LG="PL">
+      <CONTRACTING_BODY>
+        <ADDRESS_CONTRACTING_BODY>
+          <OFFICIALNAME>Europejskie Wspólne Przedsięwzięcie na rzecz Realizacji Projektu ITER i Rozwoju Energii Termojądrowej („Fusion for Energy”)</OFFICIALNAME>
+          <ADDRESS>Carrer Josep Pla, 2, Torres Diagonal Litoral, B3</ADDRESS>
+          <TOWN>Barcelona (Barcelona)</TOWN>
+          <POSTAL_CODE>08019</POSTAL_CODE>
+          <COUNTRY VALUE="ES"/>
+          <PHONE>+34 933201800</PHONE>
+          <E_MAIL>tenders-adm@f4e.europa.eu</E_MAIL>
+          <NUTS CODE="ES511"/>
+          <URL_GENERAL>http://www.fusionforenergy.europa.eu/</URL_GENERAL>
+          <URL_BUYER>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_BUYER>
+        </ADDRESS_CONTRACTING_BODY>
+        <DOCUMENT_FULL/>
+        <URL_DOCUMENT>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_DOCUMENT>
+        <ADDRESS_FURTHER_INFO_IDEM/>
+        <ADDRESS_PARTICIPATION_IDEM/>
+        <URL_TOOL>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_TOOL>
+        <CA_TYPE VALUE="EU_INSTITUTION"/>
+        <CA_ACTIVITY_OTHER>energia termojądrowa.</CA_ACTIVITY_OTHER>
+      </CONTRACTING_BODY>
+      <OBJECT_CONTRACT>
+        <TITLE>
+          <P>Usługi audiowizualne i fotograficzne na rzecz Fusion for Energy</P>
+        </TITLE>
+        <REFERENCE_NUMBER>F4E-AFC-0786.</REFERENCE_NUMBER>
+        <CPV_MAIN>
+          <CPV_CODE CODE="92100000"/>
+        </CPV_MAIN>
+        <TYPE_CONTRACT CTYPE="SERVICES"/>
+        <SHORT_DESCR>
+          <P>Celem niniejszego zaproszenia do składania ofert jest zawarcie umowy ramowej o świadczenie usług audiowizualnych i fotograficznych w celu udokumentowania postępu w ramach wkładu Europy w projekt ITER za pomocą krótkich materiałów filmowych oraz zdjęć w różnych formatach.</P>
+          <P>Wykonawca będzie odpowiadał za nagranie materiałów wideo, ich pre- i postprodukcję.</P>
+          <P>W ramach zamówienia nie będzie finansowany zakup sprzętu: wykonawca musi posiadać sprzęt i zasoby wymagane do przeprowadzenia sesji zdjęciowych oraz nagrań audiowizualnych zgodnie z najnowszymi standardami branżowymi.</P>
+        </SHORT_DESCR>
+        <VAL_ESTIMATED_TOTAL CURRENCY="EUR">360000.00</VAL_ESTIMATED_TOTAL>
+        <NO_LOT_DIVISION/>
+        <OBJECT_DESCR ITEM="1">
+          <CPV_ADDITIONAL>
+            <CPV_CODE CODE="79960000"/>
+          </CPV_ADDITIONAL>
+          <NUTS CODE="FR"/>
+          <MAIN_SITE>
+            <P>wykonawca będzie odpowiadał za filmowanie i zdjęcia w placówce ITER w Cadarache (Francja) oraz w innych miejscach produkcji komponentów Fusion for Energy w Europie.</P>
+          </MAIN_SITE>
+          <SHORT_DESCR>
+            <P>Szacowany nakład roczny:</P>
+            <P>– 4 do 6 krótkich materiałów filmowych na temat postępu prac w placówce ITER w Cadarache (Francja),</P>
+            <P>– 2 do 8 krótkich materiałów filmowych na temat postępu w produkcji komponentów ITER,</P>
+            <P>– 1 dłuższy i bardziej kreatywny materiał filmowy poświęcony w sposób bardziej pogłębiony jednemu z zagadnień (np. osiągnięciom w ostatnim roku),</P>
+            <P>– 4 do 8 sesji zdjęciowych w zakładzie ITER w Cadarache (Francja).</P>
+            <P>Więcej szczegółowych informacji znajduje się w dokumentacji przetargowej,</P>
+            <P>– 2 do 8 sesji zdjęciowych poświęconych postępom w produkcji komponentów ITER.</P>
+          </SHORT_DESCR>
+          <AC_PROCUREMENT_DOC/>
+          <VAL_OBJECT CURRENCY="EUR">360000.00</VAL_OBJECT>
+          <DURATION TYPE="MONTH">48</DURATION>
+          <RENEWAL/>
+          <RENEWAL_DESCR>
+            <P>12 miesięcy z możliwością 3-krotnego wznowienia na dalsze okresy 12-miesięczne, tj. maksymalny czas trwania zamówienia wynosi 48 miesięcy.</P>
+          </RENEWAL_DESCR>
+          <NO_ACCEPTED_VARIANTS/>
+          <NO_OPTIONS/>
+          <NO_EU_PROGR_RELATED/>
+        </OBJECT_DESCR>
+      </OBJECT_CONTRACT>
+      <LEFTI>
+        <ECONOMIC_CRITERIA_DOC/>
+        <TECHNICAL_CRITERIA_DOC/>
+      </LEFTI>
+      <PROCEDURE>
+        <PT_OPEN/>
+        <FRAMEWORK>
+          <SINGLE_OPERATOR/>
+        </FRAMEWORK>
+        <NO_CONTRACT_COVERED_GPA/>
+        <DATE_RECEIPT_TENDERS>2017-02-13</DATE_RECEIPT_TENDERS>
+        <TIME_RECEIPT_TENDERS>17:00</TIME_RECEIPT_TENDERS>
+        <LANGUAGES>
+          <LANGUAGE VALUE="BG"/>
+          <LANGUAGE VALUE="CS"/>
+          <LANGUAGE VALUE="DA"/>
+          <LANGUAGE VALUE="DE"/>
+          <LANGUAGE VALUE="EL"/>
+          <LANGUAGE VALUE="EN"/>
+          <LANGUAGE VALUE="ES"/>
+          <LANGUAGE VALUE="ET"/>
+          <LANGUAGE VALUE="FI"/>
+          <LANGUAGE VALUE="FR"/>
+          <LANGUAGE VALUE="GA"/>
+          <LANGUAGE VALUE="HR"/>
+          <LANGUAGE VALUE="HU"/>
+          <LANGUAGE VALUE="IT"/>
+          <LANGUAGE VALUE="LT"/>
+          <LANGUAGE VALUE="LV"/>
+          <LANGUAGE VALUE="MT"/>
+          <LANGUAGE VALUE="NL"/>
+          <LANGUAGE VALUE="PL"/>
+          <LANGUAGE VALUE="PT"/>
+          <LANGUAGE VALUE="RO"/>
+          <LANGUAGE VALUE="SK"/>
+          <LANGUAGE VALUE="SL"/>
+          <LANGUAGE VALUE="SV"/>
+        </LANGUAGES>
+        <DURATION_TENDER_VALID TYPE="MONTH">9</DURATION_TENDER_VALID>
+        <OPENING_CONDITION>
+          <DATE_OPENING_TENDERS>2017-02-20</DATE_OPENING_TENDERS>
+          <TIME_OPENING_TENDERS>11:00</TIME_OPENING_TENDERS>
+          <PLACE>
+            <P>Fusion for Energy's premises, C/Josep Pla, 2, Torre B3, 08018 Barcelona (Barcelona), HISZPANIA.</P>
+          </PLACE>
+          <INFO_ADD>
+            <P>podczas otwarcia ofert może być obecny 1 przedstawiciel każdego oferenta.</P>
+          </INFO_ADD>
+        </OPENING_CONDITION>
+      </PROCEDURE>
+      <COMPLEMENTARY_INFO>
+        <RECURRENT_PROCUREMENT/>
+        <ESTIMATED_TIMING>
+          <P>publikacja zaproszenia do składania ofert następuje zazwyczaj co 4 lata.</P>
+        </ESTIMATED_TIMING>
+        <ADDRESS_REVIEW_BODY>
+          <OFFICIALNAME>Sąd</OFFICIALNAME>
+          <ADDRESS>rue du Fort Niedergrünewald</ADDRESS>
+          <TOWN>Luxembourg</TOWN>
+          <POSTAL_CODE>2925</POSTAL_CODE>
+          <COUNTRY VALUE="LU"/>
+          <PHONE>+352 430301</PHONE>
+          <E_MAIL>generalcourt.registry@curia.europa.eu</E_MAIL>
+          <URL>http://curia.europa.eu</URL>
+        </ADDRESS_REVIEW_BODY>
+        <DATE_DISPATCH_NOTICE>2016-12-16</DATE_DISPATCH_NOTICE>
+      </COMPLEMENTARY_INFO>
+    </F02_2014>
+    <F02_2014 CATEGORY="TRANSLATION" FORM="F02" LG="SK">
+      <CONTRACTING_BODY>
+        <ADDRESS_CONTRACTING_BODY>
+          <OFFICIALNAME>Európsky spoločný podnik pre ITER a rozvoj energie jadrovej syntézy („Fusion for Energy“)</OFFICIALNAME>
+          <ADDRESS>Carrer Josep Pla, 2, Torres Diagonal Litoral, B3</ADDRESS>
+          <TOWN>Barcelona (Barcelona)</TOWN>
+          <POSTAL_CODE>08019</POSTAL_CODE>
+          <COUNTRY VALUE="ES"/>
+          <PHONE>+34 933201800</PHONE>
+          <E_MAIL>tenders-adm@f4e.europa.eu</E_MAIL>
+          <NUTS CODE="ES511"/>
+          <URL_GENERAL>http://www.fusionforenergy.europa.eu/</URL_GENERAL>
+          <URL_BUYER>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_BUYER>
+        </ADDRESS_CONTRACTING_BODY>
+        <DOCUMENT_FULL/>
+        <URL_DOCUMENT>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_DOCUMENT>
+        <ADDRESS_FURTHER_INFO_IDEM/>
+        <ADDRESS_PARTICIPATION_IDEM/>
+        <URL_TOOL>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_TOOL>
+        <CA_TYPE VALUE="EU_INSTITUTION"/>
+        <CA_ACTIVITY_OTHER>energia z jadrovej syntézy.</CA_ACTIVITY_OTHER>
+      </CONTRACTING_BODY>
+      <OBJECT_CONTRACT>
+        <TITLE>
+          <P>Poskytovanie audiovizuálnych a fotografických služieb pre spoločný podnik Fusion for Energy.</P>
+        </TITLE>
+        <REFERENCE_NUMBER>F4E-AFC-0786.</REFERENCE_NUMBER>
+        <CPV_MAIN>
+          <CPV_CODE CODE="92100000"/>
+        </CPV_MAIN>
+        <TYPE_CONTRACT CTYPE="SERVICES"/>
+        <SHORT_DESCR>
+          <P>Cieľom tejto výzvy na predloženie ponúk je uzavrieť rámcovú zmluvu o poskytovaní služieb (ďalej len „RZ“ alebo „zmluva") na poskytovanie audiovizuálnych a fotografických služieb, ktoré budú zobrazovať pokrok, čo sa týka príspevku Európy k projektu ITER, a to prostredníctvom krátkych filmových snímok/videí a fotografií vydávaných v rôznych formátoch.</P>
+          <P>Dodávateľ bude zodpovedať za vyhotovenie videozáznamu a predprodukciu aj postprodukciu.</P>
+          <P>V rámci tejto zákazky sa nebude financovať nákup zariadenia: dodávateľ musí disponovať zdrojmi a zariadeniami na vyhotovenie fotografií, videozáznamu a audiozáznamu v súlade s najmodernejšími odvetvovými normami.</P>
+        </SHORT_DESCR>
+        <VAL_ESTIMATED_TOTAL CURRENCY="EUR">360000.00</VAL_ESTIMATED_TOTAL>
+        <NO_LOT_DIVISION/>
+        <OBJECT_DESCR ITEM="1">
+          <CPV_ADDITIONAL>
+            <CPV_CODE CODE="79960000"/>
+          </CPV_ADDITIONAL>
+          <NUTS CODE="FR"/>
+          <MAIN_SITE>
+            <P>Dodávateľ bude zodpovedať za filmovanie a fotografovanie na pracovisku ITER v Cadarache (Francúzsko) a na ďalších miestach v Európe, kde sa vyrábajú komponenty F4E.</P>
+          </MAIN_SITE>
+          <SHORT_DESCR>
+            <P>Odhad na rok:</P>
+            <P>— 4 až 6 krátkych videí o pokroku práce na pracovisku ITER v Cadarache (Francúzsko),</P>
+            <P>— 2 až 8 krátkych videí o pokroku pri výrobe komponentov ITER,</P>
+            <P>— 1 dlhšia a tvorivejšia videonahrávka o nejakej téme, ktorá ide viac do hĺbky (napr. o výsledkoch dosiahnutých za posledný rok),</P>
+            <P>— 4 až 8 fotografovaní na pracovisku ITER v Cadarache (Francúzsko).</P>
+            <P>Podrobnejšie informácie nájdete v súťažných podkladoch,</P>
+            <P>— 2 až 8 fotografovaní, ktoré budú zachytávať pokrok pri výrobe komponentov ITER.</P>
+          </SHORT_DESCR>
+          <AC_PROCUREMENT_DOC/>
+          <VAL_OBJECT CURRENCY="EUR">360000.00</VAL_OBJECT>
+          <DURATION TYPE="MONTH">48</DURATION>
+          <RENEWAL/>
+          <RENEWAL_DESCR>
+            <P>12 mesiacov s možnosťou maximálne 3 obnovení na ďalšie 12-mesačné obdobia s celkovým maximálnym trvaním 48 mesiacov.</P>
+          </RENEWAL_DESCR>
+          <NO_ACCEPTED_VARIANTS/>
+          <NO_OPTIONS/>
+          <NO_EU_PROGR_RELATED/>
+        </OBJECT_DESCR>
+      </OBJECT_CONTRACT>
+      <LEFTI>
+        <ECONOMIC_CRITERIA_DOC/>
+        <TECHNICAL_CRITERIA_DOC/>
+      </LEFTI>
+      <PROCEDURE>
+        <PT_OPEN/>
+        <FRAMEWORK>
+          <SINGLE_OPERATOR/>
+        </FRAMEWORK>
+        <NO_CONTRACT_COVERED_GPA/>
+        <DATE_RECEIPT_TENDERS>2017-02-13</DATE_RECEIPT_TENDERS>
+        <TIME_RECEIPT_TENDERS>17:00</TIME_RECEIPT_TENDERS>
+        <LANGUAGES>
+          <LANGUAGE VALUE="BG"/>
+          <LANGUAGE VALUE="CS"/>
+          <LANGUAGE VALUE="DA"/>
+          <LANGUAGE VALUE="DE"/>
+          <LANGUAGE VALUE="EL"/>
+          <LANGUAGE VALUE="EN"/>
+          <LANGUAGE VALUE="ES"/>
+          <LANGUAGE VALUE="ET"/>
+          <LANGUAGE VALUE="FI"/>
+          <LANGUAGE VALUE="FR"/>
+          <LANGUAGE VALUE="GA"/>
+          <LANGUAGE VALUE="HR"/>
+          <LANGUAGE VALUE="HU"/>
+          <LANGUAGE VALUE="IT"/>
+          <LANGUAGE VALUE="LT"/>
+          <LANGUAGE VALUE="LV"/>
+          <LANGUAGE VALUE="MT"/>
+          <LANGUAGE VALUE="NL"/>
+          <LANGUAGE VALUE="PL"/>
+          <LANGUAGE VALUE="PT"/>
+          <LANGUAGE VALUE="RO"/>
+          <LANGUAGE VALUE="SK"/>
+          <LANGUAGE VALUE="SL"/>
+          <LANGUAGE VALUE="SV"/>
+        </LANGUAGES>
+        <DURATION_TENDER_VALID TYPE="MONTH">9</DURATION_TENDER_VALID>
+        <OPENING_CONDITION>
+          <DATE_OPENING_TENDERS>2017-02-20</DATE_OPENING_TENDERS>
+          <TIME_OPENING_TENDERS>11:00</TIME_OPENING_TENDERS>
+          <PLACE>
+            <P>priestory spoločného podniku Fusion for Energy, C/Josep Pla, 2, Torre B3, 08018 Barcelona (Barcelona), ŠPANIELSKO.</P>
+          </PLACE>
+          <INFO_ADD>
+            <P>Na verejnom otváraní ponúk sa môže zúčastniť 1 zástupca za každého uchádzača.</P>
+          </INFO_ADD>
+        </OPENING_CONDITION>
+      </PROCEDURE>
+      <COMPLEMENTARY_INFO>
+        <RECURRENT_PROCUREMENT/>
+        <ESTIMATED_TIMING>
+          <P>Výzva na predloženie ponúk sa bude pravdepodobne uverejňovať každé 4 roky.</P>
+        </ESTIMATED_TIMING>
+        <ADDRESS_REVIEW_BODY>
+          <OFFICIALNAME>Všeobecný súd</OFFICIALNAME>
+          <ADDRESS>rue du Fort Niedergrünewald</ADDRESS>
+          <TOWN>Luxembourg</TOWN>
+          <POSTAL_CODE>2925</POSTAL_CODE>
+          <COUNTRY VALUE="LU"/>
+          <PHONE>+352 430301</PHONE>
+          <E_MAIL>generalcourt.registry@curia.europa.eu</E_MAIL>
+          <URL>http://curia.europa.eu</URL>
+        </ADDRESS_REVIEW_BODY>
+        <DATE_DISPATCH_NOTICE>2016-12-16</DATE_DISPATCH_NOTICE>
+      </COMPLEMENTARY_INFO>
+    </F02_2014>
+    <F02_2014 CATEGORY="TRANSLATION" FORM="F02" LG="SL">
+      <CONTRACTING_BODY>
+        <ADDRESS_CONTRACTING_BODY>
+          <OFFICIALNAME>Evropsko skupno podjetje za ITER in razvoj fuzijske energije („Fusion for Energy“)</OFFICIALNAME>
+          <ADDRESS>Carrer Josep Pla, 2, Torres Diagonal Litoral, B3</ADDRESS>
+          <TOWN>Barcelona (Barcelona)</TOWN>
+          <POSTAL_CODE>08019</POSTAL_CODE>
+          <COUNTRY VALUE="ES"/>
+          <PHONE>+34 933201800</PHONE>
+          <E_MAIL>tenders-adm@f4e.europa.eu</E_MAIL>
+          <NUTS CODE="ES511"/>
+          <URL_GENERAL>http://www.fusionforenergy.europa.eu/</URL_GENERAL>
+          <URL_BUYER>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_BUYER>
+        </ADDRESS_CONTRACTING_BODY>
+        <DOCUMENT_FULL/>
+        <URL_DOCUMENT>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_DOCUMENT>
+        <ADDRESS_FURTHER_INFO_IDEM/>
+        <ADDRESS_PARTICIPATION_IDEM/>
+        <URL_TOOL>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_TOOL>
+        <CA_TYPE VALUE="EU_INSTITUTION"/>
+        <CA_ACTIVITY_OTHER>fuzijska energija.</CA_ACTIVITY_OTHER>
+      </CONTRACTING_BODY>
+      <OBJECT_CONTRACT>
+        <TITLE>
+          <P>Zagotovitev avdiovizualnih in fotografskih storitev za podjetje „Fusion for Energy“.</P>
+        </TITLE>
+        <REFERENCE_NUMBER>F4E-AFC-0786.</REFERENCE_NUMBER>
+        <CPV_MAIN>
+          <CPV_CODE CODE="92100000"/>
+        </CPV_MAIN>
+        <TYPE_CONTRACT CTYPE="SERVICES"/>
+        <SHORT_DESCR>
+          <P>Cilj tega javnega razpisa je skleniti okvirno naročilo storitev („okvirno naročilo“ ali „naročilo)“ za zagotavljanje avdiovizualnih in fotografskih storitev za poročanje o napredku evropskega prispevka k projektu ITER, in sicer s pomočjo kratkih video posnetkov in fotografij, uvoženih v različnih formatih.</P>
+          <P>Izvajalec bo odgovoren za video snemanje ter predhodno in postprodukcijsko obdelavo.</P>
+          <P>V okviru tega naročila nakup opreme ni financiran: izvajalec mora razpolagati z viri in opremo za izvedbo fotografiranja ter video in zvočnega snemanja v skladu z najnovejšimi standardi zadevne industrije.</P>
+        </SHORT_DESCR>
+        <VAL_ESTIMATED_TOTAL CURRENCY="EUR">360000.00</VAL_ESTIMATED_TOTAL>
+        <NO_LOT_DIVISION/>
+        <OBJECT_DESCR ITEM="1">
+          <CPV_ADDITIONAL>
+            <CPV_CODE CODE="79960000"/>
+          </CPV_ADDITIONAL>
+          <NUTS CODE="FR"/>
+          <MAIN_SITE>
+            <P>Izvajalec bo odgovoren za snemanje in fotografiranje na lokaciji ITER v Cadarachu (Francija) in na drugih lokacijah, na katerih se v Evropi proizvajajo komponente podjetja „Fusion for Energy“ (F4E).</P>
+          </MAIN_SITE>
+          <SHORT_DESCR>
+            <P>Ocenjeno letno:</P>
+            <P>— 4 do 6 kratkih video posnetkov, namenjenih poročanju o napredku dela na lokaciji ITER v Cadarachu (Francija),</P>
+            <P>— 2 do 8 kratkih video posnetkov, namenjenih poročanju o napredku proizvodnje komponent ITER,</P>
+            <P>— 1 daljši in kreativnejši video posnetek, namenjen poročanju o bolj poglobljenih temah (kot so dosežki v preteklem letu),</P>
+            <P>— 4 do 8 fototerminov na delovni lokaciji ITER v Cadarachu (Francija).</P>
+            <P>Za več podrobnosti glejte razpisne specifikacije,</P>
+            <P>— 2 do 8 fototerminov, namenjenih poročanju o napredku proizvodnje komponent ITER.</P>
+          </SHORT_DESCR>
+          <AC_PROCUREMENT_DOC/>
+          <VAL_OBJECT CURRENCY="EUR">360000.00</VAL_OBJECT>
+          <DURATION TYPE="MONTH">48</DURATION>
+          <RENEWAL/>
+          <RENEWAL_DESCR>
+            <P>12 mesecev z možnostjo 3 podaljšanj za nadaljnje obdobje 12 mesecev, z najdaljšim skupnim trajanjem 48 mesecev.</P>
+          </RENEWAL_DESCR>
+          <NO_ACCEPTED_VARIANTS/>
+          <NO_OPTIONS/>
+          <NO_EU_PROGR_RELATED/>
+        </OBJECT_DESCR>
+      </OBJECT_CONTRACT>
+      <LEFTI>
+        <ECONOMIC_CRITERIA_DOC/>
+        <TECHNICAL_CRITERIA_DOC/>
+      </LEFTI>
+      <PROCEDURE>
+        <PT_OPEN/>
+        <FRAMEWORK>
+          <SINGLE_OPERATOR/>
+        </FRAMEWORK>
+        <NO_CONTRACT_COVERED_GPA/>
+        <DATE_RECEIPT_TENDERS>2017-02-13</DATE_RECEIPT_TENDERS>
+        <TIME_RECEIPT_TENDERS>17:00</TIME_RECEIPT_TENDERS>
+        <LANGUAGES>
+          <LANGUAGE VALUE="BG"/>
+          <LANGUAGE VALUE="CS"/>
+          <LANGUAGE VALUE="DA"/>
+          <LANGUAGE VALUE="DE"/>
+          <LANGUAGE VALUE="EL"/>
+          <LANGUAGE VALUE="EN"/>
+          <LANGUAGE VALUE="ES"/>
+          <LANGUAGE VALUE="ET"/>
+          <LANGUAGE VALUE="FI"/>
+          <LANGUAGE VALUE="FR"/>
+          <LANGUAGE VALUE="GA"/>
+          <LANGUAGE VALUE="HR"/>
+          <LANGUAGE VALUE="HU"/>
+          <LANGUAGE VALUE="IT"/>
+          <LANGUAGE VALUE="LT"/>
+          <LANGUAGE VALUE="LV"/>
+          <LANGUAGE VALUE="MT"/>
+          <LANGUAGE VALUE="NL"/>
+          <LANGUAGE VALUE="PL"/>
+          <LANGUAGE VALUE="PT"/>
+          <LANGUAGE VALUE="RO"/>
+          <LANGUAGE VALUE="SK"/>
+          <LANGUAGE VALUE="SL"/>
+          <LANGUAGE VALUE="SV"/>
+        </LANGUAGES>
+        <DURATION_TENDER_VALID TYPE="MONTH">9</DURATION_TENDER_VALID>
+        <OPENING_CONDITION>
+          <DATE_OPENING_TENDERS>2017-02-20</DATE_OPENING_TENDERS>
+          <TIME_OPENING_TENDERS>11:00</TIME_OPENING_TENDERS>
+          <PLACE>
+            <P>Prostori podjetja „Fusion for Energy“, C/Josep Pla, 2, Torre B3, 08018 Barcelona (Barcelona), ŠPANIJA.</P>
+          </PLACE>
+          <INFO_ADD>
+            <P>1 zastopnik na ponudnika se lahko udeleži javnega odpiranja.</P>
+          </INFO_ADD>
+        </OPENING_CONDITION>
+      </PROCEDURE>
+      <COMPLEMENTARY_INFO>
+        <RECURRENT_PROCUREMENT/>
+        <ESTIMATED_TIMING>
+          <P>Javni razpisi bodo verjetno objavljeni vsake 4 leta.</P>
+        </ESTIMATED_TIMING>
+        <ADDRESS_REVIEW_BODY>
+          <OFFICIALNAME>Splošno sodišče</OFFICIALNAME>
+          <ADDRESS>rue du Fort Niedergrünewald</ADDRESS>
+          <TOWN>Luxembourg</TOWN>
+          <POSTAL_CODE>2925</POSTAL_CODE>
+          <COUNTRY VALUE="LU"/>
+          <PHONE>+352 430301</PHONE>
+          <E_MAIL>generalcourt.registry@curia.europa.eu</E_MAIL>
+          <URL>http://curia.europa.eu</URL>
+        </ADDRESS_REVIEW_BODY>
+        <DATE_DISPATCH_NOTICE>2016-12-16</DATE_DISPATCH_NOTICE>
+      </COMPLEMENTARY_INFO>
+    </F02_2014>
+    <F02_2014 CATEGORY="TRANSLATION" FORM="F02" LG="GA">
+      <CONTRACTING_BODY>
+        <ADDRESS_CONTRACTING_BODY>
+          <OFFICIALNAME>An Comhfhiontar Eorpach um ITER agus um Fhuinneamh Comhleá a Fhorbairt ('Fusion for Energy')</OFFICIALNAME>
+          <ADDRESS>Carrer Josep Pla, 2, Torres Diagonal Litoral, B3</ADDRESS>
+          <TOWN>Barcelona (Barcelona)</TOWN>
+          <POSTAL_CODE>08019</POSTAL_CODE>
+          <COUNTRY VALUE="ES"/>
+          <PHONE>+34 933201800</PHONE>
+          <E_MAIL>tenders-adm@f4e.europa.eu</E_MAIL>
+          <NUTS CODE="ES511"/>
+          <URL_GENERAL>http://www.fusionforenergy.europa.eu/</URL_GENERAL>
+          <URL_BUYER>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_BUYER>
+        </ADDRESS_CONTRACTING_BODY>
+        <DOCUMENT_FULL/>
+        <URL_DOCUMENT>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_DOCUMENT>
+        <ADDRESS_FURTHER_INFO_IDEM/>
+        <ADDRESS_PARTICIPATION_IDEM/>
+        <URL_TOOL>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_TOOL>
+        <CA_TYPE VALUE="EU_INSTITUTION"/>
+        <CA_ACTIVITY_OTHER>Fuinneamh comhleá.</CA_ACTIVITY_OTHER>
+      </CONTRACTING_BODY>
+      <OBJECT_CONTRACT>
+        <TITLE>
+          <P>Seirbhísí closamhairc agus fótagrafacha a chur ar fáil do Fusion for Energy.</P>
+        </TITLE>
+        <REFERENCE_NUMBER>F4E-AFC-0786.</REFERENCE_NUMBER>
+        <CPV_MAIN>
+          <CPV_CODE CODE="92100000"/>
+        </CPV_MAIN>
+        <TYPE_CONTRACT CTYPE="SERVICES"/>
+        <SHORT_DESCR>
+          <P>Is é cuspóir an ghlao seo ar thairiscintí conradh seirbhíse creatlaí ('FWC' nó 'conradh') a shocrú chun seirbhísí closamhairc agus fótagrafacha a chur ar fáil trína ndéanfar dul chun cinn rannchuidiú na hEorpa do thionscadal ITER a thuairsciú trí ghearrthóga scannáin/fhíseáin ghearra agus trí phictiúir arna n-easpórtáil i bhformáidí éagsúla.</P>
+          <P>Beidh an conraitheoir freagrach as taifeadadh, réamhléiriú agus iarléiriú físeáin.</P>
+          <P>Ní mhaoineofar ceannach trealaimh faoin gconradh seo: beidh na hacmhainní agus an trealamh ag an gconraitheoir an taifeadadh grianghraif, físeáin agus fuaime a dhéanamh de réir na gcaighdeán tionsclaíochta is déanaí.</P>
+        </SHORT_DESCR>
+        <VAL_ESTIMATED_TOTAL CURRENCY="EUR">360000.00</VAL_ESTIMATED_TOTAL>
+        <NO_LOT_DIVISION/>
+        <OBJECT_DESCR ITEM="1">
+          <CPV_ADDITIONAL>
+            <CPV_CODE CODE="79960000"/>
+          </CPV_ADDITIONAL>
+          <NUTS CODE="FR"/>
+          <MAIN_SITE>
+            <P>Beidh an conraitheoir freagrach as scannánú agus as glacadh grianghraf ag láithreán ITER in Cadarache (an Fhrainc) agus i láithreacha eile ina ndéantar comhpháirteanna F4E laistigh den Eoraip.</P>
+          </MAIN_SITE>
+          <SHORT_DESCR>
+            <P>Arna mheasúnú in aghaidh na bliana:</P>
+            <P>— idir 4 agus 6 fhíseán ghearra chun dul chun cinn na hoibre ar láithreán ITER in Cadarache (an Fhrainc) a thuairisciú,</P>
+            <P>— idir 2 agus 8 bhfíseán ghearra chun dul chun cinn ar léiriú chomhpháirteanna ITER a thuairisciú,</P>
+            <P>— 1 fhíseán níos faide agus níos cruthaithí chun tuairisc a dhéanamh ar ábhar níos doimhne (amhail éacht na bliana seo a chuaigh thart),</P>
+            <P>— idir 4 agus 8 seisiún grianghrafadóireachta ar láithreán oibre ITER in Cadarache (an Fhrainc).</P>
+            <P>Le haghaidh tuilleadh sonraí féach na sonraíochtaí tairisceana,</P>
+            <P>— idir 2 agus 8 seisiún grianghrafadóireachta chun dul chun cinn léiriú chomhpháirteanna ITER a thuairisciú.</P>
+          </SHORT_DESCR>
+          <AC_PROCUREMENT_DOC/>
+          <VAL_OBJECT CURRENCY="EUR">360000.00</VAL_OBJECT>
+          <DURATION TYPE="MONTH">48</DURATION>
+          <RENEWAL/>
+          <RENEWAL_DESCR>
+            <P>12 mhí, atá inathnuaite suas le 3 huaire le haghaidh tréimhsí breise 12 mhí, agus uastréimhse iomlán de 48 mí i gceist.</P>
+          </RENEWAL_DESCR>
+          <NO_ACCEPTED_VARIANTS/>
+          <NO_OPTIONS/>
+          <NO_EU_PROGR_RELATED/>
+        </OBJECT_DESCR>
+      </OBJECT_CONTRACT>
+      <LEFTI>
+        <ECONOMIC_CRITERIA_DOC/>
+        <TECHNICAL_CRITERIA_DOC/>
+      </LEFTI>
+      <PROCEDURE>
+        <PT_OPEN/>
+        <FRAMEWORK>
+          <SINGLE_OPERATOR/>
+        </FRAMEWORK>
+        <NO_CONTRACT_COVERED_GPA/>
+        <DATE_RECEIPT_TENDERS>2017-02-13</DATE_RECEIPT_TENDERS>
+        <TIME_RECEIPT_TENDERS>17:00</TIME_RECEIPT_TENDERS>
+        <LANGUAGES>
+          <LANGUAGE VALUE="BG"/>
+          <LANGUAGE VALUE="CS"/>
+          <LANGUAGE VALUE="DA"/>
+          <LANGUAGE VALUE="DE"/>
+          <LANGUAGE VALUE="EL"/>
+          <LANGUAGE VALUE="EN"/>
+          <LANGUAGE VALUE="ES"/>
+          <LANGUAGE VALUE="ET"/>
+          <LANGUAGE VALUE="FI"/>
+          <LANGUAGE VALUE="FR"/>
+          <LANGUAGE VALUE="GA"/>
+          <LANGUAGE VALUE="HR"/>
+          <LANGUAGE VALUE="HU"/>
+          <LANGUAGE VALUE="IT"/>
+          <LANGUAGE VALUE="LT"/>
+          <LANGUAGE VALUE="LV"/>
+          <LANGUAGE VALUE="MT"/>
+          <LANGUAGE VALUE="NL"/>
+          <LANGUAGE VALUE="PL"/>
+          <LANGUAGE VALUE="PT"/>
+          <LANGUAGE VALUE="RO"/>
+          <LANGUAGE VALUE="SK"/>
+          <LANGUAGE VALUE="SL"/>
+          <LANGUAGE VALUE="SV"/>
+        </LANGUAGES>
+        <DURATION_TENDER_VALID TYPE="MONTH">9</DURATION_TENDER_VALID>
+        <OPENING_CONDITION>
+          <DATE_OPENING_TENDERS>2017-02-20</DATE_OPENING_TENDERS>
+          <TIME_OPENING_TENDERS>11:00</TIME_OPENING_TENDERS>
+          <PLACE>
+            <P>Áitreabh Fusion for Energy, C/Josep Pla, 2, Torre B3, 08018 Barcelona (Barcelona), AN SPÁINN.</P>
+          </PLACE>
+          <INFO_ADD>
+            <P>Is féidir le 1 ionadaí amháin in aghaidh an tairgeora freastal ar an oscailt phoiblí.</P>
+          </INFO_ADD>
+        </OPENING_CONDITION>
+      </PROCEDURE>
+      <COMPLEMENTARY_INFO>
+        <RECURRENT_PROCUREMENT/>
+        <ESTIMATED_TIMING>
+          <P>Is cosúil go bhfoilseofar an glao ar thairiscintí gach 4 bliana.</P>
+        </ESTIMATED_TIMING>
+        <ADDRESS_REVIEW_BODY>
+          <OFFICIALNAME>An Chúirt Ghinearálta</OFFICIALNAME>
+          <ADDRESS>rue du Fort Niedergrünewald</ADDRESS>
+          <TOWN>Luxembourg</TOWN>
+          <POSTAL_CODE>2925</POSTAL_CODE>
+          <COUNTRY VALUE="LU"/>
+          <PHONE>+352 430301</PHONE>
+          <E_MAIL>generalcourt.registry@curia.europa.eu</E_MAIL>
+          <URL>http://curia.europa.eu</URL>
+        </ADDRESS_REVIEW_BODY>
+        <DATE_DISPATCH_NOTICE>2016-12-16</DATE_DISPATCH_NOTICE>
+      </COMPLEMENTARY_INFO>
+    </F02_2014>
+    <F02_2014 CATEGORY="TRANSLATION" FORM="F02" LG="BG">
+      <CONTRACTING_BODY>
+        <ADDRESS_CONTRACTING_BODY>
+          <OFFICIALNAME>Европейско съвместно предприятие за ITER и развитие на термоядрената енергия („Fusion for Energy“)</OFFICIALNAME>
+          <ADDRESS>Carrer Josep Pla, 2, Torres Diagonal Litoral, B3</ADDRESS>
+          <TOWN>Barcelona (Barcelona)</TOWN>
+          <POSTAL_CODE>08019</POSTAL_CODE>
+          <COUNTRY VALUE="ES"/>
+          <PHONE>+34 933201800</PHONE>
+          <E_MAIL>tenders-adm@f4e.europa.eu</E_MAIL>
+          <NUTS CODE="ES511"/>
+          <URL_GENERAL>http://www.fusionforenergy.europa.eu/</URL_GENERAL>
+          <URL_BUYER>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_BUYER>
+        </ADDRESS_CONTRACTING_BODY>
+        <DOCUMENT_FULL/>
+        <URL_DOCUMENT>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_DOCUMENT>
+        <ADDRESS_FURTHER_INFO_IDEM/>
+        <ADDRESS_PARTICIPATION_IDEM/>
+        <URL_TOOL>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_TOOL>
+        <CA_TYPE VALUE="EU_INSTITUTION"/>
+        <CA_ACTIVITY_OTHER>Термоядрена енергия.</CA_ACTIVITY_OTHER>
+      </CONTRACTING_BODY>
+      <OBJECT_CONTRACT>
+        <TITLE>
+          <P>Предоставяне на аудиовизуални и фотографски услуги на „Fusion for Energy“.</P>
+        </TITLE>
+        <REFERENCE_NUMBER>F4E-AFC-0786.</REFERENCE_NUMBER>
+        <CPV_MAIN>
+          <CPV_CODE CODE="92100000"/>
+        </CPV_MAIN>
+        <TYPE_CONTRACT CTYPE="SERVICES"/>
+        <SHORT_DESCR>
+          <P>Целта на настоящата покана за участие в търг е да се сключи рамков договор за услуги („FWC“ или „договор“) за предоставяне на аудиовизуални и фотографски услуги, които ще отчитат напредъка на приноса на Европа за проекта ITER, чрез кратки филмови клипове/видеоклипове и снимки, експортирани в различни формати.</P>
+          <P>Изпълнителят ще носи отговорност за видеозаписа, пре- и постпродукцията.</P>
+          <P>По тази поръчка няма да се финансира закупуване на оборудване: изпълнителят трябва да има ресурсите и оборудването за осъществяване на фото-, видео- и аудиозапис в съответствие с последните стандарти в тази индустрия.</P>
+        </SHORT_DESCR>
+        <VAL_ESTIMATED_TOTAL CURRENCY="EUR">360000.00</VAL_ESTIMATED_TOTAL>
+        <NO_LOT_DIVISION/>
+        <OBJECT_DESCR ITEM="1">
+          <CPV_ADDITIONAL>
+            <CPV_CODE CODE="79960000"/>
+          </CPV_ADDITIONAL>
+          <NUTS CODE="FR"/>
+          <MAIN_SITE>
+            <P>Изпълнителят ще носи отговорност за филмирането и заснемането на обекта на обекта на ITER в Кадараш (Франция) и на други места, на които се произвеждат компонентите на „F4E“ в рамките на Европа.</P>
+          </MAIN_SITE>
+          <SHORT_DESCR>
+            <P>Годишна прогноза:</P>
+            <P>— 4 до 6 кратки видеоклипа за отчитане на напредъка на работата на обекта на ITER в Кадараш (Франция),</P>
+            <P>— 2 до 8 кратки видеоклипа за отчитане на напредъка на производството на компоненти на ITER,</P>
+            <P>— 1 по-дълъг и по-творчески видеоклип за отчитане на по-задълбочена тема (напр. постиженията през миналата година),</P>
+            <P>— 4 до 8 фотосесии на работната площадка на ITER в Кадараш (Франция).</P>
+            <P>За повече подробности, моля, направете справка с тръжните документи,</P>
+            <P>— 2 до 8 фотосесии за отчитане на напредъка на производството на компоненти на ITER.</P>
+          </SHORT_DESCR>
+          <AC_PROCUREMENT_DOC/>
+          <VAL_OBJECT CURRENCY="EUR">360000.00</VAL_OBJECT>
+          <DURATION TYPE="MONTH">48</DURATION>
+          <RENEWAL/>
+          <RENEWAL_DESCR>
+            <P>12 месеца, подновима до 3 пъти за допълнителни периоди от по 12 месеца, с обща максимална продължителност от 48 месеца.</P>
+          </RENEWAL_DESCR>
+          <NO_ACCEPTED_VARIANTS/>
+          <NO_OPTIONS/>
+          <NO_EU_PROGR_RELATED/>
+        </OBJECT_DESCR>
+      </OBJECT_CONTRACT>
+      <LEFTI>
+        <ECONOMIC_CRITERIA_DOC/>
+        <TECHNICAL_CRITERIA_DOC/>
+      </LEFTI>
+      <PROCEDURE>
+        <PT_OPEN/>
+        <FRAMEWORK>
+          <SINGLE_OPERATOR/>
+        </FRAMEWORK>
+        <NO_CONTRACT_COVERED_GPA/>
+        <DATE_RECEIPT_TENDERS>2017-02-13</DATE_RECEIPT_TENDERS>
+        <TIME_RECEIPT_TENDERS>17:00</TIME_RECEIPT_TENDERS>
+        <LANGUAGES>
+          <LANGUAGE VALUE="BG"/>
+          <LANGUAGE VALUE="CS"/>
+          <LANGUAGE VALUE="DA"/>
+          <LANGUAGE VALUE="DE"/>
+          <LANGUAGE VALUE="EL"/>
+          <LANGUAGE VALUE="EN"/>
+          <LANGUAGE VALUE="ES"/>
+          <LANGUAGE VALUE="ET"/>
+          <LANGUAGE VALUE="FI"/>
+          <LANGUAGE VALUE="FR"/>
+          <LANGUAGE VALUE="GA"/>
+          <LANGUAGE VALUE="HR"/>
+          <LANGUAGE VALUE="HU"/>
+          <LANGUAGE VALUE="IT"/>
+          <LANGUAGE VALUE="LT"/>
+          <LANGUAGE VALUE="LV"/>
+          <LANGUAGE VALUE="MT"/>
+          <LANGUAGE VALUE="NL"/>
+          <LANGUAGE VALUE="PL"/>
+          <LANGUAGE VALUE="PT"/>
+          <LANGUAGE VALUE="RO"/>
+          <LANGUAGE VALUE="SK"/>
+          <LANGUAGE VALUE="SL"/>
+          <LANGUAGE VALUE="SV"/>
+        </LANGUAGES>
+        <DURATION_TENDER_VALID TYPE="MONTH">9</DURATION_TENDER_VALID>
+        <OPENING_CONDITION>
+          <DATE_OPENING_TENDERS>2017-02-20</DATE_OPENING_TENDERS>
+          <TIME_OPENING_TENDERS>11:00</TIME_OPENING_TENDERS>
+          <PLACE>
+            <P>Помещения на „Fusion for Energy“, C/Josep Pla, 2, Torre B3, 08018 Barcelona (Barcelona), ИСПАНИЯ.</P>
+          </PLACE>
+          <INFO_ADD>
+            <P>На отварянето може да присъства по 1 представител на всеки оферент.</P>
+          </INFO_ADD>
+        </OPENING_CONDITION>
+      </PROCEDURE>
+      <COMPLEMENTARY_INFO>
+        <RECURRENT_PROCUREMENT/>
+        <ESTIMATED_TIMING>
+          <P>Покана за участие в търг ще се публикува вероятно на всеки 4 години.</P>
+        </ESTIMATED_TIMING>
+        <ADDRESS_REVIEW_BODY>
+          <OFFICIALNAME>Общ съд</OFFICIALNAME>
+          <ADDRESS>rue du Fort Niedergrünewald</ADDRESS>
+          <TOWN>Luxembourg</TOWN>
+          <POSTAL_CODE>2925</POSTAL_CODE>
+          <COUNTRY VALUE="LU"/>
+          <PHONE>+352 430301</PHONE>
+          <E_MAIL>generalcourt.registry@curia.europa.eu</E_MAIL>
+          <URL>http://curia.europa.eu</URL>
+        </ADDRESS_REVIEW_BODY>
+        <DATE_DISPATCH_NOTICE>2016-12-16</DATE_DISPATCH_NOTICE>
+      </COMPLEMENTARY_INFO>
+    </F02_2014>
+    <F02_2014 CATEGORY="TRANSLATION" FORM="F02" LG="RO">
+      <CONTRACTING_BODY>
+        <ADDRESS_CONTRACTING_BODY>
+          <OFFICIALNAME>Întreprinderea comună europeană pentru ITER și pentru dezvoltarea energiei de fuziune („Fusion for Energy”)</OFFICIALNAME>
+          <ADDRESS>Carrer Josep Pla, 2, Torres Diagonal Litoral, B3</ADDRESS>
+          <TOWN>Barcelona (Barcelona)</TOWN>
+          <POSTAL_CODE>08019</POSTAL_CODE>
+          <COUNTRY VALUE="ES"/>
+          <PHONE>+34 933201800</PHONE>
+          <E_MAIL>tenders-adm@f4e.europa.eu</E_MAIL>
+          <NUTS CODE="ES511"/>
+          <URL_GENERAL>http://www.fusionforenergy.europa.eu/</URL_GENERAL>
+          <URL_BUYER>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_BUYER>
+        </ADDRESS_CONTRACTING_BODY>
+        <DOCUMENT_FULL/>
+        <URL_DOCUMENT>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_DOCUMENT>
+        <ADDRESS_FURTHER_INFO_IDEM/>
+        <ADDRESS_PARTICIPATION_IDEM/>
+        <URL_TOOL>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_TOOL>
+        <CA_TYPE VALUE="EU_INSTITUTION"/>
+        <CA_ACTIVITY_OTHER>energia de fuziune.</CA_ACTIVITY_OTHER>
+      </CONTRACTING_BODY>
+      <OBJECT_CONTRACT>
+        <TITLE>
+          <P>Prestarea de servicii audiovizuale și fotografice în favoarea Fusion for Energy.</P>
+        </TITLE>
+        <REFERENCE_NUMBER>F4E-AFC-0786.</REFERENCE_NUMBER>
+        <CPV_MAIN>
+          <CPV_CODE CODE="92100000"/>
+        </CPV_MAIN>
+        <TYPE_CONTRACT CTYPE="SERVICES"/>
+        <SHORT_DESCR>
+          <P>Această licitație are ca obiectiv încheierea unui contract-cadru de servicii (denumit în continuare „contract-cadru” sau „contract”) pentru prestarea de servicii audiovizuale și fotografice care să ilustreze progresele contribuției Europei la proiectul ITER, prin intermediul unor scurte secvențe filmate/videoclipuri și al imaginilor exportate în diverse formate.</P>
+          <P>Contractantul va fi responsabil pentru înregistrările video, preproducție și postproducție.</P>
+          <P>În cadrul acestui contract, nu se va finanța nicio achiziționare de echipamente: contractantul trebuie să dispună de resursele și de echipamentele necesare pentru executarea fotografiilor și a înregistrărilor video și audio, conform celor mai recente standarde ale industriei.</P>
+        </SHORT_DESCR>
+        <VAL_ESTIMATED_TOTAL CURRENCY="EUR">360000.00</VAL_ESTIMATED_TOTAL>
+        <NO_LOT_DIVISION/>
+        <OBJECT_DESCR ITEM="1">
+          <CPV_ADDITIONAL>
+            <CPV_CODE CODE="79960000"/>
+          </CPV_ADDITIONAL>
+          <NUTS CODE="FR"/>
+          <MAIN_SITE>
+            <P>Contractantul va fi responsabil pentru filmarea și fotografierea la situl ITER din Cadarache (Franța) și în alte locații din Europa în care sunt fabricate componentele Fusion for Energy.</P>
+          </MAIN_SITE>
+          <SHORT_DESCR>
+            <P>Estimare anuală:</P>
+            <P>— 4-6 scurte videoclipuri care să ilustreze progresele lucrărilor de la situl ITER din Cadarache (Franța);</P>
+            <P>— 2-8 scurte videoclipuri care să ilustreze progresele în ceea ce privește producția componentelor ITER;</P>
+            <P>— 1 videoclip mai lung și mai creativ care să ilustreze un subiect mai aprofundat (cum ar fi realizările din ultimul an);</P>
+            <P>— 4-8 sesiuni fotografice la situl ITER din Cadarache (Franța).</P>
+            <P>Pentru detalii suplimentare, a se consulta caietul de sarcini al licitației;</P>
+            <P>— 2-8 sesiuni fotografice care să ilustreze progresele în ceea ce privește producția componentelor ITER.</P>
+          </SHORT_DESCR>
+          <AC_PROCUREMENT_DOC/>
+          <VAL_OBJECT CURRENCY="EUR">360000.00</VAL_OBJECT>
+          <DURATION TYPE="MONTH">48</DURATION>
+          <RENEWAL/>
+          <RENEWAL_DESCR>
+            <P>Contract cu durata de 12 luni, care poate fi reînnoit de maximum 3 ori pentru 3 perioade a câte 12 luni, cu o durată totală maximă de 48 de luni.</P>
+          </RENEWAL_DESCR>
+          <NO_ACCEPTED_VARIANTS/>
+          <NO_OPTIONS/>
+          <NO_EU_PROGR_RELATED/>
+        </OBJECT_DESCR>
+      </OBJECT_CONTRACT>
+      <LEFTI>
+        <ECONOMIC_CRITERIA_DOC/>
+        <TECHNICAL_CRITERIA_DOC/>
+      </LEFTI>
+      <PROCEDURE>
+        <PT_OPEN/>
+        <FRAMEWORK>
+          <SINGLE_OPERATOR/>
+        </FRAMEWORK>
+        <NO_CONTRACT_COVERED_GPA/>
+        <DATE_RECEIPT_TENDERS>2017-02-13</DATE_RECEIPT_TENDERS>
+        <TIME_RECEIPT_TENDERS>17:00</TIME_RECEIPT_TENDERS>
+        <LANGUAGES>
+          <LANGUAGE VALUE="BG"/>
+          <LANGUAGE VALUE="CS"/>
+          <LANGUAGE VALUE="DA"/>
+          <LANGUAGE VALUE="DE"/>
+          <LANGUAGE VALUE="EL"/>
+          <LANGUAGE VALUE="EN"/>
+          <LANGUAGE VALUE="ES"/>
+          <LANGUAGE VALUE="ET"/>
+          <LANGUAGE VALUE="FI"/>
+          <LANGUAGE VALUE="FR"/>
+          <LANGUAGE VALUE="GA"/>
+          <LANGUAGE VALUE="HR"/>
+          <LANGUAGE VALUE="HU"/>
+          <LANGUAGE VALUE="IT"/>
+          <LANGUAGE VALUE="LT"/>
+          <LANGUAGE VALUE="LV"/>
+          <LANGUAGE VALUE="MT"/>
+          <LANGUAGE VALUE="NL"/>
+          <LANGUAGE VALUE="PL"/>
+          <LANGUAGE VALUE="PT"/>
+          <LANGUAGE VALUE="RO"/>
+          <LANGUAGE VALUE="SK"/>
+          <LANGUAGE VALUE="SL"/>
+          <LANGUAGE VALUE="SV"/>
+        </LANGUAGES>
+        <DURATION_TENDER_VALID TYPE="MONTH">9</DURATION_TENDER_VALID>
+        <OPENING_CONDITION>
+          <DATE_OPENING_TENDERS>2017-02-20</DATE_OPENING_TENDERS>
+          <TIME_OPENING_TENDERS>11:00</TIME_OPENING_TENDERS>
+          <PLACE>
+            <P>Sediul Fusion for Energy, C/Josep Pla, 2, Torre B3, 08018 Barcelona (Barcelona), SPANIA.</P>
+          </PLACE>
+          <INFO_ADD>
+            <P>La ședința publică de deschidere poate participa 1 reprezentant din partea fiecărui ofertant.</P>
+          </INFO_ADD>
+        </OPENING_CONDITION>
+      </PROCEDURE>
+      <COMPLEMENTARY_INFO>
+        <RECURRENT_PROCUREMENT/>
+        <ESTIMATED_TIMING>
+          <P>Este probabil ca licitația să fie publicată o dată la 4 ani.</P>
+        </ESTIMATED_TIMING>
+        <ADDRESS_REVIEW_BODY>
+          <OFFICIALNAME>Tribunalul</OFFICIALNAME>
+          <ADDRESS>rue du Fort Niedergrünewald</ADDRESS>
+          <TOWN>Luxembourg</TOWN>
+          <POSTAL_CODE>2925</POSTAL_CODE>
+          <COUNTRY VALUE="LU"/>
+          <PHONE>+352 430301</PHONE>
+          <E_MAIL>generalcourt.registry@curia.europa.eu</E_MAIL>
+          <URL>http://curia.europa.eu</URL>
+        </ADDRESS_REVIEW_BODY>
+        <DATE_DISPATCH_NOTICE>2016-12-16</DATE_DISPATCH_NOTICE>
+      </COMPLEMENTARY_INFO>
+    </F02_2014>
+    <F02_2014 CATEGORY="TRANSLATION" FORM="F02" LG="HR">
+      <CONTRACTING_BODY>
+        <ADDRESS_CONTRACTING_BODY>
+          <OFFICIALNAME>Europsko zajedničko poduzeće za ITER i razvoj fuzijske energije („Fuzija za energiju”)</OFFICIALNAME>
+          <ADDRESS>Carrer Josep Pla, 2, Torres Diagonal Litoral, B3</ADDRESS>
+          <TOWN>Barcelona (Barcelona)</TOWN>
+          <POSTAL_CODE>08019</POSTAL_CODE>
+          <COUNTRY VALUE="ES"/>
+          <PHONE>+34 933201800</PHONE>
+          <E_MAIL>tenders-adm@f4e.europa.eu</E_MAIL>
+          <NUTS CODE="ES511"/>
+          <URL_GENERAL>http://www.fusionforenergy.europa.eu/</URL_GENERAL>
+          <URL_BUYER>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_BUYER>
+        </ADDRESS_CONTRACTING_BODY>
+        <DOCUMENT_FULL/>
+        <URL_DOCUMENT>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_DOCUMENT>
+        <ADDRESS_FURTHER_INFO_IDEM/>
+        <ADDRESS_PARTICIPATION_IDEM/>
+        <URL_TOOL>https://industryportal.f4e.europa.eu/IP_PAGES/ADM.aspx</URL_TOOL>
+        <CA_TYPE VALUE="EU_INSTITUTION"/>
+        <CA_ACTIVITY_OTHER>Fuzijska energija.</CA_ACTIVITY_OTHER>
+      </CONTRACTING_BODY>
+      <OBJECT_CONTRACT>
+        <TITLE>
+          <P>Pružanje audiovizualnih i fotografskih usluga za Fuziju za energiju</P>
+        </TITLE>
+        <REFERENCE_NUMBER>F4E-AFC-0786.</REFERENCE_NUMBER>
+        <CPV_MAIN>
+          <CPV_CODE CODE="92100000"/>
+        </CPV_MAIN>
+        <TYPE_CONTRACT CTYPE="SERVICES"/>
+        <SHORT_DESCR>
+          <P>Cilj je ovog poziva na nadmetanje sklapanje okvirnog ugovora o uslugama („OU” ili „ugovor”) za isporuku audiovizualnih i fotografskih usluga kojima će se izvještavati o napretku doprinosa Europe projektu ITER, putem kratkih filmskih isječaka/video uradaka i slika koji će se eksportirati u raznim formatima.</P>
+          <P>Izvoditelj će biti odgovoran za usluge video snimanja, predprodukcije i postprodukcije.</P>
+          <P>U okviru ovog ugovora neće se financirati nabava opreme: izvoditelj mora imati resurse i opremu za izvršenje fotografskog, video i audio snimanja u skladu s najnovijim standardima industrije.</P>
+        </SHORT_DESCR>
+        <VAL_ESTIMATED_TOTAL CURRENCY="EUR">360000.00</VAL_ESTIMATED_TOTAL>
+        <NO_LOT_DIVISION/>
+        <OBJECT_DESCR ITEM="1">
+          <CPV_ADDITIONAL>
+            <CPV_CODE CODE="79960000"/>
+          </CPV_ADDITIONAL>
+          <NUTS CODE="FR"/>
+          <MAIN_SITE>
+            <P>Izvoditelj će biti odgovoran za filmsko snimanje i snimanje na lokaciji ITER-a u Cadaracheu (Francuska) i na drugim lokacijama unutar Europe gdje se proizvode komponente za Fuziju za energiju.</P>
+          </MAIN_SITE>
+          <SHORT_DESCR>
+            <P>Procjena na godišnjoj razini:</P>
+            <P>— 4 do 6 kratkih video uradaka za izvješćivanje o napretku radova na lokaciji ITER-a u Cadaracheu (Francuska),</P>
+            <P>— 2 do 8 kratkih video uradaka za izvješćivanje o napretku proizvodnje komponenti ITER-a,</P>
+            <P>— 1 duži i kreativniji video uradak za izvješćivanje o dubljoj temi (kao što su postignuća za prošlu godinu),</P>
+            <P>— 4 do 8 sesija fotografskog snimanja na radnoj lokaciji ITER-a u Cadaracheu (Francuska).</P>
+            <P>Za detaljnije informacije pogledajte dokumentaciju za nadmetanje,</P>
+            <P>— 2 do 8 sesija fotografskog snimanja za izvješćivanje o napretku proizvodnje komponenti ITER-a.</P>
+          </SHORT_DESCR>
+          <AC_PROCUREMENT_DOC/>
+          <VAL_OBJECT CURRENCY="EUR">360000.00</VAL_OBJECT>
+          <DURATION TYPE="MONTH">48</DURATION>
+          <RENEWAL/>
+          <RENEWAL_DESCR>
+            <P>12 mjeseci, uz mogućnost obnove do 3 puta za dodatna razdoblja od 12 mjeseci, s ukupnim najdužim trajanjem od 48 mjeseci.</P>
+          </RENEWAL_DESCR>
+          <NO_ACCEPTED_VARIANTS/>
+          <NO_OPTIONS/>
+          <NO_EU_PROGR_RELATED/>
+        </OBJECT_DESCR>
+      </OBJECT_CONTRACT>
+      <LEFTI>
+        <ECONOMIC_CRITERIA_DOC/>
+        <TECHNICAL_CRITERIA_DOC/>
+      </LEFTI>
+      <PROCEDURE>
+        <PT_OPEN/>
+        <FRAMEWORK>
+          <SINGLE_OPERATOR/>
+        </FRAMEWORK>
+        <NO_CONTRACT_COVERED_GPA/>
+        <DATE_RECEIPT_TENDERS>2017-02-13</DATE_RECEIPT_TENDERS>
+        <TIME_RECEIPT_TENDERS>17:00</TIME_RECEIPT_TENDERS>
+        <LANGUAGES>
+          <LANGUAGE VALUE="BG"/>
+          <LANGUAGE VALUE="CS"/>
+          <LANGUAGE VALUE="DA"/>
+          <LANGUAGE VALUE="DE"/>
+          <LANGUAGE VALUE="EL"/>
+          <LANGUAGE VALUE="EN"/>
+          <LANGUAGE VALUE="ES"/>
+          <LANGUAGE VALUE="ET"/>
+          <LANGUAGE VALUE="FI"/>
+          <LANGUAGE VALUE="FR"/>
+          <LANGUAGE VALUE="GA"/>
+          <LANGUAGE VALUE="HR"/>
+          <LANGUAGE VALUE="HU"/>
+          <LANGUAGE VALUE="IT"/>
+          <LANGUAGE VALUE="LT"/>
+          <LANGUAGE VALUE="LV"/>
+          <LANGUAGE VALUE="MT"/>
+          <LANGUAGE VALUE="NL"/>
+          <LANGUAGE VALUE="PL"/>
+          <LANGUAGE VALUE="PT"/>
+          <LANGUAGE VALUE="RO"/>
+          <LANGUAGE VALUE="SK"/>
+          <LANGUAGE VALUE="SL"/>
+          <LANGUAGE VALUE="SV"/>
+        </LANGUAGES>
+        <DURATION_TENDER_VALID TYPE="MONTH">9</DURATION_TENDER_VALID>
+        <OPENING_CONDITION>
+          <DATE_OPENING_TENDERS>2017-02-20</DATE_OPENING_TENDERS>
+          <TIME_OPENING_TENDERS>11:00</TIME_OPENING_TENDERS>
+          <PLACE>
+            <P>Prostori Fuzije za energiju, C/Josep Pla, 2, Torre B3, 08018 Barcelona (Barcelona), ŠPANJOLSKA.</P>
+          </PLACE>
+          <INFO_ADD>
+            <P>Javnom otvaranju ponuda može prisustvovati 1 zastupnik po ponuditelju.</P>
+          </INFO_ADD>
+        </OPENING_CONDITION>
+      </PROCEDURE>
+      <COMPLEMENTARY_INFO>
+        <RECURRENT_PROCUREMENT/>
+        <ESTIMATED_TIMING>
+          <P>Poziv na nadmetanje vjerojatno će se objavljivati svake 4 godine.</P>
+        </ESTIMATED_TIMING>
+        <ADDRESS_REVIEW_BODY>
+          <OFFICIALNAME>Opći sud</OFFICIALNAME>
+          <ADDRESS>rue du Fort Niedergrünewald</ADDRESS>
+          <TOWN>Luxembourg</TOWN>
+          <POSTAL_CODE>2925</POSTAL_CODE>
+          <COUNTRY VALUE="LU"/>
+          <PHONE>+352 430301</PHONE>
+          <E_MAIL>generalcourt.registry@curia.europa.eu</E_MAIL>
+          <URL>http://curia.europa.eu</URL>
+        </ADDRESS_REVIEW_BODY>
+        <DATE_DISPATCH_NOTICE>2016-12-16</DATE_DISPATCH_NOTICE>
+      </COMPLEMENTARY_INFO>
+    </F02_2014>
+  </FORM_SECTION>
+</TED_EXPORT>
