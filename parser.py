@@ -43,6 +43,12 @@ class Tender:
                      item._attributes[attr_key_list[idx]]])
                      for idx, key in enumerate(attr_key_list)]
 
+                    #testblock
+#                    if (item._name == "AWARD_CONTRACT" and
+#                            list(item._attributes.keys())[0] == "ITEM" and
+#                            item._attributes[attr_key_list[0]] == "2"):
+#                        print("AR")
+
 
                 # if item has children go further down the "tree"
                 if (item.children != []):
@@ -74,6 +80,5 @@ class Tender:
 
                         else:
                             self.data.append([item._name, item.cdata])
-
 
         return 1
