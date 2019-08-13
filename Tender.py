@@ -11,6 +11,35 @@ class XmlParser:
         self.multi_languague_columns = multi_languague_columns
         self.columns_of_interest = columns_of_interest
 
+    def find_word(self, dir_xml, word="konsens"):
+        parsed_xml = untangle.parse(dir_xml)
+
+        root_node = parsed_xml.TED_EXPORT
+        lst = []
+
+        def f(nodes=None):
+
+            for item in nodes:
+                if (word in item._name.lower()) or (word in item.cdata.lower()):
+                    lst.append(xml)
+
+                # add key value pairs from the attributes of xml file to data
+                attr_key_list = list(item._attributes.keys())
+
+                    # add key value pairs for attributes
+                if attr_key_list:
+                    for attr in attr_key_list:
+                        if (word in attr.lower()) or (word in (item._attributes[attr]).lower()):
+                            lst.append(xml)
+
+                # if item has children go further down the tree
+                if (item.children != []):
+                        f(nodes=item.children)
+
+        f(nodes=root_node)
+        return lst
+
+
 
     def parse_data(self, dir_xml):
         '''
@@ -171,3 +200,14 @@ class Tender:
                 self.data.update({col: [sum(lst)]})
 
         return self
+
+if __name__ == "__main__":
+    from progress.bar import Bar
+    xml_arr = get_files(DIR_DATA)
+    bar = Bar('Processing', max=len(xml_arr))
+    a = XmlParser()
+    findings = []
+    for xml in xml_arr:
+        findings.append(a.find_word(xml))
+        bar.next()
+    print(findings)
