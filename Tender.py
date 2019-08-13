@@ -6,20 +6,20 @@ import re
 class XmlParser:
     # schon fertig initialieren
 
-    def __init__(self, xml, multi_languague_columns=["ML_TI_DOC", "F02_2014",
+    def __init__(self, multi_languague_columns=["ML_TI_DOC", "F02_2014",
                 "URI_DOC", "AA_NAME"], columns_of_interest=[]):
-        self.parsed_xml = untangle.parse(xml)
         self.multi_languague_columns = multi_languague_columns
         self.columns_of_interest = columns_of_interest
 
 
-    def parse_data(self):
+    def parse_data(self, dir_xml):
         '''
         collects recursively all the key-value tupels from the xml file, and
         stores them in self.data
         '''
+        parsed_xml = untangle.parse(dir_xml)
 
-        root_node = self.parsed_xml.TED_EXPORT
+        root_node = parsed_xml.TED_EXPORT
         lst = []
 
         def traverse_nodes(nodes=None):
@@ -54,7 +54,7 @@ class XmlParser:
                     # collect the key value pairs of leafs
                     else: self.__add_leafs(lst, item, col_list)
 
-        get_children(nodes=root_node)
+        traverse_nodes(nodes=root_node)
 
         return Tender(data=self.__agg_data(lst))
 
@@ -121,7 +121,7 @@ class XmlParser:
             else:
                 lst.append([item._name, item.cdata])
 
-    def __agg_data(self, lst, dct):
+    def __agg_data(self, lst):
         """
         aggregatest lst (which is a list of list) into a dict. Column names that
         are only differentiated by number are now the same key, while all there

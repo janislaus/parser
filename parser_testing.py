@@ -56,4 +56,4 @@ xml_arr = xml_arr[0::100]
 
 ##ar = [item[0] for item in b.data]
 import collections
-print([(item,count) for item, count in collections.Counter(ar).items() if count > 1])
+print([(item,count) for item, count in collections.Counter(arr).items() if count > 1])
