@@ -1,68 +1,28 @@
-# builds dataframe with data from bulk (from ted europe) from single rows (which
-# are obtained from each xml file)
+from pyspark.sql.functions import *
+#start sparkSession
+spark = SparkSession.builder.appName('abc').getOrCreate()
+# load df
+df = spark.read.parquet("parquet/df_every_100th_file_p2.parquet.gzip")
 
-from parser2 import *
-import pandas as pd
-import glob, os
-import pyarrow
+#cpv-codes
+df.select("CPV_CODE_CODE", "ORIGINAL_CPV_CODE", "ORIGINAL_CPV").show()
+# nuts
+df.select("NUTS_CODE", "TENDERER_NUTS", "ORIGINAL_NUTS", "TENDERER_NUTS_CODE", "ORIGINAL_NUTS_CODE").show()
+# duration
+df.select("DURATION", "DURATION#4","DURATION#3","DURATION#1","DURATION#2",
+"DURATION#5",
+"DURATION#6","DURATION#7","DURATION#8","DURATION#9").where(col("DURATION").isNotNull()).show(100)
+#was ist value --> wahrscheinlich der kosten für ein item
+df.select("VALUE", "VALUE#4","VALUE#3","VALUE#1","VALUE#2", "VALUE#5",
+"VALUE#6","VALUE#7","VALUE#8","VALUE#9").where(col("VALUE").isNotNull()).show(100)
 
-# directory of where data of bulk is stored
-# maj_vote_list:
-# AC_CRITERION, AC_WEIGHTING?, ADDITIONAL_INFORMATION_ABOUT_LOTS?, AWARD_CONTRACT_ITEM?, ADDRESS?,
-# sum_list:
-#
-class Df:
+df.select("HIGH_VALUE", "HIGH_VALUE_FMTVAL",
+"INITIAL_ESTIMATED_TOTAL_VALUE_CONTRACT_CURRENCY", "LOW_VALUE",
+"LOW_VALUE_FMTVAL", "VALUES_PUBLICATION", "VALUES_TYPE", "VALUE_COST",
+"VALUE_COST_FMTVAL", "VALUE_CURRENCY").show(100)
 
-    def __init__(self, dir = "/home/janislaus/ted_bulk/data",
-                save_dir = 'parquet/df_every_1000th_file_p2.parquet.gzip'):
-
-        self.dir =  dir
-        self.save_dir = save_dir
-        self.xml_arr = []
-
-    def get_xml_files(self):
-        # store all links to the different xml files into list
-        for filename in glob.iglob(self.dir + '/**', recursive=True):
-            if os.path.isfile(filename): # filter dirs
-                self.xml_arr.append(filename)
-
-        return self
-
-
-    def build_df(self, stride = 1, agg = False):
-
-        sparse_arr = self.xml_arr[0::stride]
-        # initialize Dataframe which will be build up gradually
-        df = pd.DataFrame()
-
-        # build up Dataframe row for row
-        i = 0
-        l = []
-        for xml in sparse_arr:
-
-            if (i%100 == 0 and i!=0):
-                print("{}/{} lines added".format(i,len(sparse_arr)))
-            i +=1
-            if(agg):
-                new_tender = Tender(xml).get_data().agg_data()
-                df2 = pd.DataFrame(new_tender.data_dict)
-            else:
-                new_tender = Tender(xml).get_data()
-                ndict = {item[0]: [item[1]] for item in new_tender.data}
-                df2 = pd.DataFrame(ndict)
-
-            df = pd.concat([df, df2], axis=0, ignore_index=True)
-
-        # save dataframe as parquet file
-        df.to_parquet(self.save_dir, compression='gzip')
-        return "WOGALO"
-
-
-if __name__=="__main__":
-    maj_vote_list = ["CPV_CODE_CODE", "CPV_SUPPLEMENTARY_CODE_CODE", "ORIGINAL_CPV",
-    "ORIGINAL_CPV_CODE"]
-    sum_list = []
-    Df().get_xml_files().build_df(stride = 1000)
+for cl in df.columns:
+    print(cl + ": " + str(float(df.where(col(cl).isNotNull()).count())/float(df.count()))   )
 
 # CPV_CODE_CODE = int
 # ORIGINAL_CPV = text, bsp: Supporting services
@@ -78,7 +38,7 @@ if __name__=="__main__":
 #["DURATION", "DURATION_TYPE"]
 
 #wenns ums geld geht: VALUE und VAL_CURRENCY sind gut, VALUE_COST und
-#VALUE_COST_FMTVAL vl als ergänzung
+#VALUE_COST_FMTVAL, VAL_ESTIMATED_TOTAL vl als ergänzung
 # VAL_TOTAL scheint oft den wert von VALUE zu haben und manchmal auch als
 # einziges --> ein coalesce würde sich hier anbieten
 
@@ -91,6 +51,8 @@ if __name__=="__main__":
 # IA_URL_ETENDERING = 50%, urls sehen so aus als könnten sie rückschlüsse
 # zulassen
 # IA_URL_GENERAL = of wie etendering dings aber auch oft anders, interessant
+# URL = 15%
+# URL_BUYER und URL_GENERAL sind gut
 # MA_MAIN_ACTIVITIES = 100%, so sachen wie: DEFENCE |ECONOMIC_AND_FINANCIAL_AFFAIRS |EDUCATION |ENVIRONMENT
 # |GENERAL_PUBLIC_SERVICES |HEALTH |HOUSING_AND_COMMUNITY_AMENITIES
 # |PUBLIC_ORDER_AND_SAFETY |RECREATION_CULTURE_AND_RELIGION |SOCIAL_PROTECTION
@@ -101,9 +63,11 @@ if __name__=="__main__":
 # NO_DOC_OJS = 100% , gleiche art von einträgen wie NOTICE_NUMBER_OJ
 # OFFICIALNAME = 2/3, sieht zum großteil nach auftraggeber aus, zb: DB
 # Engineering, Centrum Medyczne, ...
+# TI_DOC = 0.5%, CountryCode dann City dann nach irgendwas: PL-Szczecin: Tone...
 
 
 #!!! COUNTRY_VALUE = kürzel für land: RO, NL, DE, ... und ungefähr 2/3 notnull
+#!!! ISO_COUNTRY_VALUE noch besser
 # zusätzlich noch: LANGUAGE_VALUE (aber nicht soviele notnulls)
 # zusätzlich noch: NATIONALID ~50%, aber seltsame zahlencodes zb: 24830054300217
 
@@ -128,3 +92,17 @@ if __name__=="__main__":
 # NO_OJ = int, 100%, keine ahnung was das soll
 
 # OPTIONS_DESCR: <10%, sieht nach fließtext aus
+
+# POSTAL_CODE = 2/3, vl noch für irgendwas nützlich
+
+# RECEPTION_ID = 100% irgendwelche ID's: 18-131844-001
+
+# SHORT_DESCR = 2/3, fließtext
+
+# TED_EXPORT_DOC_ID = unique id for each row !
+
+# TITLE = 2/3 title of each tender! gar nicht mal so uninteressant
+
+# TOWN = 2/3, Warszawa, Stockholm, ...
+
+# TYPE_CONTRACT_CTYPE = 2/3, drei verschiedene Werte: services, works, supplies
