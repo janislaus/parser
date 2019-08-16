@@ -1,4 +1,7 @@
-#don't track content of these folders
 
 data/
 parquet/
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
