@@ -2,14 +2,15 @@
 
 import untangle
 import re
+from const import *
 
 class XmlParser:
     # schon fertig initialieren
 
-    def __init__(self, multi_languague_columns=["ML_TI_DOC", "F02_2014",
-                "URI_DOC", "AA_NAME"], columns_of_interest=[]):
+    def __init__(self, columns=[], multi_languague_columns=["ML_TI_DOC", "F02_2014",
+                "URI_DOC", "AA_NAME"]):
         self.multi_languague_columns = multi_languague_columns
-        self.columns_of_interest = columns_of_interest
+        self.columns = columns
 
     def find_word(self, dir_xml, word="konsens"):
         parsed_xml = untangle.parse(dir_xml)
@@ -21,7 +22,7 @@ class XmlParser:
 
             for item in nodes:
                 if (word in item._name.lower()) or (word in item.cdata.lower()):
-                    lst.append(xml)
+                    lst.append(dir_xml)
 
                 # add key value pairs from the attributes of xml file to data
                 attr_key_list = list(item._attributes.keys())
@@ -30,7 +31,7 @@ class XmlParser:
                 if attr_key_list:
                     for attr in attr_key_list:
                         if (word in attr.lower()) or (word in (item._attributes[attr]).lower()):
-                            lst.append(xml)
+                            lst.append(dir_xml)
 
                 # if item has children go further down the tree
                 if (item.children != []):
@@ -38,8 +39,6 @@ class XmlParser:
 
         f(nodes=root_node)
         return lst
-
-
 
     def parse_data(self, dir_xml):
         '''
@@ -158,9 +157,9 @@ class XmlParser:
         Example: [["a#1", val1], ["a#2", val2]] --> {"a": [val1, val2]}
         """
         dct = {}
-        columns_of_interest = self.columns_of_interest
-        if columns_of_interest:
-            distinct_col_list = columns_of_interest
+        columns = self.columns
+        if columns:
+            distinct_col_list = columns
 
         else:
             col_list = [item[0] for item in lst]
@@ -181,33 +180,57 @@ class Tender:
     def __init__(self, data):  # : dict
         self.data = data
 
-    def maj_vote(self, columns):
+    def transform(self, f, columns):
+        return Tender(f(data=self.data, columns=columns))
 
-        for col in columns:
-            if col in list(self.data.keys()):
-                list_values = self.data[col]
-                if list_values:
-                    self.data.update({col: [max(set(list_values), key=list_values.count)]})
+def maj_vote(data, columns):
 
-        return self
+    for col in columns:
+        if col in list(data.keys()):
+            list_values = data[col]
+            if list_values:
+                data.update({col: max(set(list_values), key=list_values.count)})
 
-    def sum_list(self, columns):
+    return data
 
-        for col in columns:
-            if col in list(self.data.keys()):
-                no_whitespace_list = [re.sub("[^0-9.,]","",item).replace(",",".") for item in self.data[col]]
+def sum_entries(data, columns):
+
+    for col in columns:
+        if col in list(data.keys()):
+            no_whitespace_list = [re.sub("[^0-9.,]","",item)
+                                    .replace(",",".") for item in data[col]]
+            try:
                 lst = list(map(float, no_whitespace_list))
-                self.data.update({col: [sum(lst)]})
+                import collections
+                max_count, max_item = max([(count,item) for item, count
+                                        in collections.Counter(lst).items()])
+                #in case values in lst are mostly the same, do not sum them up.
+                #this makes the assumption, that values for different tasks are
+                # different.
+                if(len(lst)-max_count < int(len(lst)/5)):
+                    data.update({col: max_item})
+                else:
+                    data.update({col: sum(lst)})
+            except:
+                # in case in still cannot convert string to float, just delete
+                # the entry. The value is most likely wrong anyway, and it will
+                # be a null in  the dataframe lateron
+                del data[col]
 
-        return self
+
+
+    return data
 
 if __name__ == "__main__":
     from progress.bar import Bar
+    from DfBuilder import *
     xml_arr = get_files(DIR_DATA)
     bar = Bar('Processing', max=len(xml_arr))
     a = XmlParser()
     findings = []
     for xml in xml_arr:
-        findings.append(a.find_word(xml))
+        wogalo = a.find_word(xml)
+        if wogalo:
+            findings.append(wogalo)
         bar.next()
     print(findings)

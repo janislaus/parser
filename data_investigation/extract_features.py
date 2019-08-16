@@ -169,7 +169,8 @@ RECEPTION_ID = Internal unique identification of the notice in the OP’s
 |Not specified                                                         |89   |
 +----------------------------------------------------------------------+-----+
 #main activity of contracting body (auftraggeber)
-#--> das ist eigentlich genau unsere zielclustercolumn:  Public order and safety, social protection, health?, general public services
+#--> das ist eigentlich genau unsere zielclustercolumn:  Public order and
+#safety, social protection, health?, general public services
 
 #zusätzlich interessant
 >>> df.groupBy(col("CA_TYPE_VALUE")).count().show(100, False)
@@ -284,3 +285,30 @@ RECEPTION_ID = Internal unique identification of the notice in the OP’s
 |http://www.chln.min-saude.pt                                |15   |
 |http://www.madrid.org/contratospublicos                     |15   |
 |www.gddkia.gov.pl                                           |14   |
+
+
+# three columns for value of currency. VAL_CURRENCY is almost always null
+# VALUE_CURRENCY 50% (immer noch problematisch), kann über VAL_ESTIMATED_TOTAL_CURRENCY verbessert
+# werden
+(df.select("VALUE", "VAL_TOTAL", "VAL_ESTIMATED_TOTAL", "VALUE_COST", "VALUE_COST_FMTVAL")
+.where((col("VALUE").isNotNull()) & (col("VAL_TOTAL").isNotNull()) & col("VAL_ESTIMATED_TOTAL").isNotNull())
+.show(100))
+(df.select("VALUE", "VAL_TOTAL", "VAL_ESTIMATED_TOTAL", "VALUE_COST", "VALUE_COST_FMTVAL")
+.where((col("VALUE").isNotNull()) | (col("VAL_TOTAL").isNotNull()) | col("VAL_ESTIMATED_TOTAL").isNotNull())
+.count())
+(df.select("VALUE", "VAL_ESTIMATED_TOTAL")
+.where((col("VALUE").isNotNull()) & col("VAL_ESTIMATED_TOTAL").isNotNull())
+.where(col("VALUE") == col("VAL_ESTIMATED_TOTAL"))
+.count())
+(df.select("VALUE", "VAL_ESTIMATED_TOTAL")
+.where((col("VALUE").isNotNull()) & col("VAL_ESTIMATED_TOTAL").isNotNull())
+.show(250))
+(df.select("VALUE", "TED_EXPORT_DOC_ID", "VAL_ESTIMATED_TOTAL", "VAL_TOTAL")
+.where((col("VALUE").isNotNull()) & col("VAL_ESTIMATED_TOTAL").isNotNull())
+.show(250))
+(df.select("VALUE_CURRENCY", "VAL_ESTIMATED_TOTAL_CURRENCY")
+.where((col("VALUE_CURRENCY").isNull()) & (col("VAL_ESTIMATED_TOTAL_CURRENCY").isNotNull()))
+.count())
+(df.select("VALUE_CURRENCY")
+.where(col("VALUE_CURRENCY").isNull())
+.count())
